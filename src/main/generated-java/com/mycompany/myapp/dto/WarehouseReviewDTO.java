@@ -10,7 +10,6 @@
  */
 package com.mycompany.myapp.dto;
 
-import java.math.BigInteger;
 import java.time.Instant;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
@@ -20,8 +19,8 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
  */
 public class WarehouseReviewDTO {
     public Integer id;
-    public BigInteger overallRating;
-    public BigInteger turnaroundTime;
+    public Double overallRating;
+    public Double turnaroundTime;
     public String responsiveness;
     public String comments;
     public Instant creationDate;

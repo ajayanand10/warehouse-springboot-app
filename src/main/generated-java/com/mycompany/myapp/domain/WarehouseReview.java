@@ -13,7 +13,6 @@ package com.mycompany.myapp.domain;
 import static javax.persistence.GenerationType.IDENTITY;
 
 import java.io.Serializable;
-import java.math.BigInteger;
 import java.time.Instant;
 import java.util.logging.Logger;
 
@@ -44,8 +43,8 @@ public class WarehouseReview implements Identifiable<Integer>, Serializable {
 
     // Raw attributes
     private Integer id;
-    private BigInteger overallRating;
-    private BigInteger turnaroundTime;
+    private Double overallRating;
+    private Double turnaroundTime;
     private String responsiveness;
     private String comments;
     private Instant creationDate;
@@ -91,15 +90,15 @@ public class WarehouseReview implements Identifiable<Integer>, Serializable {
 
     @Digits(integer = 131089, fraction = 0)
     @Column(name = "overall_rating", precision = 131089)
-    public BigInteger getOverallRating() {
+    public Double getOverallRating() {
         return overallRating;
     }
 
-    public void setOverallRating(BigInteger overallRating) {
+    public void setOverallRating(Double overallRating) {
         this.overallRating = overallRating;
     }
 
-    public WarehouseReview overallRating(BigInteger overallRating) {
+    public WarehouseReview overallRating(Double overallRating) {
         setOverallRating(overallRating);
         return this;
     }
@@ -107,15 +106,15 @@ public class WarehouseReview implements Identifiable<Integer>, Serializable {
 
     @Digits(integer = 131089, fraction = 0)
     @Column(name = "turnaround_time", precision = 131089)
-    public BigInteger getTurnaroundTime() {
+    public Double getTurnaroundTime() {
         return turnaroundTime;
     }
 
-    public void setTurnaroundTime(BigInteger turnaroundTime) {
+    public void setTurnaroundTime(Double turnaroundTime) {
         this.turnaroundTime = turnaroundTime;
     }
 
-    public WarehouseReview turnaroundTime(BigInteger turnaroundTime) {
+    public WarehouseReview turnaroundTime(Double turnaroundTime) {
         setTurnaroundTime(turnaroundTime);
         return this;
     }

@@ -10,7 +10,6 @@
  */
 package com.mycompany.myapp.dto;
 
-import java.math.BigInteger;
 import java.time.Instant;
 import java.time.LocalDate;
 
@@ -22,16 +21,16 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 public class WarehouseDTO {
     public Integer id;
     public String name;
-    public BigInteger rating;
+    public Double rating;
     public String type;
     public String description;
     public String address;
     public String phone1;
     public String phone2;
     public String fulfilmentType;
-    public BigInteger storagePrice;
+    public Double storagePrice;
     public LocalDate minHirePeriod;
-    public BigInteger deposit;
+    public Double deposit;
     public Integer facilitySize;
     public Integer facilitySizeUom;
     public Integer storageSize;
@@ -42,10 +41,10 @@ public class WarehouseDTO {
     public Integer noOfShippingDoors;
     public String wmsVendor;
     public String racking;
-    public BigInteger maxStorageHeight;
-    public BigInteger maxStorageHeightUom;
-    public BigInteger maxStorageWeight;
-    public BigInteger maxStorageWeightUom;
+    public Double maxStorageHeight;
+    public Double maxStorageHeightUom;
+    public Double maxStorageWeight;
+    public Double maxStorageWeightUom;
     public String handlingEquipment;
     public String temperatureRange;
     public String structureType;
@@ -60,16 +59,16 @@ public class WarehouseDTO {
     public String lift;
     public String toilet;
     public String parking;
-    public BigInteger distanceFromMainRoad;
-    public BigInteger yard;
+    public Double distanceFromMainRoad;
+    public Double yard;
     public String facilityCertification;
     public String faciltiyInsurance;
-    public BigInteger importExport;
+    public Double importExport;
     public String inboundServices;
     public String outboundServices;
     public String valueAddedServices;
-    public BigInteger laborServices;
-    public BigInteger totalLabor;
+    public Double laborServices;
+    public Double totalLabor;
     public String distributionServices;
     public Instant creationDate;
     public String creationAuthor;
