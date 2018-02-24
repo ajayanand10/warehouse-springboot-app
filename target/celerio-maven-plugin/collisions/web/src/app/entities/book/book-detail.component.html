@@ -1,0 +1,96 @@
+    <mat-card *ngIf="book" ngForm #bookForm="ngForm">
+        <mat-card-title>Book Details</mat-card-title>
+        <mat-card-content>
+        <div class="ui-g alignlabels">
+                 <div class="ui-g-12 ui-md-2 ui-lg-1"><label for="bestSeller" >Best Seller</label></div>
+                <div class="ui-g-12 ui-md-10 ui-lg-5">
+                <p-triStateCheckbox [(ngModel)]="book.bestSeller" name="bestSeller"></p-triStateCheckbox>{{book.bestSeller}}
+                </div>
+                 <div class="ui-g-12 ui-md-2 ui-lg-1"><label for="extractBinary" >Extract Binary</label></div>
+                <div class="ui-g-12 ui-md-10 ui-lg-5">
+                <mat-input-container style="width: 90%">
+                    <input matInput id="extractBinary" type="number" [(ngModel)]="book.extractBinary"  name="extractBinary" #extractBinary="ngModel" />
+                    
+                </mat-input-container>
+                </div>
+                 <div class="ui-g-12 ui-md-2 ui-lg-1"><label for="extractContentType" >Extract Content Type</label></div>
+                <div class="ui-g-12 ui-md-10 ui-lg-5">
+                <mat-input-container style="width: 90%">
+                    <input matInput id="extractContentType" type="text" [(ngModel)]="book.extractContentType"   name="extractContentType" #extractContentType="ngModel"/>
+                    
+                </mat-input-container>
+                </div>
+                 <div class="ui-g-12 ui-md-2 ui-lg-1"><label for="extractFileName" >Extract File Name</label></div>
+                <div class="ui-g-12 ui-md-10 ui-lg-5">
+                <mat-input-container style="width: 90%">
+                    <input matInput id="extractFileName" type="text" [(ngModel)]="book.extractFileName"   name="extractFileName" #extractFileName="ngModel"/>
+                    
+                </mat-input-container>
+                </div>
+                 <div class="ui-g-12 ui-md-2 ui-lg-1"><label for="extractSize" >Extract Size</label></div>
+                <div class="ui-g-12 ui-md-10 ui-lg-5">
+                <mat-input-container style="width: 90%">
+                    <input matInput id="extractSize" type="number" [(ngModel)]="book.extractSize"  name="extractSize" #extractSize="ngModel" />
+                    
+                </mat-input-container>
+                </div>
+                 <div class="ui-g-12 ui-md-2 ui-lg-1"><label for="price"  class="required">Price</label></div>
+                <div class="ui-g-12 ui-md-10 ui-lg-5">
+                <mat-input-container style="width: 90%">
+                    <input matInput id="price" type="number" [(ngModel)]="book.price"  required  name="price" #price="ngModel" />
+                    
+                    <mat-error *ngIf="!price.valid && price.dirty && price.errors['required']">
+                        Price is required.
+                    </mat-error>
+                </mat-input-container>
+                </div>
+                 <div class="ui-g-12 ui-md-2 ui-lg-1"><label for="publicationDate" >Publication Date</label></div>
+                <div class="ui-g-12 ui-md-10 ui-lg-5">
+                <mat-input-container>
+                  <input matInput id="publicationDate" [matDatepicker]="publicationDatePicker" [(ngModel)]="book.publicationDate"  name="publicationDate" #publicationDate="ngModel">
+                  <mat-datepicker-toggle matSuffix [for]="publicationDatePicker"></mat-datepicker-toggle>
+                </mat-input-container>
+                <mat-datepicker #publicationDatePicker></mat-datepicker>
+                </div>
+                 <div class="ui-g-12 ui-md-2 ui-lg-1"><label for="summary" >Summary</label></div>
+                <div class="ui-g-12 ui-md-10 ui-lg-5">
+                <mat-input-container style="width: 90%">
+                    <textarea matInput id="summary" [(ngModel)]="book.summary"   autoResize="true" name="summary" #summary="ngModel"></textarea>
+                    
+                </mat-input-container>
+                </div>
+                 <div class="ui-g-12 ui-md-2 ui-lg-1"><label for="title"  class="required">Title</label></div>
+                <div class="ui-g-12 ui-md-10 ui-lg-5">
+                <mat-input-container style="width: 90%">
+                    <input matInput id="title" type="text" [(ngModel)]="book.title"  required   name="title" #title="ngModel"/>
+                    
+                    <mat-error *ngIf="!title.valid && title.dirty && title.errors['required']">
+                        Title is required.
+                    </mat-error>
+                </mat-input-container>
+                </div>
+                 <div class="ui-g-12 ui-md-2 ui-lg-1"><label for="authorId"  class="required">Author Id</label></div>
+                <div class="ui-g-12 ui-md-10 ui-lg-5">
+                <mat-input-container style="width: 90%">
+                    <input matInput id="authorId" type="number" [(ngModel)]="book.authorId"  required  name="authorId" #authorId="ngModel" />
+                    
+                    <mat-error *ngIf="!authorId.valid && authorId.dirty && authorId.errors['required']">
+                        Author Id is required.
+                    </mat-error>
+                </mat-input-container>
+                </div>
+                 <div class="ui-g-12 ui-md-2 ui-lg-1"><label for="coAuthorId" >Co Author Id</label></div>
+                <div class="ui-g-12 ui-md-10 ui-lg-5">
+                <mat-input-container style="width: 90%">
+                    <input matInput id="coAuthorId" type="number" [(ngModel)]="book.coAuthorId"  name="coAuthorId" #coAuthorId="ngModel" />
+                    
+                </mat-input-container>
+                </div>
+          </div>
+        </mat-card-content>
+        <mat-card-actions>
+            <button mat-raised-button *ngIf="sub" (click)="onCancel()"><mat-icon>cancel</mat-icon>Cancel</button>
+            <button mat-raised-button (click)="onSave()" [disabled]="!bookForm.form.valid"><mat-icon>save</mat-icon>Save</button>
+        </mat-card-actions>
+    </mat-card>
+
