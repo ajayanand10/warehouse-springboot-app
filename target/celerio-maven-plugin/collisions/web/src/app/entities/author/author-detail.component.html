@@ -48,13 +48,20 @@
                     
                 </mat-input-container>
                 </div>
-                 <div class="ui-g-12 ui-md-2 ui-lg-1"><label for="favoriteAuthorId" >Favorite Author Id</label></div>
-                <div class="ui-g-12 ui-md-10 ui-lg-5">
-                <mat-input-container style="width: 90%">
-                    <input matInput id="favoriteAuthorId" type="number" [(ngModel)]="author.favoriteAuthorId"  name="favoriteAuthorId" #favoriteAuthorId="ngModel" />
-                    
-                </mat-input-container>
+             <div class="ui-g-12 ui-md-2 ui-lg-1"><label for="favoriteAuthor">Favorite Author</label></div>
+            <div class="ui-g-12 ui-md-10 ui-lg-5">
+                <div class="ui-g">
+                <div class="ui-g-12 ui-md-5 ui-lg-5">
+                    <author-auto-complete [(ngModel)]="author.favoriteAuthor" id="favoriteAuthor" name="favoriteAuthor" [disabled]="sub"></author-auto-complete>
                 </div>
+                <div class="ui-g-12 ui-md-2 ui-lg-2">
+                    <button pButton id="gotoFavoriteAuthor" type="button" (click)="gotoFavoriteAuthor()" *ngIf="!sub && author.favoriteAuthor" icon="fa-pencil" label="Edit"></button>
+                </div>
+                <div class="ui-g-12 ui-md-2 ui-lg-2">
+                    <button pButton id="clearFavoriteAuthor" type="button" (click)="clearFavoriteAuthor()" *ngIf="!sub && author.favoriteAuthor" icon="fa-chain-broken" label="Clear"></button>
+                </div>
+                </div>
+            </div>
           </div>
         </mat-card-content>
         <mat-card-actions>

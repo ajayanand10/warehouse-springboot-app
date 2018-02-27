@@ -18,10 +18,10 @@ spring:
 
     datasource:
         driver-class-name: org.postgresql.Driver
-        url: jdbc:postgresql://ec2-184-73-202-179.compute-1.amazonaws.com:5432/ddk3474pq7ubr8?sslmode=require
+        url: jdbc:postgresql://redmiermp.cotyqjchtuso.ap-south-1.rds.amazonaws.com:5432/redmiermp?sslmode=require
         name:
-        username: gjkwdpbvpdlxif
-        password: e21cf379b73fdbc6a25c9e94181bdf50b2df6e5a1a2f1344d0478a5fc855e309
+        username: ajay
+        password: redmier123$
 
     jpa:
         open-in-view: false

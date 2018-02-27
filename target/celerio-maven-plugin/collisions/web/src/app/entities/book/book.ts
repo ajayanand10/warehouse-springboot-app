@@ -8,6 +8,7 @@
 // This header can be customized in Celerio conf...
 // Template pack-angular:web/src/app/entities/entity.ts.e.vm
 //
+import {Author} from '../author/author';
 
 export class Book {
     // Raw attributes
@@ -21,8 +22,9 @@ export class Book {
     publicationDate : Date;
     summary : string;
     title : string;
-    authorId : number;
-    coAuthorId : number;
+    // x-to-one
+    coAuthor : Author;
+    author : Author;
 
 
     constructor(json? : any) {
@@ -39,8 +41,14 @@ export class Book {
             }
             this.summary = json.summary;
             this.title = json.title;
-            this.authorId = json.authorId;
-            this.coAuthorId = json.coAuthorId;
+
+            if (json.coAuthor != null) {
+                this.coAuthor = new Author(json.coAuthor);
+            }
+
+            if (json.author != null) {
+                this.author = new Author(json.author);
+            }
         }
     }
 

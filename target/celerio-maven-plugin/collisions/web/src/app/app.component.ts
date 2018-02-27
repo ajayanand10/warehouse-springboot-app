@@ -102,10 +102,6 @@ export class AppComponent implements OnInit {
             { label: 'Home', routerLink: ['/'], icon: 'fa-home' },
 
             { label: 'Entities', icon: 'fa-search', items: [
-                    {label: 'Author Search', routerLink: ['/author-list']},
-                    {label: 'Author Create', routerLink: ['/author/new']},
-                    {label: 'Book Search', routerLink: ['/book-list']},
-                    {label: 'Book Create', routerLink: ['/book/new']},
                     {label: 'Bookmark Search', routerLink: ['/bookmark-list']},
                     {label: 'Bookmark Create', routerLink: ['/bookmark/new']},
                     {label: 'Databasechangelog Search', routerLink: ['/databasechangelog-list']},
@@ -118,12 +114,8 @@ export class AppComponent implements OnInit {
                     {label: 'Goods Create', routerLink: ['/goods/new']},
                     {label: 'Guest Search', routerLink: ['/guest-list']},
                     {label: 'Guest Create', routerLink: ['/guest/new']},
-                    {label: 'MyTest Search', routerLink: ['/myTest-list']},
-                    {label: 'MyTest Create', routerLink: ['/myTest/new']},
                     {label: 'Order Search', routerLink: ['/order-list']},
                     {label: 'Order Create', routerLink: ['/order/new']},
-                    {label: 'Passport Search', routerLink: ['/passport-list']},
-                    {label: 'Passport Create', routerLink: ['/passport/new']},
                     {label: 'Project Search', routerLink: ['/project-list']},
                     {label: 'Project Create', routerLink: ['/project/new']},
                     {label: 'Rate Search', routerLink: ['/rate-list']},

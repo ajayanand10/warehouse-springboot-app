@@ -69,23 +69,34 @@
                     </mat-error>
                 </mat-input-container>
                 </div>
-                 <div class="ui-g-12 ui-md-2 ui-lg-1"><label for="authorId"  class="required">Author Id</label></div>
-                <div class="ui-g-12 ui-md-10 ui-lg-5">
-                <mat-input-container style="width: 90%">
-                    <input matInput id="authorId" type="number" [(ngModel)]="book.authorId"  required  name="authorId" #authorId="ngModel" />
-                    
-                    <mat-error *ngIf="!authorId.valid && authorId.dirty && authorId.errors['required']">
-                        Author Id is required.
-                    </mat-error>
-                </mat-input-container>
+             <div class="ui-g-12 ui-md-2 ui-lg-1"><label for="author" class="required">Author</label></div>
+            <div class="ui-g-12 ui-md-10 ui-lg-5">
+                <div class="ui-g">
+                <div class="ui-g-12 ui-md-5 ui-lg-5">
+                    <author-auto-complete [(ngModel)]="book.author" id="author" name="author" [disabled]="sub"></author-auto-complete>
                 </div>
-                 <div class="ui-g-12 ui-md-2 ui-lg-1"><label for="coAuthorId" >Co Author Id</label></div>
-                <div class="ui-g-12 ui-md-10 ui-lg-5">
-                <mat-input-container style="width: 90%">
-                    <input matInput id="coAuthorId" type="number" [(ngModel)]="book.coAuthorId"  name="coAuthorId" #coAuthorId="ngModel" />
-                    
-                </mat-input-container>
+                <div class="ui-g-12 ui-md-2 ui-lg-2">
+                    <button pButton id="gotoAuthor" type="button" (click)="gotoAuthor()" *ngIf="!sub && book.author" icon="fa-pencil" label="Edit"></button>
                 </div>
+                <div class="ui-g-12 ui-md-2 ui-lg-2">
+                    <button pButton id="clearAuthor" type="button" (click)="clearAuthor()" *ngIf="!sub && book.author" icon="fa-chain-broken" label="Clear"></button>
+                </div>
+                </div>
+            </div>
+             <div class="ui-g-12 ui-md-2 ui-lg-1"><label for="coAuthor">Co Author</label></div>
+            <div class="ui-g-12 ui-md-10 ui-lg-5">
+                <div class="ui-g">
+                <div class="ui-g-12 ui-md-5 ui-lg-5">
+                    <author-auto-complete [(ngModel)]="book.coAuthor" id="coAuthor" name="coAuthor" [disabled]="sub"></author-auto-complete>
+                </div>
+                <div class="ui-g-12 ui-md-2 ui-lg-2">
+                    <button pButton id="gotoCoAuthor" type="button" (click)="gotoCoAuthor()" *ngIf="!sub && book.coAuthor" icon="fa-pencil" label="Edit"></button>
+                </div>
+                <div class="ui-g-12 ui-md-2 ui-lg-2">
+                    <button pButton id="clearCoAuthor" type="button" (click)="clearCoAuthor()" *ngIf="!sub && book.coAuthor" icon="fa-chain-broken" label="Clear"></button>
+                </div>
+                </div>
+            </div>
           </div>
         </mat-card-content>
         <mat-card-actions>

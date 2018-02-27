@@ -21,6 +21,8 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 import javax.persistence.Transient;
 import javax.validation.constraints.Digits;
@@ -49,8 +51,10 @@ public class Book implements Identifiable<Integer>, Serializable {
     private LocalDate publicationDate;
     private String summary;
     private String title;
-    private Integer authorId;
-    private Integer coAuthorId;
+
+    // Many to one
+    private Author coAuthor;
+    private Author author;
 
     @Override
     public String entityClassName() {
@@ -226,37 +230,53 @@ public class Book implements Identifiable<Integer>, Serializable {
         setTitle(title);
         return this;
     }
-    // -- [authorId] ------------------------
 
-    @Digits(integer = 10, fraction = 0)
-    @NotNull
-    @Column(name = "author_id", nullable = false, precision = 10)
-    public Integer getAuthorId() {
-        return authorId;
+    // -----------------------------------------------------------------
+    // Many to One support
+    // -----------------------------------------------------------------
+
+    // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+    // many-to-one: Book.coAuthor ==> Author.id
+    // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+    @JoinColumn(name = "co_author_id")
+    @ManyToOne
+    public Author getCoAuthor() {
+        return coAuthor;
     }
 
-    public void setAuthorId(Integer authorId) {
-        this.authorId = authorId;
+    /**
+     * Set the {@link #coAuthor} without adding this Book instance on the passed {@link #coAuthor}
+     */
+    public void setCoAuthor(Author coAuthor) {
+        this.coAuthor = coAuthor;
     }
 
-    public Book authorId(Integer authorId) {
-        setAuthorId(authorId);
+    public Book coAuthor(Author coAuthor) {
+        setCoAuthor(coAuthor);
         return this;
     }
-    // -- [coAuthorId] ------------------------
 
-    @Digits(integer = 10, fraction = 0)
-    @Column(name = "co_author_id", precision = 10)
-    public Integer getCoAuthorId() {
-        return coAuthorId;
+    // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+    // many-to-one: Book.author ==> Author.id
+    // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+    @NotNull
+    @JoinColumn(name = "author_id", nullable = false)
+    @ManyToOne
+    public Author getAuthor() {
+        return author;
     }
 
-    public void setCoAuthorId(Integer coAuthorId) {
-        this.coAuthorId = coAuthorId;
+    /**
+     * Set the {@link #author} without adding this Book instance on the passed {@link #author}
+     */
+    public void setAuthor(Author author) {
+        this.author = author;
     }
 
-    public Book coAuthorId(Integer coAuthorId) {
-        setCoAuthorId(coAuthorId);
+    public Book author(Author author) {
+        setAuthor(author);
         return this;
     }
 
@@ -299,8 +319,6 @@ public class Book implements Identifiable<Integer>, Serializable {
                 .add("publicationDate", getPublicationDate()) //
                 .add("summary", getSummary()) //
                 .add("title", getTitle()) //
-                .add("authorId", getAuthorId()) //
-                .add("coAuthorId", getCoAuthorId()) //
                 .toString();
     }
 }

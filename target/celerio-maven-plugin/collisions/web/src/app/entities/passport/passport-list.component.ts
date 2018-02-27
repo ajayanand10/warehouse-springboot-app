@@ -18,6 +18,8 @@ import { ConfirmDeleteDialogComponent } from "../../support/confirm-delete-dialo
 import { Passport } from './passport';
 import { PassportDetailComponent } from './passport-detail.component';
 import { PassportService } from './passport.service';
+import { User } from '../user/user';
+import { UserLineComponent } from '../user/user-line.component';
 
 @Component({
     moduleId: module.id,
@@ -44,6 +46,9 @@ export class PassportListComponent {
     // list is paginated
     currentPage : PageResponse<Passport> = new PageResponse<Passport>(0,0,[]);
 
+    // X to one: input param is used to filter the list when displayed
+    // as a one-to-many list by the other side.
+    private _holder : User;
 
     constructor(private router : Router,
         private passportService : PassportService,
@@ -79,6 +84,21 @@ export class PassportListComponent {
                 error => this.messageService.error('Could not get the results', error)
             );
     }
+
+    // X to one: input param is used to filter the list when displayed
+    // as a one-to-many list by the other side.
+    @Input()
+    set holder(holder : User) {
+        if (holder == null) {
+            return;
+        }
+        this._holder = holder;
+
+        this.example = new Passport();
+        this.example.holder = new User();
+        this.example.holder.id = this._holder.id;
+    }
+
 
     onRowSelect(event : any) {
         let id =  event.data.id;

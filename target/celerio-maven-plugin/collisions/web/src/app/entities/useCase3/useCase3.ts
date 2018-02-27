@@ -9,17 +9,24 @@
 // Template pack-angular:web/src/app/entities/entity.ts.e.vm
 //
 import {UseCase3Pk} from "./useCase3Pk";
+import {UseCase2} from '../useCase2/useCase2';
 
 export class UseCase3 {
     id : UseCase3Pk = new UseCase3Pk();
     // Raw attributes
     dummy : string;
+    // x-to-one
+    id2 : UseCase2;
 
 
     constructor(json? : any) {
         if (json != null) {
             this.id = new UseCase3Pk(json.id);
             this.dummy = json.dummy;
+
+            if (json.id2 != null) {
+                this.id2 = new UseCase2(json.id2);
+            }
         }
     }
 

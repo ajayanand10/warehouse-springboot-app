@@ -30,6 +30,8 @@ public abstract class Book_ {
     public static volatile SingularAttribute<Book, LocalDate> publicationDate;
     public static volatile SingularAttribute<Book, String> summary;
     public static volatile SingularAttribute<Book, String> title;
-    public static volatile SingularAttribute<Book, Integer> authorId;
-    public static volatile SingularAttribute<Book, Integer> coAuthorId;
+
+    // Many to one
+    public static volatile SingularAttribute<Book, Author> coAuthor;
+    public static volatile SingularAttribute<Book, Author> author;
 }

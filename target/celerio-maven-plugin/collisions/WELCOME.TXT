@@ -4,20 +4,6 @@ Templates doc: http://www.jaxio.com/documentation/celerio/templates.html
 
 Here is a simple script:
 
-    ${entity.model.type}: Author
-    ${entity.model.var}: author
-    ${entity.model.getter}: getAuthor
-    ${entity.service.type}: AuthorService
-    ${entity.service.var}: authorService
-    ${entity.service.getter}: getAuthorService
-
-    ${entity.model.type}: Book
-    ${entity.model.var}: book
-    ${entity.model.getter}: getBook
-    ${entity.service.type}: BookService
-    ${entity.service.var}: bookService
-    ${entity.service.getter}: getBookService
-
     ${entity.model.type}: Bookmark
     ${entity.model.var}: bookmark
     ${entity.model.getter}: getBookmark
@@ -60,26 +46,12 @@ Here is a simple script:
     ${entity.service.var}: guestService
     ${entity.service.getter}: getGuestService
 
-    ${entity.model.type}: MyTest
-    ${entity.model.var}: myTest
-    ${entity.model.getter}: getMyTest
-    ${entity.service.type}: MyTestService
-    ${entity.service.var}: myTestService
-    ${entity.service.getter}: getMyTestService
-
     ${entity.model.type}: Order
     ${entity.model.var}: order
     ${entity.model.getter}: getOrder
     ${entity.service.type}: OrderService
     ${entity.service.var}: orderService
     ${entity.service.getter}: getOrderService
-
-    ${entity.model.type}: Passport
-    ${entity.model.var}: passport
-    ${entity.model.getter}: getPassport
-    ${entity.service.type}: PassportService
-    ${entity.service.var}: passportService
-    ${entity.service.getter}: getPassportService
 
     ${entity.model.type}: Project
     ${entity.model.var}: project

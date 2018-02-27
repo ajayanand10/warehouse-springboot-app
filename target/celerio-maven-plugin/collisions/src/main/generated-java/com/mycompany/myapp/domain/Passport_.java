@@ -22,5 +22,7 @@ public abstract class Passport_ {
     public static volatile SingularAttribute<Passport, Integer> id;
     public static volatile SingularAttribute<Passport, LocalDate> expirationDate;
     public static volatile SingularAttribute<Passport, String> passportNumber;
-    public static volatile SingularAttribute<Passport, Integer> holderId;
+
+    // One to one
+    public static volatile SingularAttribute<Passport, User> holder;
 }

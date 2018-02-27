@@ -16,6 +16,9 @@ import java.util.logging.Logger;
 import javax.persistence.Column;
 import javax.persistence.EmbeddedId;
 import javax.persistence.Entity;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+import javax.persistence.MapsId;
 import javax.persistence.Table;
 import javax.persistence.Transient;
 import javax.persistence.UniqueConstraint;
@@ -37,6 +40,9 @@ public class UseCase3 implements Identifiable<UseCase3Pk>, Serializable {
 
     // Raw attributes
     private String dummy;
+
+    // Many to one
+    private UseCase2 id2;
 
     @Override
     public String entityClassName() {
@@ -94,6 +100,33 @@ public class UseCase3 implements Identifiable<UseCase3Pk>, Serializable {
 
     public UseCase3 dummy(String dummy) {
         setDummy(dummy);
+        return this;
+    }
+
+    // -----------------------------------------------------------------
+    // Many to One support
+    // -----------------------------------------------------------------
+
+    // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+    // many-to-one: UseCase3.id2 ==> UseCase2.id
+    // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+    @JoinColumn(name = "id2", nullable = false)
+    @ManyToOne
+    @MapsId(value = "id2")
+    public UseCase2 getId2() {
+        return id2;
+    }
+
+    /**
+     * Set the {@link #id2} without adding this UseCase3 instance on the passed {@link #id2}
+     */
+    public void setId2(UseCase2 id2) {
+        this.id2 = id2;
+    }
+
+    public UseCase3 id2(UseCase2 id2) {
+        setId2(id2);
         return this;
     }
 

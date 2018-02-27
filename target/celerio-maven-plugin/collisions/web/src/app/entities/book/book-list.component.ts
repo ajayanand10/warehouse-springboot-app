@@ -18,6 +18,8 @@ import { ConfirmDeleteDialogComponent } from "../../support/confirm-delete-dialo
 import { Book } from './book';
 import { BookDetailComponent } from './book-detail.component';
 import { BookService } from './book.service';
+import { Author } from '../author/author';
+import { AuthorLineComponent } from '../author/author-line.component';
 
 @Component({
     moduleId: module.id,
@@ -44,6 +46,10 @@ export class BookListComponent {
     // list is paginated
     currentPage : PageResponse<Book> = new PageResponse<Book>(0,0,[]);
 
+    // X to one: input param is used to filter the list when displayed
+    // as a one-to-many list by the other side.
+    private _coAuthor : Author;
+    private _author : Author;
 
     constructor(private router : Router,
         private bookService : BookService,
@@ -79,6 +85,33 @@ export class BookListComponent {
                 error => this.messageService.error('Could not get the results', error)
             );
     }
+
+    // X to one: input param is used to filter the list when displayed
+    // as a one-to-many list by the other side.
+    @Input()
+    set coAuthor(coAuthor : Author) {
+        if (coAuthor == null) {
+            return;
+        }
+        this._coAuthor = coAuthor;
+
+        this.example = new Book();
+        this.example.coAuthor = new Author();
+        this.example.coAuthor.id = this._coAuthor.id;
+    }
+
+    @Input()
+    set author(author : Author) {
+        if (author == null) {
+            return;
+        }
+        this._author = author;
+
+        this.example = new Book();
+        this.example.author = new Author();
+        this.example.author.id = this._author.id;
+    }
+
 
     onRowSelect(event : any) {
         let id =  event.data.id;

@@ -19,9 +19,6 @@ import javax.persistence.Column;
 import javax.persistence.Embeddable;
 import javax.persistence.Transient;
 import javax.validation.constraints.NotNull;
-import javax.validation.constraints.Size;
-
-import org.hibernate.validator.constraints.NotEmpty;
 
 import com.google.common.base.Objects;
 
@@ -85,8 +82,6 @@ public class UseCase3Pk implements Comparable<UseCase3Pk>, Serializable {
 
     //-- [id2] ------------------------------
 
-    @NotEmpty
-    @Size(max = 255)
     @Column(name = "id2", nullable = false)
     public String getId2() {
         return id2;

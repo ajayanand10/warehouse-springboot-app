@@ -27,5 +27,7 @@ public abstract class Author_ {
     public static volatile SingularAttribute<Author, String> email;
     public static volatile SingularAttribute<Author, String> firstName;
     public static volatile SingularAttribute<Author, String> lastName;
-    public static volatile SingularAttribute<Author, Integer> favoriteAuthorId;
+
+    // Many to one
+    public static volatile SingularAttribute<Author, Author> favoriteAuthor;
 }

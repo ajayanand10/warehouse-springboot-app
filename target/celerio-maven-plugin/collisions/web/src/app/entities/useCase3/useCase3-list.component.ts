@@ -18,6 +18,8 @@ import { ConfirmDeleteDialogComponent } from "../../support/confirm-delete-dialo
 import { UseCase3 } from './useCase3';
 import { UseCase3DetailComponent } from './useCase3-detail.component';
 import { UseCase3Service } from './useCase3.service';
+import { UseCase2 } from '../useCase2/useCase2';
+import { UseCase2LineComponent } from '../useCase2/useCase2-line.component';
 
 @Component({
     moduleId: module.id,
@@ -44,6 +46,9 @@ export class UseCase3ListComponent {
     // list is paginated
     currentPage : PageResponse<UseCase3> = new PageResponse<UseCase3>(0,0,[]);
 
+    // X to one: input param is used to filter the list when displayed
+    // as a one-to-many list by the other side.
+    private _id2 : UseCase2;
 
     constructor(private router : Router,
         private useCase3Service : UseCase3Service,
@@ -79,6 +84,21 @@ export class UseCase3ListComponent {
                 error => this.messageService.error('Could not get the results', error)
             );
     }
+
+    // X to one: input param is used to filter the list when displayed
+    // as a one-to-many list by the other side.
+    @Input()
+    set id2(id2 : UseCase2) {
+        if (id2 == null) {
+            return;
+        }
+        this._id2 = id2;
+
+        this.example = new UseCase3();
+        this.example.id2 = new UseCase2();
+        this.example.id2.id = this._id2.id;
+    }
+
 
     onRowSelect(event : any) {
         let id = event.data.id.id1.toISOString().substring(0,19) + '_' + 

@@ -14,6 +14,7 @@ import { SelectItem } from 'primeng/primeng';
 import { MessageService} from '../../service/message.service';
 import {Passport} from './passport';
 import {PassportService} from './passport.service';
+import {User} from '../user/user';
 
 @Component({
     moduleId: module.id,
@@ -27,6 +28,12 @@ export class PassportDetailComponent implements OnInit, OnDestroy {
 
 
     @Input() sub : boolean = false;
+    @Input() // used to pass the parent when creating a new Passport
+    set holder(holder : User) {
+        this.passport = new Passport();
+        this.passport.holder = holder;
+    }
+
     @Output() onSaveClicked = new EventEmitter<Passport>();
     @Output() onCancelClicked = new EventEmitter();
 
@@ -59,6 +66,14 @@ export class PassportDetailComponent implements OnInit, OnDestroy {
         if (!this.sub) {
             this.params_subscription.unsubscribe();
         }
+    }
+
+    gotoHolder() {
+        this.router.navigate(['/user', this.passport.holder.id]);
+    }
+
+    clearHolder() {
+        this.passport.holder = null;
     }
 
     onSave() {

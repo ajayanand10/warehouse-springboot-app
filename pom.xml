@@ -78,13 +78,27 @@
         <sql.create.script>app-postgres-create.sql</sql.create.script> -->
         
         <!-- Heroku -->
-        <jdbc.groupId>org.postgresql</jdbc.groupId>
+        <!-- <jdbc.groupId>org.postgresql</jdbc.groupId>
         <jdbc.artifactId>postgresql</jdbc.artifactId>
         <jdbc.version>42.2.1</jdbc.version>
         <jdbc.driver>org.postgresql.Driver</jdbc.driver>
         <jdbc.url>jdbc:postgresql://ec2-184-73-202-179.compute-1.amazonaws.com:5432/ddk3474pq7ubr8?sslmode=require</jdbc.url>
         <jdbc.user>gjkwdpbvpdlxif</jdbc.user>
         <jdbc.password>e21cf379b73fdbc6a25c9e94181bdf50b2df6e5a1a2f1344d0478a5fc855e309</jdbc.password>
+        <jdbc.schema></jdbc.schema>
+        <jdbc.catalog></jdbc.catalog>
+        <hibernate.dialect>org.hibernate.dialect.PostgreSQLDialect</hibernate.dialect>
+        <sql-maven-plugin.delimiter>;</sql-maven-plugin.delimiter>
+        <sql.create.script>app-postgres-create.sql</sql.create.script> -->
+        
+        <!-- AWS -->
+        <jdbc.groupId>org.postgresql</jdbc.groupId>
+        <jdbc.artifactId>postgresql</jdbc.artifactId>
+        <jdbc.version>42.2.1</jdbc.version>
+        <jdbc.driver>org.postgresql.Driver</jdbc.driver>
+        <jdbc.url>jdbc:postgresql://redmiermp.cotyqjchtuso.ap-south-1.rds.amazonaws.com:5432/redmiermp?sslmode=require</jdbc.url>
+        <jdbc.user>ajay</jdbc.user>
+        <jdbc.password>redmier123$</jdbc.password>
         <jdbc.schema></jdbc.schema>
         <jdbc.catalog></jdbc.catalog>
         <hibernate.dialect>org.hibernate.dialect.PostgreSQLDialect</hibernate.dialect>

@@ -18,7 +18,8 @@ export class Author {
     email : string;
     firstName : string;
     lastName : string;
-    favoriteAuthorId : number;
+    // x-to-one
+    favoriteAuthor : Author;
 
 
     constructor(json? : any) {
@@ -34,7 +35,10 @@ export class Author {
             this.email = json.email;
             this.firstName = json.firstName;
             this.lastName = json.lastName;
-            this.favoriteAuthorId = json.favoriteAuthorId;
+
+            if (json.favoriteAuthor != null) {
+                this.favoriteAuthor = new Author(json.favoriteAuthor);
+            }
         }
     }
 

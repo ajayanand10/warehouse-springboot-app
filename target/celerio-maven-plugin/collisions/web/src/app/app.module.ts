@@ -26,20 +26,6 @@ import { EmailValidator } from './support/email.validator';
 import { ConfirmDeleteDialogComponent } from './support/confirm-delete-dialog.component';
 
 
-// Author ...
-import { AuthorService } from './entities/author/author.service';
-import { AuthorListComponent } from './entities/author/author-list.component';
-import { AuthorDetailComponent } from './entities/author/author-detail.component';
-import { AuthorLineComponent } from './entities/author/author-line.component';
-import { AuthorCompleteComponent } from './entities/author/author-auto-complete.component';
-
-// Book ...
-import { BookService } from './entities/book/book.service';
-import { BookListComponent } from './entities/book/book-list.component';
-import { BookDetailComponent } from './entities/book/book-detail.component';
-import { BookLineComponent } from './entities/book/book-line.component';
-import { BookCompleteComponent } from './entities/book/book-auto-complete.component';
-
 // Bookmark ...
 import { BookmarkService } from './entities/bookmark/bookmark.service';
 import { BookmarkListComponent } from './entities/bookmark/bookmark-list.component';
@@ -82,26 +68,12 @@ import { GuestDetailComponent } from './entities/guest/guest-detail.component';
 import { GuestLineComponent } from './entities/guest/guest-line.component';
 import { GuestCompleteComponent } from './entities/guest/guest-auto-complete.component';
 
-// MyTest ...
-import { MyTestService } from './entities/myTest/myTest.service';
-import { MyTestListComponent } from './entities/myTest/myTest-list.component';
-import { MyTestDetailComponent } from './entities/myTest/myTest-detail.component';
-import { MyTestLineComponent } from './entities/myTest/myTest-line.component';
-import { MyTestCompleteComponent } from './entities/myTest/myTest-auto-complete.component';
-
 // Order ...
 import { OrderService } from './entities/order/order.service';
 import { OrderListComponent } from './entities/order/order-list.component';
 import { OrderDetailComponent } from './entities/order/order-detail.component';
 import { OrderLineComponent } from './entities/order/order-line.component';
 import { OrderCompleteComponent } from './entities/order/order-auto-complete.component';
-
-// Passport ...
-import { PassportService } from './entities/passport/passport.service';
-import { PassportListComponent } from './entities/passport/passport-list.component';
-import { PassportDetailComponent } from './entities/passport/passport-detail.component';
-import { PassportLineComponent } from './entities/passport/passport-line.component';
-import { PassportCompleteComponent } from './entities/passport/passport-auto-complete.component';
 
 // Project ...
 import { ProjectService } from './entities/project/project.service';
@@ -201,16 +173,6 @@ import { WarehouseServiceProviderCompleteComponent } from './entities/warehouseS
     EmailValidator,
     ConfirmDeleteDialogComponent
     ,
-    AuthorListComponent,
-    AuthorDetailComponent,
-    AuthorLineComponent,
-    AuthorCompleteComponent
-    ,
-    BookListComponent,
-    BookDetailComponent,
-    BookLineComponent,
-    BookCompleteComponent
-    ,
     BookmarkListComponent,
     BookmarkDetailComponent,
     BookmarkLineComponent,
@@ -241,20 +203,10 @@ import { WarehouseServiceProviderCompleteComponent } from './entities/warehouseS
     GuestLineComponent,
     GuestCompleteComponent
     ,
-    MyTestListComponent,
-    MyTestDetailComponent,
-    MyTestLineComponent,
-    MyTestCompleteComponent
-    ,
     OrderListComponent,
     OrderDetailComponent,
     OrderLineComponent,
     OrderCompleteComponent
-    ,
-    PassportListComponent,
-    PassportDetailComponent,
-    PassportLineComponent,
-    PassportCompleteComponent
     ,
     ProjectListComponent,
     ProjectDetailComponent,
@@ -365,17 +317,13 @@ import { WarehouseServiceProviderCompleteComponent } from './entities/warehouseS
     ],
     providers: [
 // our application entity services
-        AuthorService,
-        BookService,
         BookmarkService,
         DatabasechangelogService,
         DatabasechangeloglockService,
         EnquiryService,
         GoodsService,
         GuestService,
-        MyTestService,
         OrderService,
-        PassportService,
         ProjectService,
         RateService,
         RecordService,

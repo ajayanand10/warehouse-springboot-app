@@ -21,7 +21,7 @@ public class PassportDTO {
     public Integer id;
     public LocalDate expirationDate;
     public String passportNumber;
-    public Integer holderId;
+    public UserDTO holder;
 
     @JsonIgnore
     public boolean isIdSet() {

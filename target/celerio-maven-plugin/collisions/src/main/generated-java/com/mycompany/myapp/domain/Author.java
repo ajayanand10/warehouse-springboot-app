@@ -21,9 +21,10 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 import javax.persistence.Transient;
-import javax.validation.constraints.Digits;
 import javax.validation.constraints.Size;
 
 import org.hibernate.validator.constraints.Email;
@@ -46,7 +47,9 @@ public class Author implements Identifiable<Integer>, Serializable {
     private String email;
     private String firstName;
     private String lastName;
-    private Integer favoriteAuthorId;
+
+    // Many to one
+    private Author favoriteAuthor;
 
     @Override
     public String entityClassName() {
@@ -174,20 +177,30 @@ public class Author implements Identifiable<Integer>, Serializable {
         setLastName(lastName);
         return this;
     }
-    // -- [favoriteAuthorId] ------------------------
 
-    @Digits(integer = 10, fraction = 0)
-    @Column(name = "favorite_author_id", precision = 10)
-    public Integer getFavoriteAuthorId() {
-        return favoriteAuthorId;
+    // -----------------------------------------------------------------
+    // Many to One support
+    // -----------------------------------------------------------------
+
+    // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+    // many-to-one: Author.favoriteAuthor ==> Author.id
+    // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+    @JoinColumn(name = "favorite_author_id")
+    @ManyToOne
+    public Author getFavoriteAuthor() {
+        return favoriteAuthor;
     }
 
-    public void setFavoriteAuthorId(Integer favoriteAuthorId) {
-        this.favoriteAuthorId = favoriteAuthorId;
+    /**
+     * Set the {@link #favoriteAuthor} without adding this Author instance on the passed {@link #favoriteAuthor}
+     */
+    public void setFavoriteAuthor(Author favoriteAuthor) {
+        this.favoriteAuthor = favoriteAuthor;
     }
 
-    public Author favoriteAuthorId(Integer favoriteAuthorId) {
-        setFavoriteAuthorId(favoriteAuthorId);
+    public Author favoriteAuthor(Author favoriteAuthor) {
+        setFavoriteAuthor(favoriteAuthor);
         return this;
     }
 
@@ -227,7 +240,6 @@ public class Author implements Identifiable<Integer>, Serializable {
                 .add("email", getEmail()) //
                 .add("firstName", getFirstName()) //
                 .add("lastName", getLastName()) //
-                .add("favoriteAuthorId", getFavoriteAuthorId()) //
                 .toString();
     }
 }

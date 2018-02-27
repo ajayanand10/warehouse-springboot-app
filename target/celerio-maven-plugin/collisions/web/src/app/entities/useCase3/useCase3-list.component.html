@@ -3,14 +3,14 @@
         <mat-card-title>Search UseCase3 with search criterias</mat-card-title>
         <mat-card-content>
         <div class="ui-grid ui-grid-responsive ui-fluid ui-grid-pad" ngForm #useCase3Form="ngForm">
-            <div class="ui-grid-row">
-                <div class="ui-grid-col-2">
-                    <label for="id2">Id2</label>
-                </div>
-                <div class="ui-grid-col-6">
-                    <input pInputText id="id2" [(ngModel)]="example.id2" name="id2" #id2="ngModel"/>
-                </div>
-            </div>
+<div class="ui-grid-row">
+    <div class="ui-grid-col-2">
+        <label for="id2">Id2</label>
+    </div>
+    <div class="ui-grid-col-6">
+        <useCase2-auto-complete [(ngModel)]="example.id2" id="id2" name="id2"></useCase2-auto-complete>
+    </div>
+</div>
             <div class="ui-grid-row">
                 <div class="ui-grid-col-2">
                     <label for="dummy">Dummy</label>
@@ -46,11 +46,6 @@
         <p-column field="id1" header="Id1" sortable="true">
             <ng-template let-useCase3="rowData" pTemplate="body">
                 {{ useCase3.id.id1 }}
-            </ng-template>
-        </p-column>
-        <p-column field="id2" header="Id2" sortable="true">
-            <ng-template let-useCase3="rowData" pTemplate="body">
-                {{ useCase3.id.id2 }}
             </ng-template>
         </p-column>
         <p-column field="dummy" header="Dummy" sortable="true">

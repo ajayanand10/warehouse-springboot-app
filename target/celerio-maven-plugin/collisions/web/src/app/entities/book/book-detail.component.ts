@@ -14,6 +14,7 @@ import { SelectItem } from 'primeng/primeng';
 import { MessageService} from '../../service/message.service';
 import {Book} from './book';
 import {BookService} from './book.service';
+import {Author} from '../author/author';
 
 @Component({
     moduleId: module.id,
@@ -27,6 +28,18 @@ export class BookDetailComponent implements OnInit, OnDestroy {
 
 
     @Input() sub : boolean = false;
+    @Input() // used to pass the parent when creating a new Book
+    set coAuthor(coAuthor : Author) {
+        this.book = new Book();
+        this.book.coAuthor = coAuthor;
+    }
+
+    @Input() // used to pass the parent when creating a new Book
+    set author(author : Author) {
+        this.book = new Book();
+        this.book.author = author;
+    }
+
     @Output() onSaveClicked = new EventEmitter<Book>();
     @Output() onCancelClicked = new EventEmitter();
 
@@ -59,6 +72,22 @@ export class BookDetailComponent implements OnInit, OnDestroy {
         if (!this.sub) {
             this.params_subscription.unsubscribe();
         }
+    }
+
+    gotoCoAuthor() {
+        this.router.navigate(['/author', this.book.coAuthor.id]);
+    }
+
+    clearCoAuthor() {
+        this.book.coAuthor = null;
+    }
+
+    gotoAuthor() {
+        this.router.navigate(['/author', this.book.author.id]);
+    }
+
+    clearAuthor() {
+        this.book.author = null;
     }
 
     onSave() {

@@ -11,6 +11,14 @@
                     <input pInputText id="passportNumber" [(ngModel)]="example.passportNumber" name="passportNumber" #passportNumber="ngModel"/>
                 </div>
             </div>
+<div class="ui-grid-row">
+    <div class="ui-grid-col-2">
+        <label for="holder">Holder</label>
+    </div>
+    <div class="ui-grid-col-6">
+        <user-auto-complete [(ngModel)]="example.holder" id="holder" name="holder"></user-auto-complete>
+    </div>
+</div>
         </div>
 
         </mat-card-content>
@@ -41,8 +49,6 @@
             </ng-template>
         </p-column>
         <p-column field="passportNumber" header="Passport Number" sortable="true">
-        </p-column>
-        <p-column field="holderId" header="Holder Id" sortable="true">
         </p-column>
         <p-column styleClass="col-icon">
             <ng-template let-passport="rowData" pTemplate="body">

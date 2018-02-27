@@ -13,12 +13,6 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { HomeComponent } from './home.component';
 
-import { AuthorListComponent } from './entities/author/author-list.component';
-import { AuthorDetailComponent } from './entities/author/author-detail.component';
-
-import { BookListComponent } from './entities/book/book-list.component';
-import { BookDetailComponent } from './entities/book/book-detail.component';
-
 import { BookmarkListComponent } from './entities/bookmark/bookmark-list.component';
 import { BookmarkDetailComponent } from './entities/bookmark/bookmark-detail.component';
 
@@ -37,14 +31,8 @@ import { GoodsDetailComponent } from './entities/goods/goods-detail.component';
 import { GuestListComponent } from './entities/guest/guest-list.component';
 import { GuestDetailComponent } from './entities/guest/guest-detail.component';
 
-import { MyTestListComponent } from './entities/myTest/myTest-list.component';
-import { MyTestDetailComponent } from './entities/myTest/myTest-detail.component';
-
 import { OrderListComponent } from './entities/order/order-list.component';
 import { OrderDetailComponent } from './entities/order/order-detail.component';
-
-import { PassportListComponent } from './entities/passport/passport-list.component';
-import { PassportDetailComponent } from './entities/passport/passport-detail.component';
 
 import { ProjectListComponent } from './entities/project/project-list.component';
 import { ProjectDetailComponent } from './entities/project/project-detail.component';
@@ -88,12 +76,6 @@ import { WarehouseServiceProviderDetailComponent } from './entities/warehouseSer
 export const routes: Routes = [
     { path : '',  component: HomeComponent }
     ,
-    {path: 'author-list', component: AuthorListComponent },
-    {path: 'author/:id', component: AuthorDetailComponent }
-    ,
-    {path: 'book-list', component: BookListComponent },
-    {path: 'book/:id', component: BookDetailComponent }
-    ,
     {path: 'bookmark-list', component: BookmarkListComponent },
     {path: 'bookmark/:id', component: BookmarkDetailComponent }
     ,
@@ -112,14 +94,8 @@ export const routes: Routes = [
     {path: 'guest-list', component: GuestListComponent },
     {path: 'guest/:id', component: GuestDetailComponent }
     ,
-    {path: 'myTest-list', component: MyTestListComponent },
-    {path: 'myTest/:id', component: MyTestDetailComponent }
-    ,
     {path: 'order-list', component: OrderListComponent },
     {path: 'order/:id', component: OrderDetailComponent }
-    ,
-    {path: 'passport-list', component: PassportListComponent },
-    {path: 'passport/:id', component: PassportDetailComponent }
     ,
     {path: 'project-list', component: ProjectListComponent },
     {path: 'project/:id', component: ProjectDetailComponent }

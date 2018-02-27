@@ -108,7 +108,14 @@ public class AuthorDTOService {
 
         author.setLastName(dto.lastName);
 
-        author.setFavoriteAuthorId(dto.favoriteAuthorId);
+        if (dto.favoriteAuthor == null) {
+            author.setFavoriteAuthor(null);
+        } else {
+            Author favoriteAuthor = author.getFavoriteAuthor();
+            if (favoriteAuthor == null || (favoriteAuthor.getId().compareTo(dto.favoriteAuthor.id) != 0)) {
+                author.setFavoriteAuthor(authorRepository.findOne(dto.favoriteAuthor.id));
+            }
+        }
 
         return toDTO(authorRepository.save(author));
     }
@@ -143,8 +150,8 @@ public class AuthorDTOService {
         dto.email = author.getEmail();
         dto.firstName = author.getFirstName();
         dto.lastName = author.getLastName();
-        dto.favoriteAuthorId = author.getFavoriteAuthorId();
         if (depth-- > 0) {
+            dto.favoriteAuthor = toDTO(author.getFavoriteAuthor(), depth);
         }
 
         return dto;
@@ -176,8 +183,8 @@ public class AuthorDTOService {
         author.setEmail(dto.email);
         author.setFirstName(dto.firstName);
         author.setLastName(dto.lastName);
-        author.setFavoriteAuthorId(dto.favoriteAuthorId);
         if (depth-- > 0) {
+            author.setFavoriteAuthor(toEntity(dto.favoriteAuthor, depth));
         }
 
         return author;

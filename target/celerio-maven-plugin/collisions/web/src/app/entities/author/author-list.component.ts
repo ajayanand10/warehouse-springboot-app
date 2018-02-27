@@ -18,6 +18,7 @@ import { ConfirmDeleteDialogComponent } from "../../support/confirm-delete-dialo
 import { Author } from './author';
 import { AuthorDetailComponent } from './author-detail.component';
 import { AuthorService } from './author.service';
+import { AuthorLineComponent } from '../author/author-line.component';
 
 @Component({
     moduleId: module.id,
@@ -44,6 +45,9 @@ export class AuthorListComponent {
     // list is paginated
     currentPage : PageResponse<Author> = new PageResponse<Author>(0,0,[]);
 
+    // X to one: input param is used to filter the list when displayed
+    // as a one-to-many list by the other side.
+    private _favoriteAuthor : Author;
 
     constructor(private router : Router,
         private authorService : AuthorService,
@@ -79,6 +83,21 @@ export class AuthorListComponent {
                 error => this.messageService.error('Could not get the results', error)
             );
     }
+
+    // X to one: input param is used to filter the list when displayed
+    // as a one-to-many list by the other side.
+    @Input()
+    set favoriteAuthor(favoriteAuthor : Author) {
+        if (favoriteAuthor == null) {
+            return;
+        }
+        this._favoriteAuthor = favoriteAuthor;
+
+        this.example = new Author();
+        this.example.favoriteAuthor = new Author();
+        this.example.favoriteAuthor.id = this._favoriteAuthor.id;
+    }
+
 
     onRowSelect(event : any) {
         let id =  event.data.id;

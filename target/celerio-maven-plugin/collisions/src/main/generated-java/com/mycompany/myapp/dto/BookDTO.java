@@ -29,8 +29,8 @@ public class BookDTO {
     public LocalDate publicationDate;
     public String summary;
     public String title;
-    public Integer authorId;
-    public Integer coAuthorId;
+    public AuthorDTO coAuthor;
+    public AuthorDTO author;
 
     @JsonIgnore
     public boolean isIdSet() {

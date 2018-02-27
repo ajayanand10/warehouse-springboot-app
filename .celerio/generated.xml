@@ -4,9 +4,9 @@
     <com.jaxio.celerio.output.FileMetaData>
       <pack>pack-angular</pack>
       <template>web\src\app\entities\entity-list.component.ts.e.vm</template>
-      <size>4157</size>
+      <size>5171</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\book\book-list.component.ts</path>
-      <lastMod>1519494230238</lastMod>
+      <lastMod>1519704828105</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -40,6 +40,16 @@
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
+    <string>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\repository\RateRepository.java</string>
+    <com.jaxio.celerio.output.FileMetaData>
+      <pack>pack-angular</pack>
+      <template>src\main\java\repository\EntityRepository.java.e.vm</template>
+      <size>1380</size>
+      <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\repository\RateRepository.java</path>
+      <lastMod>1519704824730</lastMod>
+    </com.jaxio.celerio.output.FileMetaData>
+  </entry>
+  <entry>
     <string>web\src\app\entities\warehouse\warehouse.service.ts</string>
     <com.jaxio.celerio.output.FileMetaData>
       <pack>pack-angular</pack>
@@ -60,13 +70,23 @@
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
+    <string>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\dto\WarehouseServiceProviderDTOService.java</string>
+    <com.jaxio.celerio.output.FileMetaData>
+      <pack>pack-angular</pack>
+      <template>src\main\java\dto\EntityDTOService.java.e.vm</template>
+      <size>8723</size>
+      <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\dto\WarehouseServiceProviderDTOService.java</path>
+      <lastMod>1519704824434</lastMod>
+    </com.jaxio.celerio.output.FileMetaData>
+  </entry>
+  <entry>
     <string>target\celerio-maven-plugin\collisions\web\src\app\app.routes.ts</string>
     <com.jaxio.celerio.output.FileMetaData>
       <pack>pack-angular</pack>
       <template>web\src\app\app.routes.ts.p.vm</template>
-      <size>8549</size>
+      <size>7369</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\app.routes.ts</path>
-      <lastMod>1519494224815</lastMod>
+      <lastMod>1519705646530</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -76,7 +96,7 @@
       <template>web\src\app\entities\entity-detail.component.ts.e.vm</template>
       <size>2931</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\order\order-detail.component.ts</path>
-      <lastMod>1519494229422</lastMod>
+      <lastMod>1519705650781</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -84,9 +104,19 @@
     <com.jaxio.celerio.output.FileMetaData>
       <pack>pack-angular</pack>
       <template>web\src\app\entities\entity-detail.component.ts.e.vm</template>
-      <size>3009</size>
+      <size>3739</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\useCase3\useCase3-detail.component.ts</path>
-      <lastMod>1519494229545</lastMod>
+      <lastMod>1519705650875</lastMod>
+    </com.jaxio.celerio.output.FileMetaData>
+  </entry>
+  <entry>
+    <string>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\repository\UserRepository.java</string>
+    <com.jaxio.celerio.output.FileMetaData>
+      <pack>pack-angular</pack>
+      <template>src\main\java\repository\EntityRepository.java.e.vm</template>
+      <size>1703</size>
+      <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\repository\UserRepository.java</path>
+      <lastMod>1519704824468</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -96,7 +126,7 @@
       <template>web\src\app\entities\entity.service.ts.e.vm</template>
       <size>3623</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\warehouseGoods\warehouseGoods.service.ts</path>
-      <lastMod>1519494230750</lastMod>
+      <lastMod>1519705652240</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -106,7 +136,7 @@
       <template>web\src\app\entities\entity.ts.e.vm</template>
       <size>1874</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\bookmark\bookmark.ts</path>
-      <lastMod>1519494230862</lastMod>
+      <lastMod>1519705652341</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -114,9 +144,9 @@
     <com.jaxio.celerio.output.FileMetaData>
       <pack>pack-angular</pack>
       <template>web\src\app\entities\entity-detail.component.ts.e.vm</template>
-      <size>2905</size>
+      <size>3637</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\book\book-detail.component.ts</path>
-      <lastMod>1519494229338</lastMod>
+      <lastMod>1519704826687</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -126,7 +156,7 @@
       <template>web\src\app\entities\entity-line.component.ts.e.vm</template>
       <size>693</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\useCase3\useCase3-line.component.ts</path>
-      <lastMod>1519494229828</lastMod>
+      <lastMod>1519705651106</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -137,6 +167,16 @@
       <size>1080</size>
       <path>src\main\generated-java\com\mycompany\myapp\domain\CountryCodeConverter.java</path>
       <lastMod>1518350664649</lastMod>
+    </com.jaxio.celerio.output.FileMetaData>
+  </entry>
+  <entry>
+    <string>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\domain\Warehouse.java</string>
+    <com.jaxio.celerio.output.FileMetaData>
+      <pack>pack-angular</pack>
+      <template>src\main\java\domain\Entity.java.e.vm</template>
+      <size>33887</size>
+      <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\domain\Warehouse.java</path>
+      <lastMod>1519705647545</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -164,9 +204,9 @@
     <com.jaxio.celerio.output.FileMetaData>
       <pack>pack-angular</pack>
       <template>web\src\app\entities\entity-list.component.html.e.vm</template>
-      <size>2570</size>
+      <size>2752</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\passport\passport-list.component.html</path>
-      <lastMod>1519494230006</lastMod>
+      <lastMod>1519704827815</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -186,7 +226,7 @@
       <template>web\src\app\entities\entity-list.component.ts.e.vm</template>
       <size>4187</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\guest\guest-list.component.ts</path>
-      <lastMod>1519494230311</lastMod>
+      <lastMod>1519705651594</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -196,7 +236,7 @@
       <template>web\src\app\entities\entity.ts.e.vm</template>
       <size>1606</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\goods\goods.ts</path>
-      <lastMod>1519494230918</lastMod>
+      <lastMod>1519705652451</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -206,7 +246,7 @@
       <template>web\src\app\entities\entity-list.component.ts.e.vm</template>
       <size>5787</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\warehouseGoods\warehouseGoods-list.component.ts</path>
-      <lastMod>1519494230450</lastMod>
+      <lastMod>1519705651825</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -230,13 +270,23 @@
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
+    <string>target\celerio-maven-plugin\collisions\web\src\app\entities\enquiry\enquiry-list.component.html</string>
+    <com.jaxio.celerio.output.FileMetaData>
+      <pack>pack-angular</pack>
+      <template>web\src\app\entities\entity-list.component.html.e.vm</template>
+      <size>2746</size>
+      <path>target\celerio-maven-plugin\collisions\web\src\app\entities\enquiry\enquiry-list.component.html</path>
+      <lastMod>1519704827765</lastMod>
+    </com.jaxio.celerio.output.FileMetaData>
+  </entry>
+  <entry>
     <string>target\celerio-maven-plugin\collisions\src\main\config\celerio-maven-plugin\celerio-template-packs.xml</string>
     <com.jaxio.celerio.output.FileMetaData>
       <pack>pack-angular</pack>
       <template>bootstrap\celerio-template-packs.boot.vm.xml</template>
       <size>767</size>
       <path>target\celerio-maven-plugin\collisions\src\main\config\celerio-maven-plugin\celerio-template-packs.xml</path>
-      <lastMod>1519494223435</lastMod>
+      <lastMod>1519705644846</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -246,7 +296,7 @@
       <template>web\src\app\entities\entity-detail.component.ts.e.vm</template>
       <size>3009</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\useCase2\useCase2-detail.component.ts</path>
-      <lastMod>1519494229532</lastMod>
+      <lastMod>1519705650862</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -274,9 +324,9 @@
     <com.jaxio.celerio.output.FileMetaData>
       <pack>pack-angular</pack>
       <template>src\main\java\domain\Entity.java.e.vm</template>
-      <size>6400</size>
+      <size>6783</size>
       <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\domain\Author.java</path>
-      <lastMod>1519494225075</lastMod>
+      <lastMod>1519704820513</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -296,7 +346,7 @@
       <template>bootstrap\pom.boot.vm.xml</template>
       <size>22009</size>
       <path>target\celerio-maven-plugin\collisions\pom.xml</path>
-      <lastMod>1519494223466</lastMod>
+      <lastMod>1519705644890</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -326,7 +376,7 @@
       <template>web\src\app\entities\entity-line.component.ts.e.vm</template>
       <size>671</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\goods\goods-line.component.ts</path>
-      <lastMod>1519494229708</lastMod>
+      <lastMod>1519705651019</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -354,9 +404,9 @@
     <com.jaxio.celerio.output.FileMetaData>
       <pack>pack-angular</pack>
       <template>src\main\java\dto\EntityDTOService.java.e.vm</template>
-      <size>5430</size>
+      <size>5984</size>
       <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\dto\PassportDTOService.java</path>
-      <lastMod>1519494227285</lastMod>
+      <lastMod>1519704823834</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -366,7 +416,7 @@
       <template>src\main\java\dto\EntityDTO.java.e.vm</template>
       <size>973</size>
       <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\dto\AuthorDTO.java</path>
-      <lastMod>1519494226616</lastMod>
+      <lastMod>1519704822675</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -376,7 +426,17 @@
       <template>web\src\app\entities\entity-list.component.ts.e.vm</template>
       <size>4187</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\order\order-list.component.ts</path>
-      <lastMod>1519494230321</lastMod>
+      <lastMod>1519705651617</lastMod>
+    </com.jaxio.celerio.output.FileMetaData>
+  </entry>
+  <entry>
+    <string>target\celerio-maven-plugin\collisions\web\src\app\entities\warehouseGoods\warehouseGoods-detail.component.html</string>
+    <com.jaxio.celerio.output.FileMetaData>
+      <pack>pack-angular</pack>
+      <template>web\src\app\entities\entity-detail.component.html.e.vm</template>
+      <size>2619</size>
+      <path>target\celerio-maven-plugin\collisions\web\src\app\entities\warehouseGoods\warehouseGoods-detail.component.html</path>
+      <lastMod>1519704826491</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -410,13 +470,33 @@
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
+    <string>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\dto\GuestDTOService.java</string>
+    <com.jaxio.celerio.output.FileMetaData>
+      <pack>pack-angular</pack>
+      <template>src\main\java\dto\EntityDTOService.java.e.vm</template>
+      <size>5510</size>
+      <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\dto\GuestDTOService.java</path>
+      <lastMod>1519704823762</lastMod>
+    </com.jaxio.celerio.output.FileMetaData>
+  </entry>
+  <entry>
     <string>target\celerio-maven-plugin\collisions\web\src\app\entities\rate\rate-line.component.ts</string>
     <com.jaxio.celerio.output.FileMetaData>
       <pack>pack-angular</pack>
       <template>web\src\app\entities\entity-line.component.ts.e.vm</template>
       <size>711</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\rate\rate-line.component.ts</path>
-      <lastMod>1519494229764</lastMod>
+      <lastMod>1519705651060</lastMod>
+    </com.jaxio.celerio.output.FileMetaData>
+  </entry>
+  <entry>
+    <string>target\celerio-maven-plugin\collisions\web\src\app\entities\warehouseServiceProvider\warehouseServiceProvider-list.component.html</string>
+    <com.jaxio.celerio.output.FileMetaData>
+      <pack>pack-angular</pack>
+      <template>web\src\app\entities\entity-list.component.html.e.vm</template>
+      <size>2319</size>
+      <path>target\celerio-maven-plugin\collisions\web\src\app\entities\warehouseServiceProvider\warehouseServiceProvider-list.component.html</path>
+      <lastMod>1519704828063</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -450,6 +530,16 @@
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
+    <string>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\domain\Rate_.java</string>
+    <com.jaxio.celerio.output.FileMetaData>
+      <pack>pack-angular</pack>
+      <template>src\main\java\domain\EntityMeta_.java.e.vm</template>
+      <size>1599</size>
+      <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\domain\Rate_.java</path>
+      <lastMod>1519704822308</lastMod>
+    </com.jaxio.celerio.output.FileMetaData>
+  </entry>
+  <entry>
     <string>src\main\generated-java\com\mycompany\myapp\security\UserDetailsServiceImpl.java</string>
     <com.jaxio.celerio.output.FileMetaData>
       <pack>pack-angular</pack>
@@ -476,7 +566,7 @@
       <template>src\main\java\dto\EntityDTO.java.e.vm</template>
       <size>808</size>
       <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\dto\ProjectDTO.java</path>
-      <lastMod>1519494226799</lastMod>
+      <lastMod>1519705648389</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -506,7 +596,7 @@
       <template>web\src\app\entities\entity-auto-complete.component.ts.e.vm</template>
       <size>3391</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\project\project-auto-complete.component.ts</path>
-      <lastMod>1519494228808</lastMod>
+      <lastMod>1519705650153</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -516,7 +606,7 @@
       <template>web\src\app\entities\entity-detail.component.ts.e.vm</template>
       <size>2957</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\myTest\myTest-detail.component.ts</path>
-      <lastMod>1519494229498</lastMod>
+      <lastMod>1519704827030</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -526,7 +616,17 @@
       <template>web\src\app\entities\compositepk.ts.cpk.vm</template>
       <size>705</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\useCase3\useCase3Pk.ts</path>
-      <lastMod>1519494231346</lastMod>
+      <lastMod>1519705652943</lastMod>
+    </com.jaxio.celerio.output.FileMetaData>
+  </entry>
+  <entry>
+    <string>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\dto\RateDTOService.java</string>
+    <com.jaxio.celerio.output.FileMetaData>
+      <pack>pack-angular</pack>
+      <template>src\main\java\dto\EntityDTOService.java.e.vm</template>
+      <size>7223</size>
+      <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\dto\RateDTOService.java</path>
+      <lastMod>1519704823931</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -537,6 +637,16 @@
       <size>3739</size>
       <path>web\src\app\entities\useCase3\useCase3-detail.component.ts</path>
       <lastMod>1518350663310</lastMod>
+    </com.jaxio.celerio.output.FileMetaData>
+  </entry>
+  <entry>
+    <string>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\domain\User_.java</string>
+    <com.jaxio.celerio.output.FileMetaData>
+      <pack>pack-angular</pack>
+      <template>src\main\java\domain\EntityMeta_.java.e.vm</template>
+      <size>1922</size>
+      <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\domain\User_.java</path>
+      <lastMod>1519704821948</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -557,6 +667,16 @@
       <size>2383</size>
       <path>web\src\app\entities\databasechangeloglock\databasechangeloglock-detail.component.html</path>
       <lastMod>1519494229057</lastMod>
+    </com.jaxio.celerio.output.FileMetaData>
+  </entry>
+  <entry>
+    <string>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\domain\WarehouseGoodsPk.java</string>
+    <com.jaxio.celerio.output.FileMetaData>
+      <pack>pack-angular</pack>
+      <template>src\main\java\domain\CompositePk.java.cpk.vm</template>
+      <size>4474</size>
+      <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\domain\WarehouseGoodsPk.java</path>
+      <lastMod>1519704829301</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -590,6 +710,16 @@
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
+    <string>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\dto\WarehousePhotoDTO.java</string>
+    <com.jaxio.celerio.output.FileMetaData>
+      <pack>pack-angular</pack>
+      <template>src\main\java\dto\EntityDTO.java.e.vm</template>
+      <size>1041</size>
+      <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\dto\WarehousePhotoDTO.java</path>
+      <lastMod>1519704823313</lastMod>
+    </com.jaxio.celerio.output.FileMetaData>
+  </entry>
+  <entry>
     <string>web\src\app\entities\warehouseGoods\warehouseGoodsPk.ts</string>
     <com.jaxio.celerio.output.FileMetaData>
       <pack>pack-angular</pack>
@@ -606,7 +736,7 @@
       <template>web\src\app\entities\entity.service.ts.e.vm</template>
       <size>3323</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\rate\rate.service.ts</path>
-      <lastMod>1519494230652</lastMod>
+      <lastMod>1519705652101</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -626,7 +756,17 @@
       <template>web\src\app\support\paging.ts.p.vm</template>
       <size>1069</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\support\paging.ts</path>
-      <lastMod>1519494224891</lastMod>
+      <lastMod>1519705646597</lastMod>
+    </com.jaxio.celerio.output.FileMetaData>
+  </entry>
+  <entry>
+    <string>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\dto\WarehouseDTO.java</string>
+    <com.jaxio.celerio.output.FileMetaData>
+      <pack>pack-angular</pack>
+      <template>src\main\java\dto\EntityDTO.java.e.vm</template>
+      <size>2701</size>
+      <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\dto\WarehouseDTO.java</path>
+      <lastMod>1519705648517</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -644,9 +784,9 @@
     <com.jaxio.celerio.output.FileMetaData>
       <pack>pack-angular</pack>
       <template>web\src\app\entities\entity-detail.component.html.e.vm</template>
-      <size>2563</size>
+      <size>2856</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\passport\passport-detail.component.html</path>
-      <lastMod>1519494229126</lastMod>
+      <lastMod>1519704826233</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -664,9 +804,9 @@
     <com.jaxio.celerio.output.FileMetaData>
       <pack>pack-angular</pack>
       <template>web\src\app\app.module.ts.p.vm</template>
-      <size>18154</size>
+      <size>15910</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\app.module.ts</path>
-      <lastMod>1519494224796</lastMod>
+      <lastMod>1519705646515</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -706,7 +846,7 @@
       <template>web\src\app\home.component.ts.p.vm</template>
       <size>784</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\home.component.ts</path>
-      <lastMod>1519494224840</lastMod>
+      <lastMod>1519705646547</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -716,7 +856,7 @@
       <template>web\src\app\entities\entity.ts.e.vm</template>
       <size>954</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\useCase2\useCase2.ts</path>
-      <lastMod>1519494231026</lastMod>
+      <lastMod>1519705652597</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -786,7 +926,7 @@
       <template>web\src\app\entities\entity-line.component.ts.e.vm</template>
       <size>760</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\enquiry\enquiry-line.component.ts</path>
-      <lastMod>1519494229697</lastMod>
+      <lastMod>1519705651007</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -796,7 +936,17 @@
       <template>web\src\app\entities\entity.ts.e.vm</template>
       <size>2060</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\warehouseGoods\warehouseGoods.ts</path>
-      <lastMod>1519494231063</lastMod>
+      <lastMod>1519705652654</lastMod>
+    </com.jaxio.celerio.output.FileMetaData>
+  </entry>
+  <entry>
+    <string>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\domain\Goods.java</string>
+    <com.jaxio.celerio.output.FileMetaData>
+      <pack>pack-angular</pack>
+      <template>src\main\java\domain\Entity.java.e.vm</template>
+      <size>7025</size>
+      <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\domain\Goods.java</path>
+      <lastMod>1519704820925</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -806,7 +956,17 @@
       <template>web\src\app\entities\entity.service.ts.e.vm</template>
       <size>3383</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\author\author.service.ts</path>
-      <lastMod>1519494230518</lastMod>
+      <lastMod>1519704828469</lastMod>
+    </com.jaxio.celerio.output.FileMetaData>
+  </entry>
+  <entry>
+    <string>target\celerio-maven-plugin\collisions\web\src\app\entities\user\user-list.component.html</string>
+    <com.jaxio.celerio.output.FileMetaData>
+      <pack>pack-angular</pack>
+      <template>web\src\app\entities\entity-list.component.html.e.vm</template>
+      <size>4084</size>
+      <path>target\celerio-maven-plugin\collisions\web\src\app\entities\user\user-list.component.html</path>
+      <lastMod>1519704827661</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -816,7 +976,7 @@
       <template>web\src\app\entities\entity-list.component.ts.e.vm</template>
       <size>4157</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\role\role-list.component.ts</path>
-      <lastMod>1519494230379</lastMod>
+      <lastMod>1519705651703</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -940,6 +1100,16 @@
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
+    <string>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\repository\EnquiryRepository.java</string>
+    <com.jaxio.celerio.output.FileMetaData>
+      <pack>pack-angular</pack>
+      <template>src\main\java\repository\EntityRepository.java.e.vm</template>
+      <size>1407</size>
+      <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\repository\EnquiryRepository.java</path>
+      <lastMod>1519704824603</lastMod>
+    </com.jaxio.celerio.output.FileMetaData>
+  </entry>
+  <entry>
     <string>src\main\generated-java\com\mycompany\myapp\domain\UseCase3Pk.java</string>
     <com.jaxio.celerio.output.FileMetaData>
       <pack>pack-angular</pack>
@@ -966,7 +1136,7 @@
       <template>web\src\app\entities\entity-line.component.ts.e.vm</template>
       <size>706</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\myTest\myTest-line.component.ts</path>
-      <lastMod>1519494229797</lastMod>
+      <lastMod>1519704827510</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -984,9 +1154,9 @@
     <com.jaxio.celerio.output.FileMetaData>
       <pack>pack-angular</pack>
       <template>web\src\app\entities\entity-list.component.ts.e.vm</template>
-      <size>4217</size>
+      <size>4925</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\author\author-list.component.ts</path>
-      <lastMod>1519494230227</lastMod>
+      <lastMod>1519704828093</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -1010,6 +1180,16 @@
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
+    <string>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\dto\EnquiryDTO.java</string>
+    <com.jaxio.celerio.output.FileMetaData>
+      <pack>pack-angular</pack>
+      <template>src\main\java\dto\EntityDTO.java.e.vm</template>
+      <size>1003</size>
+      <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\dto\EnquiryDTO.java</path>
+      <lastMod>1519704822784</lastMod>
+    </com.jaxio.celerio.output.FileMetaData>
+  </entry>
+  <entry>
     <string>src\main\generated-java\com\mycompany\myapp\dto\AuthorDTO.java</string>
     <com.jaxio.celerio.output.FileMetaData>
       <pack>pack-angular</pack>
@@ -1026,7 +1206,7 @@
       <template>web\src\app\entities\entity-auto-complete.component.ts.e.vm</template>
       <size>3335</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\role\role-auto-complete.component.ts</path>
-      <lastMod>1519494228840</lastMod>
+      <lastMod>1519705650199</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -1046,7 +1226,7 @@
       <template>web\src\app\entities\entity-list.component.ts.e.vm</template>
       <size>4277</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\useCase2\useCase2-list.component.ts</path>
-      <lastMod>1519494230415</lastMod>
+      <lastMod>1519705651740</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -1086,7 +1266,7 @@
       <template>src\main\java\dto\EntityDTOService.java.e.vm</template>
       <size>5468</size>
       <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\dto\ProjectDTOService.java</path>
-      <lastMod>1519494227304</lastMod>
+      <lastMod>1519705648807</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -1104,9 +1284,9 @@
     <com.jaxio.celerio.output.FileMetaData>
       <pack>pack-angular</pack>
       <template>src\main\java\dto\EntityDTOService.java.e.vm</template>
-      <size>6569</size>
+      <size>7493</size>
       <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\dto\BookDTOService.java</path>
-      <lastMod>1519494227065</lastMod>
+      <lastMod>1519704823507</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -1136,7 +1316,7 @@
       <template>web\src\app\entities\entity-line.component.ts.e.vm</template>
       <size>699</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\warehouse\warehouse-line.component.ts</path>
-      <lastMod>1519494229838</lastMod>
+      <lastMod>1519705651115</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -1156,7 +1336,7 @@
       <template>web\src\app\entities\entity-auto-complete.component.ts.e.vm</template>
       <size>3376</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\myTest\myTest-auto-complete.component.ts</path>
-      <lastMod>1519494228851</lastMod>
+      <lastMod>1519704825835</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -1176,7 +1356,7 @@
       <template>web\src\app\entities\entity-detail.component.ts.e.vm</template>
       <size>2931</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\guest\guest-detail.component.ts</path>
-      <lastMod>1519494229409</lastMod>
+      <lastMod>1519705650764</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -1256,7 +1436,7 @@
       <template>web\src\app\entities\entity-auto-complete.component.ts.e.vm</template>
       <size>3541</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\warehouseGoods\warehouseGoods-auto-complete.component.ts</path>
-      <lastMod>1519494228908</lastMod>
+      <lastMod>1519705650297</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -1274,9 +1454,9 @@
     <com.jaxio.celerio.output.FileMetaData>
       <pack>pack-angular</pack>
       <template>web\src\app\entities\entity.ts.e.vm</template>
-      <size>1035</size>
+      <size>1227</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\useCase3\useCase3.ts</path>
-      <lastMod>1519494231034</lastMod>
+      <lastMod>1519705652629</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -1306,7 +1486,7 @@
       <template>web\src\app\entities\entity.ts.e.vm</template>
       <size>1947</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\enquiry\enquiry.ts</path>
-      <lastMod>1519494230905</lastMod>
+      <lastMod>1519705652436</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -1316,7 +1496,7 @@
       <template>web\src\app\entities\entity-auto-complete.component.ts.e.vm</template>
       <size>3412</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\useCase2\useCase2-auto-complete.component.ts</path>
-      <lastMod>1519494228876</lastMod>
+      <lastMod>1519705650237</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -1344,9 +1524,9 @@
     <com.jaxio.celerio.output.FileMetaData>
       <pack>pack-angular</pack>
       <template>web\src\app\entities\entity-list.component.html.e.vm</template>
-      <size>3905</size>
+      <size>4225</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\author\author-list.component.html</path>
-      <lastMod>1519494229910</lastMod>
+      <lastMod>1519704827678</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -1376,7 +1556,7 @@
       <template>web\src\app\entities\entity-auto-complete.component.ts.e.vm</template>
       <size>3332</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\user\user-auto-complete.component.ts</path>
-      <lastMod>1519494228707</lastMod>
+      <lastMod>1519705649996</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -1396,7 +1576,7 @@
       <template>web\src\app\entities\entity.ts.e.vm</template>
       <size>2257</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\user\user.ts</path>
-      <lastMod>1519494230810</lastMod>
+      <lastMod>1519705652326</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -1450,6 +1630,16 @@
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
+    <string>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\domain\Rate.java</string>
+    <com.jaxio.celerio.output.FileMetaData>
+      <pack>pack-angular</pack>
+      <template>src\main\java\domain\Entity.java.e.vm</template>
+      <size>9420</size>
+      <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\domain\Rate.java</path>
+      <lastMod>1519704821207</lastMod>
+    </com.jaxio.celerio.output.FileMetaData>
+  </entry>
+  <entry>
     <string>web\src\app\entities\project\project-detail.component.html</string>
     <com.jaxio.celerio.output.FileMetaData>
       <pack>pack-angular</pack>
@@ -1466,7 +1656,7 @@
       <template>web\src\app\entities\entity-detail.component.ts.e.vm</template>
       <size>2983</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\project\project-detail.component.ts</path>
-      <lastMod>1519494229446</lastMod>
+      <lastMod>1519705650792</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -1516,7 +1706,7 @@
       <template>web\src\app\entities\entity.ts.e.vm</template>
       <size>1946</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\warehousePhoto\warehousePhoto.ts</path>
-      <lastMod>1519494231079</lastMod>
+      <lastMod>1519705652666</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -1526,7 +1716,17 @@
       <template>web\src\app\entities\entity.service.ts.e.vm</template>
       <size>3443</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\useCase1\useCase1.service.ts</path>
-      <lastMod>1519494230708</lastMod>
+      <lastMod>1519705652159</lastMod>
+    </com.jaxio.celerio.output.FileMetaData>
+  </entry>
+  <entry>
+    <string>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\domain\Enquiry.java</string>
+    <com.jaxio.celerio.output.FileMetaData>
+      <pack>pack-angular</pack>
+      <template>src\main\java\domain\Entity.java.e.vm</template>
+      <size>8242</size>
+      <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\domain\Enquiry.java</path>
+      <lastMod>1519704820853</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -1566,7 +1766,7 @@
       <template>web\src\app\entities\entity-auto-complete.component.ts.e.vm</template>
       <size>3361</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\order\order-auto-complete.component.ts</path>
-      <lastMod>1519494228788</lastMod>
+      <lastMod>1519705650137</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -1586,7 +1786,7 @@
       <template>web\src\app\entities\entity.ts.e.vm</template>
       <size>1473</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\guest\guest.ts</path>
-      <lastMod>1519494230935</lastMod>
+      <lastMod>1519705652478</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -1596,7 +1796,7 @@
       <template>web\src\app\entities\entity-list.component.ts.e.vm</template>
       <size>4157</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\user\user-list.component.ts</path>
-      <lastMod>1519494230215</lastMod>
+      <lastMod>1519705651483</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -1607,6 +1807,16 @@
       <size>3380</size>
       <path>web\src\app\entities\project\project-detail.component.ts</path>
       <lastMod>1518350663295</lastMod>
+    </com.jaxio.celerio.output.FileMetaData>
+  </entry>
+  <entry>
+    <string>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\dto\EnquiryDTOService.java</string>
+    <com.jaxio.celerio.output.FileMetaData>
+      <pack>pack-angular</pack>
+      <template>src\main\java\dto\EntityDTOService.java.e.vm</template>
+      <size>7360</size>
+      <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\dto\EnquiryDTOService.java</path>
+      <lastMod>1519704823679</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -1656,7 +1866,7 @@
       <template>web\src\app\entities\entity-auto-complete.component.ts.e.vm</template>
       <size>3741</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\warehouseServiceProvider\warehouseServiceProvider-auto-complete.component.ts</path>
-      <lastMod>1519494228941</lastMod>
+      <lastMod>1519705650350</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -1666,7 +1876,7 @@
       <template>web\src\app\entities\entity-line.component.ts.e.vm</template>
       <size>869</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\warehouseServiceProvider\warehouseServiceProvider-line.component.ts</path>
-      <lastMod>1519494229880</lastMod>
+      <lastMod>1519705651153</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -1686,7 +1896,17 @@
       <template>src\main\java\domain\EntityMeta_.java.e.vm</template>
       <size>1032</size>
       <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\domain\Project_.java</path>
-      <lastMod>1519494226330</lastMod>
+      <lastMod>1519705647952</lastMod>
+    </com.jaxio.celerio.output.FileMetaData>
+  </entry>
+  <entry>
+    <string>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\dto\UserDTO.java</string>
+    <com.jaxio.celerio.output.FileMetaData>
+      <pack>pack-angular</pack>
+      <template>src\main\java\dto\EntityDTO.java.e.vm</template>
+      <size>1319</size>
+      <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\dto\UserDTO.java</path>
+      <lastMod>1519704822635</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -1706,7 +1926,7 @@
       <template>web\src\app\entities\entity.ts.e.vm</template>
       <size>1177</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\myTest\myTest.ts</path>
-      <lastMod>1519494231007</lastMod>
+      <lastMod>1519704829082</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -1727,6 +1947,16 @@
       <size>1265</size>
       <path>src\main\generated-java\com\mycompany\myapp\domain\Order_.java</path>
       <lastMod>1519187195722</lastMod>
+    </com.jaxio.celerio.output.FileMetaData>
+  </entry>
+  <entry>
+    <string>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\domain\Enquiry_.java</string>
+    <com.jaxio.celerio.output.FileMetaData>
+      <pack>pack-angular</pack>
+      <template>src\main\java\domain\EntityMeta_.java.e.vm</template>
+      <size>1419</size>
+      <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\domain\Enquiry_.java</path>
+      <lastMod>1519704822157</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -1796,7 +2026,7 @@
       <template>web\src\app\entities\entity-line.component.ts.e.vm</template>
       <size>685</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\project\project-line.component.ts</path>
-      <lastMod>1519494229750</lastMod>
+      <lastMod>1519705651049</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -1806,7 +2036,17 @@
       <template>web\src\app\entities\entity.ts.e.vm</template>
       <size>1140</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\project\project.ts</path>
-      <lastMod>1519494230971</lastMod>
+      <lastMod>1519705652516</lastMod>
+    </com.jaxio.celerio.output.FileMetaData>
+  </entry>
+  <entry>
+    <string>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\domain\Guest.java</string>
+    <com.jaxio.celerio.output.FileMetaData>
+      <pack>pack-angular</pack>
+      <template>src\main\java\domain\Entity.java.e.vm</template>
+      <size>6075</size>
+      <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\domain\Guest.java</path>
+      <lastMod>1519704820999</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -1826,7 +2066,7 @@
       <template>src\main\java\dto\EntityDTO.java.e.vm</template>
       <size>1106</size>
       <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\dto\BookDTO.java</path>
-      <lastMod>1519494226632</lastMod>
+      <lastMod>1519704822695</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -1856,7 +2096,7 @@
       <template>web\src\app\entities\entity-detail.component.ts.e.vm</template>
       <size>5293</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\warehouseServiceProvider\warehouseServiceProvider-detail.component.ts</path>
-      <lastMod>1519494229624</lastMod>
+      <lastMod>1519705650950</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -1890,6 +2130,16 @@
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
+    <string>target\celerio-maven-plugin\collisions\web\src\app\entities\bookmark\bookmark-detail.component.html</string>
+    <com.jaxio.celerio.output.FileMetaData>
+      <pack>pack-angular</pack>
+      <template>web\src\app\entities\entity-detail.component.html.e.vm</template>
+      <size>2445</size>
+      <path>target\celerio-maven-plugin\collisions\web\src\app\entities\bookmark\bookmark-detail.component.html</path>
+      <lastMod>1519704826059</lastMod>
+    </com.jaxio.celerio.output.FileMetaData>
+  </entry>
+  <entry>
     <string>src\main\generated-java\com\mycompany\myapp\config\JacksonConfiguration.java</string>
     <com.jaxio.celerio.output.FileMetaData>
       <pack>pack-angular</pack>
@@ -1916,7 +2166,17 @@
       <template>web\src\app\entities\entity-list.component.ts.e.vm</template>
       <size>4403</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\useCase1\useCase1-list.component.ts</path>
-      <lastMod>1519494230402</lastMod>
+      <lastMod>1519705651723</lastMod>
+    </com.jaxio.celerio.output.FileMetaData>
+  </entry>
+  <entry>
+    <string>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\config\SecurityConfiguration.java</string>
+    <com.jaxio.celerio.output.FileMetaData>
+      <pack>pack-angular</pack>
+      <template>src\main\java\config\SecurityConfiguration.java.p.vm</template>
+      <size>4228</size>
+      <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\config\SecurityConfiguration.java</path>
+      <lastMod>1519705646026</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -1926,7 +2186,7 @@
       <template>web\src\app\entities\entity-detail.component.ts.e.vm</template>
       <size>3323</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\rate\rate-detail.component.ts</path>
-      <lastMod>1519494229458</lastMod>
+      <lastMod>1519705650807</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -1950,13 +2210,33 @@
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
+    <string>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\dto\WarehouseReviewDTOService.java</string>
+    <com.jaxio.celerio.output.FileMetaData>
+      <pack>pack-angular</pack>
+      <template>src\main\java\dto\EntityDTOService.java.e.vm</template>
+      <size>7977</size>
+      <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\dto\WarehouseReviewDTOService.java</path>
+      <lastMod>1519704824395</lastMod>
+    </com.jaxio.celerio.output.FileMetaData>
+  </entry>
+  <entry>
     <string>target\celerio-maven-plugin\collisions\web\src\app\entities\bookmark\bookmark-auto-complete.component.ts</string>
     <com.jaxio.celerio.output.FileMetaData>
       <pack>pack-angular</pack>
       <template>web\src\app\entities\entity-auto-complete.component.ts.e.vm</template>
       <size>3421</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\bookmark\bookmark-auto-complete.component.ts</path>
-      <lastMod>1519494228736</lastMod>
+      <lastMod>1519705650017</lastMod>
+    </com.jaxio.celerio.output.FileMetaData>
+  </entry>
+  <entry>
+    <string>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\repository\WarehouseReviewRepository.java</string>
+    <com.jaxio.celerio.output.FileMetaData>
+      <pack>pack-angular</pack>
+      <template>src\main\java\repository\EntityRepository.java.e.vm</template>
+      <size>1467</size>
+      <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\repository\WarehouseReviewRepository.java</path>
+      <lastMod>1519704824949</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -1976,7 +2256,7 @@
       <template>web\src\app\entities\entity-list.component.html.e.vm</template>
       <size>2918</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\useCase1\useCase1-list.component.html</path>
-      <lastMod>1519494230101</lastMod>
+      <lastMod>1519705651305</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -1994,9 +2274,19 @@
     <com.jaxio.celerio.output.FileMetaData>
       <pack>pack-angular</pack>
       <template>web\src\app\entities\entity-detail.component.ts.e.vm</template>
-      <size>2957</size>
+      <size>3370</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\author\author-detail.component.ts</path>
-      <lastMod>1519494229325</lastMod>
+      <lastMod>1519704826665</lastMod>
+    </com.jaxio.celerio.output.FileMetaData>
+  </entry>
+  <entry>
+    <string>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\dto\WarehouseGoodsDTOService.java</string>
+    <com.jaxio.celerio.output.FileMetaData>
+      <pack>pack-angular</pack>
+      <template>src\main\java\dto\EntityDTOService.java.e.vm</template>
+      <size>7904</size>
+      <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\dto\WarehouseGoodsDTOService.java</path>
+      <lastMod>1519704824327</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -2016,7 +2306,7 @@
       <template>web\src\app\entities\entity.service.ts.e.vm</template>
       <size>3923</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\warehouseServiceProvider\warehouseServiceProvider.service.ts</path>
-      <lastMod>1519494230790</lastMod>
+      <lastMod>1519705652297</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -2076,7 +2366,7 @@
       <template>web\src\app\entities\entity-auto-complete.component.ts.e.vm</template>
       <size>3412</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\useCase3\useCase3-auto-complete.component.ts</path>
-      <lastMod>1519494228888</lastMod>
+      <lastMod>1519705650267</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -2100,13 +2390,23 @@
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
+    <string>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\dto\OrderDTOService.java</string>
+    <com.jaxio.celerio.output.FileMetaData>
+      <pack>pack-angular</pack>
+      <template>src\main\java\dto\EntityDTOService.java.e.vm</template>
+      <size>5647</size>
+      <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\dto\OrderDTOService.java</path>
+      <lastMod>1519704823808</lastMod>
+    </com.jaxio.celerio.output.FileMetaData>
+  </entry>
+  <entry>
     <string>target\celerio-maven-plugin\collisions\web\src\app\app.component.spec.ts</string>
     <com.jaxio.celerio.output.FileMetaData>
       <pack>pack-angular</pack>
       <template>web\src\app\app.component.spec.ts.p.vm</template>
       <size>1814</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\app.component.spec.ts</path>
-      <lastMod>1519494224753</lastMod>
+      <lastMod>1519705646471</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -2120,6 +2420,16 @@
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
+    <string>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\domain\WarehouseReview_.java</string>
+    <com.jaxio.celerio.output.FileMetaData>
+      <pack>pack-angular</pack>
+      <template>src\main\java\domain\EntityMeta_.java.e.vm</template>
+      <size>1679</size>
+      <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\domain\WarehouseReview_.java</path>
+      <lastMod>1519704822588</lastMod>
+    </com.jaxio.celerio.output.FileMetaData>
+  </entry>
+  <entry>
     <string>web\src\app\entities\warehouseReview\warehouseReview-line.component.ts</string>
     <com.jaxio.celerio.output.FileMetaData>
       <pack>pack-angular</pack>
@@ -2127,6 +2437,16 @@
       <size>821</size>
       <path>web\src\app\entities\warehouseReview\warehouseReview-line.component.ts</path>
       <lastMod>1519187199347</lastMod>
+    </com.jaxio.celerio.output.FileMetaData>
+  </entry>
+  <entry>
+    <string>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\domain\WarehouseServiceProvider_.java</string>
+    <com.jaxio.celerio.output.FileMetaData>
+      <pack>pack-angular</pack>
+      <template>src\main\java\domain\EntityMeta_.java.e.vm</template>
+      <size>1562</size>
+      <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\domain\WarehouseServiceProvider_.java</path>
+      <lastMod>1519704822611</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -2144,9 +2464,9 @@
     <com.jaxio.celerio.output.FileMetaData>
       <pack>pack-angular</pack>
       <template>web\src\app\entities\entity-list.component.html.e.vm</template>
-      <size>3879</size>
+      <size>4448</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\book\book-list.component.html</path>
-      <lastMod>1519494229921</lastMod>
+      <lastMod>1519704827695</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -2160,13 +2480,23 @@
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
+    <string>target\celerio-maven-plugin\collisions\web\src\app\entities\rate\rate-detail.component.html</string>
+    <com.jaxio.celerio.output.FileMetaData>
+      <pack>pack-angular</pack>
+      <template>web\src\app\entities\entity-detail.component.html.e.vm</template>
+      <size>3741</size>
+      <path>target\celerio-maven-plugin\collisions\web\src\app\entities\rate\rate-detail.component.html</path>
+      <lastMod>1519704826285</lastMod>
+    </com.jaxio.celerio.output.FileMetaData>
+  </entry>
+  <entry>
     <string>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\domain\UseCase1.java</string>
     <com.jaxio.celerio.output.FileMetaData>
       <pack>pack-angular</pack>
       <template>src\main\java\domain\Entity.java.e.vm</template>
       <size>3643</size>
       <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\domain\UseCase1.java</path>
-      <lastMod>1519494225755</lastMod>
+      <lastMod>1519705647366</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -2186,7 +2516,7 @@
       <template>web\src\app\entities\entity-auto-complete.component.ts.e.vm</template>
       <size>3376</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\author\author-auto-complete.component.ts</path>
-      <lastMod>1519494228716</lastMod>
+      <lastMod>1519704825645</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -2226,7 +2556,17 @@
       <template>web\src\app\entities\compositepk.ts.cpk.vm</template>
       <size>705</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\useCase1\useCase1Pk.ts</path>
-      <lastMod>1519494231327</lastMod>
+      <lastMod>1519705652928</lastMod>
+    </com.jaxio.celerio.output.FileMetaData>
+  </entry>
+  <entry>
+    <string>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\domain\Bookmark.java</string>
+    <com.jaxio.celerio.output.FileMetaData>
+      <pack>pack-angular</pack>
+      <template>src\main\java\domain\Entity.java.e.vm</template>
+      <size>7717</size>
+      <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\domain\Bookmark.java</path>
+      <lastMod>1519704820662</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -2334,9 +2674,9 @@
     <com.jaxio.celerio.output.FileMetaData>
       <pack>pack-angular</pack>
       <template>src\main\java\dto\EntityDTOService.java.e.vm</template>
-      <size>6120</size>
+      <size>6490</size>
       <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\dto\AuthorDTOService.java</path>
-      <lastMod>1519494227039</lastMod>
+      <lastMod>1519704823458</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -2400,6 +2740,16 @@
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
+    <string>target\celerio-maven-plugin\collisions\web\src\app\entities\warehouseReview\warehouseReview-detail.component.html</string>
+    <com.jaxio.celerio.output.FileMetaData>
+      <pack>pack-angular</pack>
+      <template>web\src\app\entities\entity-detail.component.html.e.vm</template>
+      <size>3456</size>
+      <path>target\celerio-maven-plugin\collisions\web\src\app\entities\warehouseReview\warehouseReview-detail.component.html</path>
+      <lastMod>1519704826550</lastMod>
+    </com.jaxio.celerio.output.FileMetaData>
+  </entry>
+  <entry>
     <string>src\main\config\celerio-maven-plugin\celerio-template-packs.xml</string>
     <com.jaxio.celerio.output.FileMetaData>
       <pack>pack-angular</pack>
@@ -2430,13 +2780,23 @@
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
+    <string>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\domain\WarehouseGoods_.java</string>
+    <com.jaxio.celerio.output.FileMetaData>
+      <pack>pack-angular</pack>
+      <template>src\main\java\domain\EntityMeta_.java.e.vm</template>
+      <size>1460</size>
+      <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\domain\WarehouseGoods_.java</path>
+      <lastMod>1519704822535</lastMod>
+    </com.jaxio.celerio.output.FileMetaData>
+  </entry>
+  <entry>
     <string>target\celerio-maven-plugin\collisions\web\src\app\entities\goods\goods.service.ts</string>
     <com.jaxio.celerio.output.FileMetaData>
       <pack>pack-angular</pack>
       <template>web\src\app\entities\entity.service.ts.e.vm</template>
       <size>3353</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\goods\goods.service.ts</path>
-      <lastMod>1519494230588</lastMod>
+      <lastMod>1519705652017</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -2456,7 +2816,7 @@
       <template>web\src\app\entities\entity-line.component.ts.e.vm</template>
       <size>717</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\order\order-line.component.ts</path>
-      <lastMod>1519494229730</lastMod>
+      <lastMod>1519705651039</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -2464,9 +2824,9 @@
     <com.jaxio.celerio.output.FileMetaData>
       <pack>pack-angular</pack>
       <template>src\main\java\domain\CompositePk.java.cpk.vm</template>
-      <size>4185</size>
+      <size>4049</size>
       <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\domain\UseCase3Pk.java</path>
-      <lastMod>1519494231211</lastMod>
+      <lastMod>1519705652773</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -2490,13 +2850,33 @@
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
+    <string>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\domain\WarehouseGoods.java</string>
+    <com.jaxio.celerio.output.FileMetaData>
+      <pack>pack-angular</pack>
+      <template>src\main\java\domain\Entity.java.e.vm</template>
+      <size>8575</size>
+      <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\domain\WarehouseGoods.java</path>
+      <lastMod>1519704821666</lastMod>
+    </com.jaxio.celerio.output.FileMetaData>
+  </entry>
+  <entry>
+    <string>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\domain\Order_.java</string>
+    <com.jaxio.celerio.output.FileMetaData>
+      <pack>pack-angular</pack>
+      <template>src\main\java\domain\EntityMeta_.java.e.vm</template>
+      <size>1265</size>
+      <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\domain\Order_.java</path>
+      <lastMod>1519704822231</lastMod>
+    </com.jaxio.celerio.output.FileMetaData>
+  </entry>
+  <entry>
     <string>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\domain\Book.java</string>
     <com.jaxio.celerio.output.FileMetaData>
       <pack>pack-angular</pack>
       <template>src\main\java\domain\Entity.java.e.vm</template>
-      <size>8635</size>
+      <size>9208</size>
       <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\domain\Book.java</path>
-      <lastMod>1519494225126</lastMod>
+      <lastMod>1519704820599</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -2536,7 +2916,7 @@
       <template>src\main\java\dto\EntityDTO.java.e.vm</template>
       <size>822</size>
       <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\dto\MyTestDTO.java</path>
-      <lastMod>1519494226866</lastMod>
+      <lastMod>1519704823060</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -2566,7 +2946,7 @@
       <template>src\main\java\domain\Entity.java.e.vm</template>
       <size>13375</size>
       <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\domain\User.java</path>
-      <lastMod>1519494225019</lastMod>
+      <lastMod>1519705646724</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -2586,7 +2966,17 @@
       <template>web\src\app\entities\entity-list.component.ts.e.vm</template>
       <size>5199</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\warehousePhoto\warehousePhoto-list.component.ts</path>
-      <lastMod>1519494230463</lastMod>
+      <lastMod>1519705651839</lastMod>
+    </com.jaxio.celerio.output.FileMetaData>
+  </entry>
+  <entry>
+    <string>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\dto\WarehousePhotoDTOService.java</string>
+    <com.jaxio.celerio.output.FileMetaData>
+      <pack>pack-angular</pack>
+      <template>src\main\java\dto\EntityDTOService.java.e.vm</template>
+      <size>7804</size>
+      <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\dto\WarehousePhotoDTOService.java</path>
+      <lastMod>1519704824367</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -2606,7 +2996,7 @@
       <template>web\src\app\entities\entity-detail.component.ts.e.vm</template>
       <size>3009</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\useCase1\useCase1-detail.component.ts</path>
-      <lastMod>1519494229513</lastMod>
+      <lastMod>1519705650848</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -2614,9 +3004,9 @@
     <com.jaxio.celerio.output.FileMetaData>
       <pack>pack-angular</pack>
       <template>WELCOME.txt.p.vm</template>
-      <size>6370</size>
+      <size>5406</size>
       <path>target\celerio-maven-plugin\collisions\WELCOME.TXT</path>
-      <lastMod>1519494223511</lastMod>
+      <lastMod>1519705644936</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -2626,7 +3016,7 @@
       <template>web\src\app\entities\entity-line.component.ts.e.vm</template>
       <size>741</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\bookmark\bookmark-line.component.ts</path>
-      <lastMod>1519494229670</lastMod>
+      <lastMod>1519705650978</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -2644,9 +3034,9 @@
     <com.jaxio.celerio.output.FileMetaData>
       <pack>pack-angular</pack>
       <template>web\src\app\entities\entity.ts.e.vm</template>
-      <size>1779</size>
+      <size>1974</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\book\book.ts</path>
-      <lastMod>1519494230846</lastMod>
+      <lastMod>1519704828892</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -2666,7 +3056,7 @@
       <template>web\src\app\entities\entity-line.component.ts.e.vm</template>
       <size>708</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\user\user-line.component.ts</path>
-      <lastMod>1519494229636</lastMod>
+      <lastMod>1519705650965</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -2677,6 +3067,16 @@
       <size>1874</size>
       <path>web\src\app\entities\bookmark\bookmark.ts</path>
       <lastMod>1519187200320</lastMod>
+    </com.jaxio.celerio.output.FileMetaData>
+  </entry>
+  <entry>
+    <string>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\dto\BookmarkDTOService.java</string>
+    <com.jaxio.celerio.output.FileMetaData>
+      <pack>pack-angular</pack>
+      <template>src\main\java\dto\EntityDTOService.java.e.vm</template>
+      <size>7201</size>
+      <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\dto\BookmarkDTOService.java</path>
+      <lastMod>1519704823558</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -2716,7 +3116,7 @@
       <template>web\src\app\entities\entity.service.ts.e.vm</template>
       <size>3443</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\useCase2\useCase2.service.ts</path>
-      <lastMod>1519494230717</lastMod>
+      <lastMod>1519705652178</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -2756,7 +3156,17 @@
       <template>web\src\app\entities\entity-detail.component.html.e.vm</template>
       <size>2749</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\project\project-detail.component.html</path>
-      <lastMod>1519494229141</lastMod>
+      <lastMod>1519705650525</lastMod>
+    </com.jaxio.celerio.output.FileMetaData>
+  </entry>
+  <entry>
+    <string>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\dto\UserDTOService.java</string>
+    <com.jaxio.celerio.output.FileMetaData>
+      <pack>pack-angular</pack>
+      <template>src\main\java\dto\EntityDTOService.java.e.vm</template>
+      <size>7600</size>
+      <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\dto\UserDTOService.java</path>
+      <lastMod>1519704823410</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -2766,7 +3176,7 @@
       <template>web\src\app\entities\entity-list.component.html.e.vm</template>
       <size>2896</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\myTest\myTest-list.component.html</path>
-      <lastMod>1519494230091</lastMod>
+      <lastMod>1519704827918</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -2786,7 +3196,7 @@
       <template>web\src\app\entities\entity.service.ts.e.vm</template>
       <size>3443</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\passport\passport.service.ts</path>
-      <lastMod>1519494230627</lastMod>
+      <lastMod>1519704828618</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -2794,9 +3204,9 @@
     <com.jaxio.celerio.output.FileMetaData>
       <pack>pack-angular</pack>
       <template>web\src\app\entities\entity.ts.e.vm</template>
-      <size>1537</size>
+      <size>1629</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\author\author.ts</path>
-      <lastMod>1519494230831</lastMod>
+      <lastMod>1519704828876</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -2856,7 +3266,7 @@
       <template>web\src\app\entities\entity-detail.component.ts.e.vm</template>
       <size>3912</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\user\user-detail.component.ts</path>
-      <lastMod>1519494229313</lastMod>
+      <lastMod>1519705650693</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -2896,7 +3306,7 @@
       <template>web\proxy.conf.json</template>
       <size>605</size>
       <path>target\celerio-maven-plugin\collisions\web\proxy.conf.json</path>
-      <lastMod>1519494231535</lastMod>
+      <lastMod>1519705653086</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -2916,7 +3326,27 @@
       <template>web\src\app\entities\entity.service.ts.e.vm</template>
       <size>3353</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\order\order.service.ts</path>
-      <lastMod>1519494230614</lastMod>
+      <lastMod>1519705652062</lastMod>
+    </com.jaxio.celerio.output.FileMetaData>
+  </entry>
+  <entry>
+    <string>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\dto\OrderDTO.java</string>
+    <com.jaxio.celerio.output.FileMetaData>
+      <pack>pack-angular</pack>
+      <template>src\main\java\dto\EntityDTO.java.e.vm</template>
+      <size>967</size>
+      <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\dto\OrderDTO.java</path>
+      <lastMod>1519704822874</lastMod>
+    </com.jaxio.celerio.output.FileMetaData>
+  </entry>
+  <entry>
+    <string>target\celerio-maven-plugin\collisions\web\src\app\entities\goods\goods-detail.component.html</string>
+    <com.jaxio.celerio.output.FileMetaData>
+      <pack>pack-angular</pack>
+      <template>web\src\app\entities\entity-detail.component.html.e.vm</template>
+      <size>1450</size>
+      <path>target\celerio-maven-plugin\collisions\web\src\app\entities\goods\goods-detail.component.html</path>
+      <lastMod>1519704826180</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -2996,7 +3426,7 @@
       <template>web\src\app\entities\entity.ts.e.vm</template>
       <size>1035</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\useCase1\useCase1.ts</path>
-      <lastMod>1519494231017</lastMod>
+      <lastMod>1519705652584</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -3006,7 +3436,7 @@
       <template>web\src\app\entities\entity-line.component.ts.e.vm</template>
       <size>702</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\passport\passport-line.component.ts</path>
-      <lastMod>1519494229740</lastMod>
+      <lastMod>1519704827403</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -3056,7 +3486,7 @@
       <template>src\main\java\domain\Entity.java.e.vm</template>
       <size>3294</size>
       <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\domain\UseCase2.java</path>
-      <lastMod>1519494225803</lastMod>
+      <lastMod>1519705647406</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -3086,7 +3516,7 @@
       <template>web\src\app\entities\compositepk.ts.cpk.vm</template>
       <size>690</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\warehouseServiceProvider\warehouseServiceProviderPk.ts</path>
-      <lastMod>1519494231374</lastMod>
+      <lastMod>1519705652971</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -3096,7 +3526,17 @@
       <template>web\src\app\entities\entity-auto-complete.component.ts.e.vm</template>
       <size>3398</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\enquiry\enquiry-auto-complete.component.ts</path>
-      <lastMod>1519494228758</lastMod>
+      <lastMod>1519705650076</lastMod>
+    </com.jaxio.celerio.output.FileMetaData>
+  </entry>
+  <entry>
+    <string>target\celerio-maven-plugin\collisions\web\src\app\entities\enquiry\enquiry-detail.component.html</string>
+    <com.jaxio.celerio.output.FileMetaData>
+      <pack>pack-angular</pack>
+      <template>web\src\app\entities\entity-detail.component.html.e.vm</template>
+      <size>2907</size>
+      <path>target\celerio-maven-plugin\collisions\web\src\app\entities\enquiry\enquiry-detail.component.html</path>
+      <lastMod>1519704826148</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -3106,7 +3546,7 @@
       <template>web\src\app\entities\entity-line.component.ts.e.vm</template>
       <size>821</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\warehouseReview\warehouseReview-line.component.ts</path>
-      <lastMod>1519494229870</lastMod>
+      <lastMod>1519705651142</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -3116,7 +3556,7 @@
       <template>web\src\app\entities\entity-list.component.ts.e.vm</template>
       <size>5384</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\enquiry\enquiry-list.component.ts</path>
-      <lastMod>1519494230281</lastMod>
+      <lastMod>1519705651548</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -3166,7 +3606,7 @@
       <template>src\main\java\domain\EntityMeta_.java.e.vm</template>
       <size>818</size>
       <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\domain\UseCase2_.java</path>
-      <lastMod>1519494226461</lastMod>
+      <lastMod>1519705648061</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -3174,9 +3614,19 @@
     <com.jaxio.celerio.output.FileMetaData>
       <pack>pack-angular</pack>
       <template>src\main\java\domain\Entity.java.e.vm</template>
-      <size>4553</size>
+      <size>4886</size>
       <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\domain\Passport.java</path>
-      <lastMod>1519494225502</lastMod>
+      <lastMod>1519704821108</lastMod>
+    </com.jaxio.celerio.output.FileMetaData>
+  </entry>
+  <entry>
+    <string>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\dto\WarehouseDTOService.java</string>
+    <com.jaxio.celerio.output.FileMetaData>
+      <pack>pack-angular</pack>
+      <template>src\main\java\dto\EntityDTOService.java.e.vm</template>
+      <size>17611</size>
+      <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\dto\WarehouseDTOService.java</path>
+      <lastMod>1519704824267</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -3196,7 +3646,7 @@
       <template>web\src\app\entities\entity-detail.component.ts.e.vm</template>
       <size>3828</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\bookmark\bookmark-detail.component.ts</path>
-      <lastMod>1519494229350</lastMod>
+      <lastMod>1519705650703</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -3204,9 +3654,9 @@
     <com.jaxio.celerio.output.FileMetaData>
       <pack>pack-angular</pack>
       <template>web\src\app\entities\entity-list.component.ts.e.vm</template>
-      <size>4277</size>
+      <size>4941</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\passport\passport-list.component.ts</path>
-      <lastMod>1519494230334</lastMod>
+      <lastMod>1519704828231</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -3246,7 +3696,7 @@
       <template>web\src\app\entities\entity-auto-complete.component.ts.e.vm</template>
       <size>3412</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\useCase1\useCase1-auto-complete.component.ts</path>
-      <lastMod>1519494228860</lastMod>
+      <lastMod>1519705650215</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -3286,7 +3736,7 @@
       <template>web\src\app\entities\entity-line.component.ts.e.vm</template>
       <size>668</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\role\role-line.component.ts</path>
-      <lastMod>1519494229783</lastMod>
+      <lastMod>1519705651076</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -3296,7 +3746,7 @@
       <template>web\src\app\entities\entity.service.ts.e.vm</template>
       <size>3443</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\useCase3\useCase3.service.ts</path>
-      <lastMod>1519494230728</lastMod>
+      <lastMod>1519705652204</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -3306,7 +3756,7 @@
       <template>src\main\java\dto\EntityDTOService.java.e.vm</template>
       <size>5343</size>
       <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\dto\MyTestDTOService.java</path>
-      <lastMod>1519494227405</lastMod>
+      <lastMod>1519704824056</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -3327,6 +3777,16 @@
       <size>3912</size>
       <path>web\src\app\entities\user\user-detail.component.ts</path>
       <lastMod>1519187198902</lastMod>
+    </com.jaxio.celerio.output.FileMetaData>
+  </entry>
+  <entry>
+    <string>target\celerio-maven-plugin\collisions\web\src\app\entities\rate\rate-list.component.html</string>
+    <com.jaxio.celerio.output.FileMetaData>
+      <pack>pack-angular</pack>
+      <template>web\src\app\entities\entity-list.component.html.e.vm</template>
+      <size>3960</size>
+      <path>target\celerio-maven-plugin\collisions\web\src\app\entities\rate\rate-list.component.html</path>
+      <lastMod>1519704827848</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -3406,7 +3866,7 @@
       <template>src\main\java\domain\Entity.java.e.vm</template>
       <size>4370</size>
       <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\domain\MyTest.java</path>
-      <lastMod>1519494225721</lastMod>
+      <lastMod>1519704821329</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -3466,7 +3926,7 @@
       <template>web\src\app\entities\entity-auto-complete.component.ts.e.vm</template>
       <size>3361</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\guest\guest-auto-complete.component.ts</path>
-      <lastMod>1519494228778</lastMod>
+      <lastMod>1519705650114</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -3486,7 +3946,27 @@
       <template>web\src\app\entities\entity.service.ts.e.vm</template>
       <size>3413</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\project\project.service.ts</path>
-      <lastMod>1519494230639</lastMod>
+      <lastMod>1519705652081</lastMod>
+    </com.jaxio.celerio.output.FileMetaData>
+  </entry>
+  <entry>
+    <string>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\domain\WarehouseServiceProvider.java</string>
+    <com.jaxio.celerio.output.FileMetaData>
+      <pack>pack-angular</pack>
+      <template>src\main\java\domain\Entity.java.e.vm</template>
+      <size>8718</size>
+      <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\domain\WarehouseServiceProvider.java</path>
+      <lastMod>1519704821888</lastMod>
+    </com.jaxio.celerio.output.FileMetaData>
+  </entry>
+  <entry>
+    <string>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\domain\Bookmark_.java</string>
+    <com.jaxio.celerio.output.FileMetaData>
+      <pack>pack-angular</pack>
+      <template>src\main\java\domain\EntityMeta_.java.e.vm</template>
+      <size>1353</size>
+      <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\domain\Bookmark_.java</path>
+      <lastMod>1519704822077</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -3516,7 +3996,7 @@
       <template>web\src\app\entities\entity-auto-complete.component.ts.e.vm</template>
       <size>3561</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\warehouseReview\warehouseReview-auto-complete.component.ts</path>
-      <lastMod>1519494228928</lastMod>
+      <lastMod>1519705650332</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -3524,9 +4004,9 @@
     <com.jaxio.celerio.output.FileMetaData>
       <pack>pack-angular</pack>
       <template>web\src\app\entities\entity-detail.component.html.e.vm</template>
-      <size>4147</size>
+      <size>4678</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\author\author-detail.component.html</path>
-      <lastMod>1519494228986</lastMod>
+      <lastMod>1519704826006</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -3536,7 +4016,7 @@
       <template>web\src\app\entities\entity-line.component.ts.e.vm</template>
       <size>665</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\book\book-line.component.ts</path>
-      <lastMod>1519494229658</lastMod>
+      <lastMod>1519704827259</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -3566,7 +4046,7 @@
       <template>web\src\app\entities\entity-auto-complete.component.ts.e.vm</template>
       <size>3531</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\warehousePhoto\warehousePhoto-auto-complete.component.ts</path>
-      <lastMod>1519494228917</lastMod>
+      <lastMod>1519705650312</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -3586,7 +4066,7 @@
       <template>web\src\app\entities\entity-line.component.ts.e.vm</template>
       <size>789</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\warehouseGoods\warehouseGoods-line.component.ts</path>
-      <lastMod>1519494229849</lastMod>
+      <lastMod>1519705651124</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -3596,7 +4076,7 @@
       <template>web\src\app\entities\entity-detail.component.html.e.vm</template>
       <size>1183</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\useCase2\useCase2-detail.component.html</path>
-      <lastMod>1519494229223</lastMod>
+      <lastMod>1519705650585</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -3657,6 +4137,16 @@
       <size>711</size>
       <path>web\src\app\entities\rate\rate-line.component.ts</path>
       <lastMod>1519187199290</lastMod>
+    </com.jaxio.celerio.output.FileMetaData>
+  </entry>
+  <entry>
+    <string>target\celerio-maven-plugin\collisions\web\src\app\entities\warehouse\warehouse-list.component.html</string>
+    <com.jaxio.celerio.output.FileMetaData>
+      <pack>pack-angular</pack>
+      <template>web\src\app\entities\entity-list.component.html.e.vm</template>
+      <size>14355</size>
+      <path>target\celerio-maven-plugin\collisions\web\src\app\entities\warehouse\warehouse-list.component.html</path>
+      <lastMod>1519704828004</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -3726,7 +4216,7 @@
       <template>web\src\app\entities\entity-detail.component.html.e.vm</template>
       <size>2301</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\myTest\myTest-detail.component.html</path>
-      <lastMod>1519494229189</lastMod>
+      <lastMod>1519704826368</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -3756,7 +4246,7 @@
       <template>web\src\app\entities\entity.ts.e.vm</template>
       <size>2042</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\warehouseReview\warehouseReview.ts</path>
-      <lastMod>1519494231101</lastMod>
+      <lastMod>1519705652679</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -3776,7 +4266,7 @@
       <template>web\src\app\entities\entity.ts.e.vm</template>
       <size>1614</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\order\order.ts</path>
-      <lastMod>1519494230948</lastMod>
+      <lastMod>1519705652498</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -3786,7 +4276,7 @@
       <template>src\main\java\rest\EntityResource.java.e.vm</template>
       <size>5023</size>
       <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\rest\BookResource.java</path>
-      <lastMod>1519494228306</lastMod>
+      <lastMod>1519704825058</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -3844,9 +4334,9 @@
     <com.jaxio.celerio.output.FileMetaData>
       <pack>pack-angular</pack>
       <template>web\src\app\app.component.ts.p.vm</template>
-      <size>11327</size>
+      <size>10715</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\app.component.ts</path>
-      <lastMod>1519494224771</lastMod>
+      <lastMod>1519705646487</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -3860,6 +4350,16 @@
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
+    <string>target\celerio-maven-plugin\collisions\web\src\app\entities\warehouseServiceProvider\warehouseServiceProvider-detail.component.html</string>
+    <com.jaxio.celerio.output.FileMetaData>
+      <pack>pack-angular</pack>
+      <template>web\src\app\entities\entity-detail.component.html.e.vm</template>
+      <size>2638</size>
+      <path>target\celerio-maven-plugin\collisions\web\src\app\entities\warehouseServiceProvider\warehouseServiceProvider-detail.component.html</path>
+      <lastMod>1519704826601</lastMod>
+    </com.jaxio.celerio.output.FileMetaData>
+  </entry>
+  <entry>
     <string>src\main\generated-java\com\mycompany\myapp\repository\BookmarkRepository.java</string>
     <com.jaxio.celerio.output.FileMetaData>
       <pack>pack-angular</pack>
@@ -3867,6 +4367,16 @@
       <size>1416</size>
       <path>src\main\generated-java\com\mycompany\myapp\repository\BookmarkRepository.java</path>
       <lastMod>1519187197078</lastMod>
+    </com.jaxio.celerio.output.FileMetaData>
+  </entry>
+  <entry>
+    <string>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\dto\GoodsDTOService.java</string>
+    <com.jaxio.celerio.output.FileMetaData>
+      <pack>pack-angular</pack>
+      <template>src\main\java\dto\EntityDTOService.java.e.vm</template>
+      <size>5957</size>
+      <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\dto\GoodsDTOService.java</path>
+      <lastMod>1519704823727</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -3976,7 +4486,17 @@
       <template>web\src\app\entities\entity.ts.e.vm</template>
       <size>935</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\role\role.ts</path>
-      <lastMod>1519494230998</lastMod>
+      <lastMod>1519705652572</lastMod>
+    </com.jaxio.celerio.output.FileMetaData>
+  </entry>
+  <entry>
+    <string>target\celerio-maven-plugin\collisions\web\src\app\entities\warehouse\warehouse-detail.component.html</string>
+    <com.jaxio.celerio.output.FileMetaData>
+      <pack>pack-angular</pack>
+      <template>web\src\app\entities\entity-detail.component.html.e.vm</template>
+      <size>24457</size>
+      <path>target\celerio-maven-plugin\collisions\web\src\app\entities\warehouse\warehouse-detail.component.html</path>
+      <lastMod>1519704826467</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -3987,6 +4507,16 @@
       <size>5199</size>
       <path>web\src\app\entities\warehousePhoto\warehousePhoto-list.component.ts</path>
       <lastMod>1519187199986</lastMod>
+    </com.jaxio.celerio.output.FileMetaData>
+  </entry>
+  <entry>
+    <string>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\dto\WarehouseGoodsDTO.java</string>
+    <com.jaxio.celerio.output.FileMetaData>
+      <pack>pack-angular</pack>
+      <template>src\main\java\dto\EntityDTO.java.e.vm</template>
+      <size>1106</size>
+      <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\dto\WarehouseGoodsDTO.java</path>
+      <lastMod>1519704823279</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -4016,7 +4546,17 @@
       <template>web\src\app\entities\entity.service.ts.e.vm</template>
       <size>3623</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\warehousePhoto\warehousePhoto.service.ts</path>
-      <lastMod>1519494230766</lastMod>
+      <lastMod>1519705652256</lastMod>
+    </com.jaxio.celerio.output.FileMetaData>
+  </entry>
+  <entry>
+    <string>target\celerio-maven-plugin\collisions\web\src\app\entities\goods\goods-list.component.html</string>
+    <com.jaxio.celerio.output.FileMetaData>
+      <pack>pack-angular</pack>
+      <template>web\src\app\entities\entity-list.component.html.e.vm</template>
+      <size>2612</size>
+      <path>target\celerio-maven-plugin\collisions\web\src\app\entities\goods\goods-list.component.html</path>
+      <lastMod>1519704827780</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -4026,7 +4566,7 @@
       <template>web\src\app\entities\entity-line.component.ts.e.vm</template>
       <size>717</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\guest\guest-line.component.ts</path>
-      <lastMod>1519494229718</lastMod>
+      <lastMod>1519705651031</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -4036,7 +4576,7 @@
       <template>web\src\app\entities\entity.service.ts.e.vm</template>
       <size>3353</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\guest\guest.service.ts</path>
-      <lastMod>1519494230600</lastMod>
+      <lastMod>1519705652037</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -4060,6 +4600,26 @@
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
+    <string>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\dto\GuestDTO.java</string>
+    <com.jaxio.celerio.output.FileMetaData>
+      <pack>pack-angular</pack>
+      <template>src\main\java\dto\EntityDTO.java.e.vm</template>
+      <size>905</size>
+      <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\dto\GuestDTO.java</path>
+      <lastMod>1519704822834</lastMod>
+    </com.jaxio.celerio.output.FileMetaData>
+  </entry>
+  <entry>
+    <string>target\celerio-maven-plugin\collisions\web\src\app\entities\warehouseGoods\warehouseGoods-list.component.html</string>
+    <com.jaxio.celerio.output.FileMetaData>
+      <pack>pack-angular</pack>
+      <template>web\src\app\entities\entity-list.component.html.e.vm</template>
+      <size>2318</size>
+      <path>target\celerio-maven-plugin\collisions\web\src\app\entities\warehouseGoods\warehouseGoods-list.component.html</path>
+      <lastMod>1519704828018</lastMod>
+    </com.jaxio.celerio.output.FileMetaData>
+  </entry>
+  <entry>
     <string>src\main\generated-java\com\mycompany\myapp\repository\WarehousePhotoRepository.java</string>
     <com.jaxio.celerio.output.FileMetaData>
       <pack>pack-angular</pack>
@@ -4076,7 +4636,7 @@
       <template>web\src\app\entities\entity.service.ts.e.vm</template>
       <size>3323</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\book\book.service.ts</path>
-      <lastMod>1519494230530</lastMod>
+      <lastMod>1519704828482</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -4086,7 +4646,7 @@
       <template>web\src\app\entities\entity.ts.e.vm</template>
       <size>2024</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\rate\rate.ts</path>
-      <lastMod>1519494230981</lastMod>
+      <lastMod>1519705652536</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -4096,7 +4656,7 @@
       <template>web\src\app\entities\entity-detail.component.ts.e.vm</template>
       <size>3643</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\warehousePhoto\warehousePhoto-detail.component.ts</path>
-      <lastMod>1519494229585</lastMod>
+      <lastMod>1519705650917</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -4194,9 +4754,9 @@
     <com.jaxio.celerio.output.FileMetaData>
       <pack>pack-angular</pack>
       <template>src\main\java\domain\EntityMeta_.java.e.vm</template>
-      <size>1602</size>
+      <size>1618</size>
       <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\domain\Book_.java</path>
-      <lastMod>1519494226127</lastMod>
+      <lastMod>1519704822031</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -4216,7 +4776,7 @@
       <template>web\src\app\entities\entity-list.component.ts.e.vm</template>
       <size>5415</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\bookmark\bookmark-list.component.ts</path>
-      <lastMod>1519494230249</lastMod>
+      <lastMod>1519705651499</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -4246,7 +4806,7 @@
       <template>web\src\app\entities\entity-line.component.ts.e.vm</template>
       <size>693</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\useCase1\useCase1-line.component.ts</path>
-      <lastMod>1519494229808</lastMod>
+      <lastMod>1519705651086</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -4256,7 +4816,7 @@
       <template>web\src\app\entities\entity-line.component.ts.e.vm</template>
       <size>734</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\warehousePhoto\warehousePhoto-line.component.ts</path>
-      <lastMod>1519494229859</lastMod>
+      <lastMod>1519705651133</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -4264,9 +4824,9 @@
     <com.jaxio.celerio.output.FileMetaData>
       <pack>pack-angular</pack>
       <template>src\main\java\domain\EntityMeta_.java.e.vm</template>
-      <size>1017</size>
+      <size>1033</size>
       <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\domain\Passport_.java</path>
-      <lastMod>1519494226306</lastMod>
+      <lastMod>1519704822253</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -4306,7 +4866,7 @@
       <template>src\main\resources\application.yml.p.vm</template>
       <size>1350</size>
       <path>target\celerio-maven-plugin\collisions\src\main\resources\application.yml</path>
-      <lastMod>1519494224719</lastMod>
+      <lastMod>1519705646440</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -4316,7 +4876,7 @@
       <template>web\src\app\entities\entity-auto-complete.component.ts.e.vm</template>
       <size>3421</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\passport\passport-auto-complete.component.ts</path>
-      <lastMod>1519494228799</lastMod>
+      <lastMod>1519704825765</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -4334,9 +4894,9 @@
     <com.jaxio.celerio.output.FileMetaData>
       <pack>pack-angular</pack>
       <template>web\src\app\entities\entity-list.component.ts.e.vm</template>
-      <size>4403</size>
+      <size>5076</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\useCase3\useCase3-list.component.ts</path>
-      <lastMod>1519494230426</lastMod>
+      <lastMod>1519705651772</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -4347,6 +4907,16 @@
       <size>1161</size>
       <path>src\main\generated-java\com\mycompany\myapp\domain\Guest_.java</path>
       <lastMod>1519187195639</lastMod>
+    </com.jaxio.celerio.output.FileMetaData>
+  </entry>
+  <entry>
+    <string>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\domain\WarehouseGoodsPk_.java</string>
+    <com.jaxio.celerio.output.FileMetaData>
+      <pack>pack-angular</pack>
+      <template>src\main\java\domain\CompositePk_.java.cpk.vm</template>
+      <size>871</size>
+      <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\domain\WarehouseGoodsPk_.java</path>
+      <lastMod>1519704829397</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -4386,7 +4956,7 @@
       <template>web\src\app\entities\entity-list.component.html.e.vm</template>
       <size>2746</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\project\project-list.component.html</path>
-      <lastMod>1519494230026</lastMod>
+      <lastMod>1519705651253</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -4406,7 +4976,7 @@
       <template>src\main\java\domain\Entity.java.e.vm</template>
       <size>4747</size>
       <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\domain\Project.java</path>
-      <lastMod>1519494225543</lastMod>
+      <lastMod>1519705647177</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -4414,9 +4984,19 @@
     <com.jaxio.celerio.output.FileMetaData>
       <pack>pack-angular</pack>
       <template>web\src\app\entities\entity-detail.component.ts.e.vm</template>
-      <size>3009</size>
+      <size>3402</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\passport\passport-detail.component.ts</path>
-      <lastMod>1519494229436</lastMod>
+      <lastMod>1519704826932</lastMod>
+    </com.jaxio.celerio.output.FileMetaData>
+  </entry>
+  <entry>
+    <string>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\domain\Warehouse_.java</string>
+    <com.jaxio.celerio.output.FileMetaData>
+      <pack>pack-angular</pack>
+      <template>src\main\java\domain\EntityMeta_.java.e.vm</template>
+      <size>5203</size>
+      <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\domain\Warehouse_.java</path>
+      <lastMod>1519704822508</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -4454,9 +5034,9 @@
     <com.jaxio.celerio.output.FileMetaData>
       <pack>pack-angular</pack>
       <template>src\main\java\domain\Entity.java.e.vm</template>
-      <size>3643</size>
+      <size>4614</size>
       <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\domain\UseCase3.java</path>
-      <lastMod>1519494225843</lastMod>
+      <lastMod>1519705647455</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -4476,7 +5056,7 @@
       <template>web\src\app\entities\entity.service.ts.e.vm</template>
       <size>3653</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\warehouseReview\warehouseReview.service.ts</path>
-      <lastMod>1519494230779</lastMod>
+      <lastMod>1519705652276</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -4526,7 +5106,7 @@
       <template>web\src\app\entities\entity-auto-complete.component.ts.e.vm</template>
       <size>3338</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\rate\rate-auto-complete.component.ts</path>
-      <lastMod>1519494228822</lastMod>
+      <lastMod>1519705650170</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -4544,9 +5124,19 @@
     <com.jaxio.celerio.output.FileMetaData>
       <pack>pack-angular</pack>
       <template>src\main\java\dto\EntityDTO.java.e.vm</template>
-      <size>833</size>
+      <size>831</size>
       <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\dto\PassportDTO.java</path>
-      <lastMod>1519494226776</lastMod>
+      <lastMod>1519704822923</lastMod>
+    </com.jaxio.celerio.output.FileMetaData>
+  </entry>
+  <entry>
+    <string>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\dto\GoodsDTO.java</string>
+    <com.jaxio.celerio.output.FileMetaData>
+      <pack>pack-angular</pack>
+      <template>src\main\java\dto\EntityDTO.java.e.vm</template>
+      <size>962</size>
+      <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\dto\GoodsDTO.java</path>
+      <lastMod>1519704822815</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -4554,9 +5144,19 @@
     <com.jaxio.celerio.output.FileMetaData>
       <pack>pack-angular</pack>
       <template>web\src\app\entities\entity-list.component.html.e.vm</template>
-      <size>2918</size>
+      <size>2621</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\useCase3\useCase3-list.component.html</path>
-      <lastMod>1519494230135</lastMod>
+      <lastMod>1519705651353</lastMod>
+    </com.jaxio.celerio.output.FileMetaData>
+  </entry>
+  <entry>
+    <string>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\Application.java</string>
+    <com.jaxio.celerio.output.FileMetaData>
+      <pack>pack-angular</pack>
+      <template>src\main\java\Application.java.p.vm</template>
+      <size>1670</size>
+      <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\Application.java</path>
+      <lastMod>1519705645765</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -4586,7 +5186,7 @@
       <template>web\src\app\entities\entity-list.component.html.e.vm</template>
       <size>2137</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\useCase2\useCase2-list.component.html</path>
-      <lastMod>1519494230119</lastMod>
+      <lastMod>1519705651326</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -4664,9 +5264,9 @@
     <com.jaxio.celerio.output.FileMetaData>
       <pack>pack-angular</pack>
       <template>web\src\app\entities\entity.ts.e.vm</template>
-      <size>1210</size>
+      <size>1326</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\passport\passport.ts</path>
-      <lastMod>1519494230960</lastMod>
+      <lastMod>1519704829015</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -4696,7 +5296,7 @@
       <template>web\src\app\support\email.validator.ts.p.vm</template>
       <size>1237</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\support\email.validator.ts</path>
-      <lastMod>1519494224879</lastMod>
+      <lastMod>1519705646585</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -4726,7 +5326,7 @@
       <template>web\src\app\entities\entity.service.ts.e.vm</template>
       <size>3473</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\warehouse\warehouse.service.ts</path>
-      <lastMod>1519494230740</lastMod>
+      <lastMod>1519705652221</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -4766,7 +5366,7 @@
       <template>web\src\app\entities\entity-detail.component.ts.e.vm</template>
       <size>3790</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\enquiry\enquiry-detail.component.ts</path>
-      <lastMod>1519494229382</lastMod>
+      <lastMod>1519705650735</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -4796,7 +5396,7 @@
       <template>web\src\app\entities\entity-list.component.ts.e.vm</template>
       <size>6031</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\warehouseServiceProvider\warehouseServiceProvider-list.component.ts</path>
-      <lastMod>1519494230487</lastMod>
+      <lastMod>1519705651901</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -4816,7 +5416,7 @@
       <template>web\src\app\entities\entity.service.ts.e.vm</template>
       <size>3383</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\myTest\myTest.service.ts</path>
-      <lastMod>1519494230695</lastMod>
+      <lastMod>1519704828691</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -4826,7 +5426,7 @@
       <template>web\src\app\service\message.service.ts.p.vm</template>
       <size>1134</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\service\message.service.ts</path>
-      <lastMod>1519494224871</lastMod>
+      <lastMod>1519705646572</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -4836,7 +5436,7 @@
       <template>web\src\app\entities\entity.service.ts.e.vm</template>
       <size>3323</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\role\role.service.ts</path>
-      <lastMod>1519494230682</lastMod>
+      <lastMod>1519705652137</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -4876,7 +5476,7 @@
       <template>web\src\app\entities\compositepk.ts.cpk.vm</template>
       <size>701</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\warehouseGoods\warehouseGoodsPk.ts</path>
-      <lastMod>1519494231358</lastMod>
+      <lastMod>1519705652957</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -4936,7 +5536,7 @@
       <template>web\src\app\entities\entity.service.ts.e.vm</template>
       <size>3418</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\enquiry\enquiry.service.ts</path>
-      <lastMod>1519494230575</lastMod>
+      <lastMod>1519705651997</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -4947,6 +5547,26 @@
       <size>852</size>
       <path>src\main\generated-java\com\mycompany\myapp\domain\UseCase1_.java</path>
       <lastMod>1518350660975</lastMod>
+    </com.jaxio.celerio.output.FileMetaData>
+  </entry>
+  <entry>
+    <string>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\domain\WarehouseReview.java</string>
+    <com.jaxio.celerio.output.FileMetaData>
+      <pack>pack-angular</pack>
+      <template>src\main\java\domain\Entity.java.e.vm</template>
+      <size>9543</size>
+      <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\domain\WarehouseReview.java</path>
+      <lastMod>1519705647709</lastMod>
+    </com.jaxio.celerio.output.FileMetaData>
+  </entry>
+  <entry>
+    <string>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\domain\Guest_.java</string>
+    <com.jaxio.celerio.output.FileMetaData>
+      <pack>pack-angular</pack>
+      <template>src\main\java\domain\EntityMeta_.java.e.vm</template>
+      <size>1161</size>
+      <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\domain\Guest_.java</path>
+      <lastMod>1519704822200</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -5036,7 +5656,17 @@
       <template>web\src\app\entities\entity-detail.component.ts.e.vm</template>
       <size>3610</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\warehouseReview\warehouseReview-detail.component.ts</path>
-      <lastMod>1519494229611</lastMod>
+      <lastMod>1519705650933</lastMod>
+    </com.jaxio.celerio.output.FileMetaData>
+  </entry>
+  <entry>
+    <string>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\domain\WarehousePhoto.java</string>
+    <com.jaxio.celerio.output.FileMetaData>
+      <pack>pack-angular</pack>
+      <template>src\main\java\domain\Entity.java.e.vm</template>
+      <size>8639</size>
+      <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\domain\WarehousePhoto.java</path>
+      <lastMod>1519704821727</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -5060,13 +5690,33 @@
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
+    <string>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\dto\RateDTO.java</string>
+    <com.jaxio.celerio.output.FileMetaData>
+      <pack>pack-angular</pack>
+      <template>src\main\java\dto\EntityDTO.java.e.vm</template>
+      <size>1084</size>
+      <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\dto\RateDTO.java</path>
+      <lastMod>1519704822984</lastMod>
+    </com.jaxio.celerio.output.FileMetaData>
+  </entry>
+  <entry>
+    <string>target\celerio-maven-plugin\collisions\web\src\app\entities\user\user-detail.component.html</string>
+    <com.jaxio.celerio.output.FileMetaData>
+      <pack>pack-angular</pack>
+      <template>web\src\app\entities\entity-detail.component.html.e.vm</template>
+      <size>5583</size>
+      <path>target\celerio-maven-plugin\collisions\web\src\app\entities\user\user-detail.component.html</path>
+      <lastMod>1519704825979</lastMod>
+    </com.jaxio.celerio.output.FileMetaData>
+  </entry>
+  <entry>
     <string>target\celerio-maven-plugin\collisions\web\src\app\entities\project\project-list.component.ts</string>
     <com.jaxio.celerio.output.FileMetaData>
       <pack>pack-angular</pack>
       <template>web\src\app\entities\entity-list.component.ts.e.vm</template>
       <size>4247</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\project\project-list.component.ts</path>
-      <lastMod>1519494230346</lastMod>
+      <lastMod>1519705651636</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -5086,7 +5736,17 @@
       <template>web\src\app\entities\entity.ts.e.vm</template>
       <size>5638</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\warehouse\warehouse.ts</path>
-      <lastMod>1519494231045</lastMod>
+      <lastMod>1519705652640</lastMod>
+    </com.jaxio.celerio.output.FileMetaData>
+  </entry>
+  <entry>
+    <string>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\dto\WarehouseServiceProviderDTO.java</string>
+    <com.jaxio.celerio.output.FileMetaData>
+      <pack>pack-angular</pack>
+      <template>src\main\java\dto\EntityDTO.java.e.vm</template>
+      <size>1138</size>
+      <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\dto\WarehouseServiceProviderDTO.java</path>
+      <lastMod>1519704823360</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -5100,13 +5760,23 @@
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
+    <string>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\domain\WarehousePhoto_.java</string>
+    <com.jaxio.celerio.output.FileMetaData>
+      <pack>pack-angular</pack>
+      <template>src\main\java\domain\EntityMeta_.java.e.vm</template>
+      <size>1574</size>
+      <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\domain\WarehousePhoto_.java</path>
+      <lastMod>1519704822554</lastMod>
+    </com.jaxio.celerio.output.FileMetaData>
+  </entry>
+  <entry>
     <string>target\celerio-maven-plugin\collisions\web\src\app\entities\warehouseGoods\warehouseGoods-detail.component.ts</string>
     <com.jaxio.celerio.output.FileMetaData>
       <pack>pack-angular</pack>
       <template>web\src\app\entities\entity-detail.component.ts.e.vm</template>
       <size>4929</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\warehouseGoods\warehouseGoods-detail.component.ts</path>
-      <lastMod>1519494229570</lastMod>
+      <lastMod>1519705650904</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -5126,7 +5796,7 @@
       <template>web\src\app\entities\entity-line.component.ts.e.vm</template>
       <size>693</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\useCase2\useCase2-line.component.ts</path>
-      <lastMod>1519494229817</lastMod>
+      <lastMod>1519705651095</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -5206,7 +5876,7 @@
       <template>src\main\java\domain\CompositePk.java.cpk.vm</template>
       <size>4199</size>
       <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\domain\UseCase1Pk.java</path>
-      <lastMod>1519494231159</lastMod>
+      <lastMod>1519705652736</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -5226,7 +5896,7 @@
       <template>web\src\app\entities\entity-list.component.ts.e.vm</template>
       <size>4187</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\goods\goods-list.component.ts</path>
-      <lastMod>1519494230294</lastMod>
+      <lastMod>1519705651573</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -5247,6 +5917,26 @@
       <size>1389</size>
       <path>src\main\generated-java\com\mycompany\myapp\repository\OrderRepository.java</path>
       <lastMod>1519187197212</lastMod>
+    </com.jaxio.celerio.output.FileMetaData>
+  </entry>
+  <entry>
+    <string>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\dto\WarehouseReviewDTO.java</string>
+    <com.jaxio.celerio.output.FileMetaData>
+      <pack>pack-angular</pack>
+      <template>src\main\java\dto\EntityDTO.java.e.vm</template>
+      <size>1122</size>
+      <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\dto\WarehouseReviewDTO.java</path>
+      <lastMod>1519705648569</lastMod>
+    </com.jaxio.celerio.output.FileMetaData>
+  </entry>
+  <entry>
+    <string>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\rest\WarehouseResource.java</string>
+    <com.jaxio.celerio.output.FileMetaData>
+      <pack>pack-angular</pack>
+      <template>src\main\java\rest\EntityResource.java.e.vm</template>
+      <size>5278</size>
+      <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\rest\WarehouseResource.java</path>
+      <lastMod>1519705649881</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -5304,9 +5994,9 @@
     <com.jaxio.celerio.output.FileMetaData>
       <pack>pack-angular</pack>
       <template>web\src\app\entities\entity-detail.component.html.e.vm</template>
-      <size>6163</size>
+      <size>6949</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\book\book-detail.component.html</path>
-      <lastMod>1519494229008</lastMod>
+      <lastMod>1519704826034</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -5326,7 +6016,7 @@
       <template>src\main\java\repository\EntityRepository.java.e.vm</template>
       <size>1388</size>
       <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\repository\AuthorRepository.java</path>
-      <lastMod>1519494227758</lastMod>
+      <lastMod>1519704824487</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -5390,6 +6080,16 @@
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
+    <string>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\domain\WarehouseServiceProviderPk_.java</string>
+    <com.jaxio.celerio.output.FileMetaData>
+      <pack>pack-angular</pack>
+      <template>src\main\java\domain\CompositePk_.java.cpk.vm</template>
+      <size>904</size>
+      <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\domain\WarehouseServiceProviderPk_.java</path>
+      <lastMod>1519704829426</lastMod>
+    </com.jaxio.celerio.output.FileMetaData>
+  </entry>
+  <entry>
     <string>web\src\app\home.component.html</string>
     <com.jaxio.celerio.output.FileMetaData>
       <pack>pack-angular</pack>
@@ -5397,6 +6097,16 @@
       <size>2493</size>
       <path>web\src\app\home.component.html</path>
       <lastMod>1518350659456</lastMod>
+    </com.jaxio.celerio.output.FileMetaData>
+  </entry>
+  <entry>
+    <string>target\celerio-maven-plugin\collisions\web\src\app\entities\warehousePhoto\warehousePhoto-list.component.html</string>
+    <com.jaxio.celerio.output.FileMetaData>
+      <pack>pack-angular</pack>
+      <template>web\src\app\entities\entity-list.component.html.e.vm</template>
+      <size>3387</size>
+      <path>target\celerio-maven-plugin\collisions\web\src\app\entities\warehousePhoto\warehousePhoto-list.component.html</path>
+      <lastMod>1519704828033</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -5470,6 +6180,16 @@
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
+    <string>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\domain\Goods_.java</string>
+    <com.jaxio.celerio.output.FileMetaData>
+      <pack>pack-angular</pack>
+      <template>src\main\java\domain\EntityMeta_.java.e.vm</template>
+      <size>1302</size>
+      <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\domain\Goods_.java</path>
+      <lastMod>1519704822179</lastMod>
+    </com.jaxio.celerio.output.FileMetaData>
+  </entry>
+  <entry>
     <string>web\src\app\entities\record\record-line.component.ts</string>
     <com.jaxio.celerio.output.FileMetaData>
       <pack>pack-angular</pack>
@@ -5516,7 +6236,7 @@
       <template>web\src\app\entities\entity-auto-complete.component.ts.e.vm</template>
       <size>3431</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\warehouse\warehouse-auto-complete.component.ts</path>
-      <lastMod>1519494228898</lastMod>
+      <lastMod>1519705650281</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -5526,7 +6246,7 @@
       <template>src\main\java\domain\EntityMeta_.java.e.vm</template>
       <size>998</size>
       <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\domain\MyTest_.java</path>
-      <lastMod>1519494226423</lastMod>
+      <lastMod>1519704822393</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -5536,7 +6256,7 @@
       <template>web\src\app\entities\entity-list.component.ts.e.vm</template>
       <size>4307</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\warehouse\warehouse-list.component.ts</path>
-      <lastMod>1519494230439</lastMod>
+      <lastMod>1519705651796</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -5546,7 +6266,7 @@
       <template>web\src\app\entities\entity-list.component.ts.e.vm</template>
       <size>5140</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\warehouseReview\warehouseReview-list.component.ts</path>
-      <lastMod>1519494230476</lastMod>
+      <lastMod>1519705651882</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -5566,7 +6286,7 @@
       <template>web\src\app\entities\entity-detail.component.ts.e.vm</template>
       <size>3035</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\warehouse\warehouse-detail.component.ts</path>
-      <lastMod>1519494229559</lastMod>
+      <lastMod>1519705650889</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -5576,7 +6296,7 @@
       <template>web\src\app\entities\entity-line.component.ts.e.vm</template>
       <size>706</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\author\author-line.component.ts</path>
-      <lastMod>1519494229647</lastMod>
+      <lastMod>1519704827243</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -5636,7 +6356,7 @@
       <template>web\src\app\entities\entity-auto-complete.component.ts.e.vm</template>
       <size>3332</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\book\book-auto-complete.component.ts</path>
-      <lastMod>1519494228727</lastMod>
+      <lastMod>1519704825661</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -5646,7 +6366,17 @@
       <template>web\src\app\entities\entity-detail.component.ts.e.vm</template>
       <size>2931</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\goods\goods-detail.component.ts</path>
-      <lastMod>1519494229396</lastMod>
+      <lastMod>1519705650746</lastMod>
+    </com.jaxio.celerio.output.FileMetaData>
+  </entry>
+  <entry>
+    <string>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\domain\Order.java</string>
+    <com.jaxio.celerio.output.FileMetaData>
+      <pack>pack-angular</pack>
+      <template>src\main\java\domain\Entity.java.e.vm</template>
+      <size>6581</size>
+      <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\domain\Order.java</path>
+      <lastMod>1519704821062</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -5657,6 +6387,16 @@
       <size>3402</size>
       <path>web\src\app\entities\passport\passport-detail.component.ts</path>
       <lastMod>1518350663245</lastMod>
+    </com.jaxio.celerio.output.FileMetaData>
+  </entry>
+  <entry>
+    <string>target\celerio-maven-plugin\collisions\web\src\app\entities\warehousePhoto\warehousePhoto-detail.component.html</string>
+    <com.jaxio.celerio.output.FileMetaData>
+      <pack>pack-angular</pack>
+      <template>web\src\app\entities\entity-detail.component.html.e.vm</template>
+      <size>2949</size>
+      <path>target\celerio-maven-plugin\collisions\web\src\app\entities\warehousePhoto\warehousePhoto-detail.component.html</path>
+      <lastMod>1519704826510</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -5696,7 +6436,7 @@
       <template>web\src\app\entities\entity.ts.e.vm</template>
       <size>2147</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\warehouseServiceProvider\warehouseServiceProvider.ts</path>
-      <lastMod>1519494231118</lastMod>
+      <lastMod>1519705652693</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -5726,7 +6466,7 @@
       <template>web\src\app\entities\entity-auto-complete.component.ts.e.vm</template>
       <size>3351</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\goods\goods-auto-complete.component.ts</path>
-      <lastMod>1519494228769</lastMod>
+      <lastMod>1519705650098</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -5746,7 +6486,7 @@
       <template>web\src\app\entities\entity-list.component.ts.e.vm</template>
       <size>4217</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\myTest\myTest-list.component.ts</path>
-      <lastMod>1519494230389</lastMod>
+      <lastMod>1519704828299</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -5756,7 +6496,7 @@
       <template>web\src\app\entities\entity.service.ts.e.vm</template>
       <size>3443</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\bookmark\bookmark.service.ts</path>
-      <lastMod>1519494230540</lastMod>
+      <lastMod>1519705651945</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -5776,7 +6516,7 @@
       <template>web\src\app\service\auth.service.ts.p.vm</template>
       <size>2209</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\service\auth.service.ts</path>
-      <lastMod>1519494224855</lastMod>
+      <lastMod>1519705646559</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -5786,7 +6526,7 @@
       <template>web\src\app\entities\entity-list.component.ts.e.vm</template>
       <size>4889</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\rate\rate-list.component.ts</path>
-      <lastMod>1519494230358</lastMod>
+      <lastMod>1519705651659</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -5816,7 +6556,7 @@
       <template>web\src\app\entities\entity-detail.component.ts.e.vm</template>
       <size>2905</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\role\role-detail.component.ts</path>
-      <lastMod>1519494229484</lastMod>
+      <lastMod>1519705650835</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -5824,9 +6564,29 @@
     <com.jaxio.celerio.output.FileMetaData>
       <pack>pack-angular</pack>
       <template>src\main\java\domain\EntityMeta_.java.e.vm</template>
-      <size>1321</size>
+      <size>1340</size>
       <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\domain\Author_.java</path>
-      <lastMod>1519494226109</lastMod>
+      <lastMod>1519704821970</lastMod>
+    </com.jaxio.celerio.output.FileMetaData>
+  </entry>
+  <entry>
+    <string>target\celerio-maven-plugin\collisions\web\src\app\entities\warehouseReview\warehouseReview-list.component.html</string>
+    <com.jaxio.celerio.output.FileMetaData>
+      <pack>pack-angular</pack>
+      <template>web\src\app\entities\entity-list.component.html.e.vm</template>
+      <size>3181</size>
+      <path>target\celerio-maven-plugin\collisions\web\src\app\entities\warehouseReview\warehouseReview-list.component.html</path>
+      <lastMod>1519704828048</lastMod>
+    </com.jaxio.celerio.output.FileMetaData>
+  </entry>
+  <entry>
+    <string>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\domain\WarehouseServiceProviderPk.java</string>
+    <com.jaxio.celerio.output.FileMetaData>
+      <pack>pack-angular</pack>
+      <template>src\main\java\domain\CompositePk.java.cpk.vm</template>
+      <size>4414</size>
+      <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\domain\WarehouseServiceProviderPk.java</path>
+      <lastMod>1519704829334</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -5876,7 +6636,17 @@
       <template>web\src\app\entities\entity.service.ts.e.vm</template>
       <size>3323</size>
       <path>target\celerio-maven-plugin\collisions\web\src\app\entities\user\user.service.ts</path>
-      <lastMod>1519494230506</lastMod>
+      <lastMod>1519705651928</lastMod>
+    </com.jaxio.celerio.output.FileMetaData>
+  </entry>
+  <entry>
+    <string>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\dto\BookmarkDTO.java</string>
+    <com.jaxio.celerio.output.FileMetaData>
+      <pack>pack-angular</pack>
+      <template>src\main\java\dto\EntityDTO.java.e.vm</template>
+      <size>973</size>
+      <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\dto\BookmarkDTO.java</path>
+      <lastMod>1519704822715</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>

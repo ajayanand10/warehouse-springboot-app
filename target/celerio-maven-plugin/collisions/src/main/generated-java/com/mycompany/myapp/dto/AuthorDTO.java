@@ -26,7 +26,7 @@ public class AuthorDTO {
     public String email;
     public String firstName;
     public String lastName;
-    public Integer favoriteAuthorId;
+    public AuthorDTO favoriteAuthor;
 
     @JsonIgnore
     public boolean isIdSet() {

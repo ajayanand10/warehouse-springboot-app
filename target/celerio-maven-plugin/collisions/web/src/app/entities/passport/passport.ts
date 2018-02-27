@@ -8,13 +8,15 @@
 // This header can be customized in Celerio conf...
 // Template pack-angular:web/src/app/entities/entity.ts.e.vm
 //
+import {User} from '../user/user';
 
 export class Passport {
     // Raw attributes
     id : number;
     expirationDate : Date;
     passportNumber : string;
-    holderId : number;
+    // x-to-one
+    holder : User;
 
 
     constructor(json? : any) {
@@ -24,7 +26,10 @@ export class Passport {
                 this.expirationDate = new Date(json.expirationDate);
             }
             this.passportNumber = json.passportNumber;
-            this.holderId = json.holderId;
+
+            if (json.holder != null) {
+                this.holder = new User(json.holder);
+            }
         }
     }
 

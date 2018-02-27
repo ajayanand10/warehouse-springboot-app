@@ -23,9 +23,11 @@ import org.springframework.transaction.annotation.Transactional;
 
 import com.mycompany.myapp.domain.Passport;
 import com.mycompany.myapp.domain.Passport_;
+import com.mycompany.myapp.domain.User;
 import com.mycompany.myapp.dto.support.PageRequestByExample;
 import com.mycompany.myapp.dto.support.PageResponse;
 import com.mycompany.myapp.repository.PassportRepository;
+import com.mycompany.myapp.repository.UserRepository;
 
 /**
  * A simple DTO Facility for Passport.
@@ -35,6 +37,10 @@ public class PassportDTOService {
 
     @Inject
     private PassportRepository passportRepository;
+    @Inject
+    private UserDTOService userDTOService;
+    @Inject
+    private UserRepository userRepository;
 
     @Transactional(readOnly = true)
     public PassportDTO findOne(Integer id) {
@@ -97,7 +103,14 @@ public class PassportDTOService {
 
         passport.setPassportNumber(dto.passportNumber);
 
-        passport.setHolderId(dto.holderId);
+        if (dto.holder == null) {
+            passport.setHolder(null);
+        } else {
+            User holder = passport.getHolder();
+            if (holder == null || (holder.getId().compareTo(dto.holder.id) != 0)) {
+                passport.setHolder(userRepository.findOne(dto.holder.id));
+            }
+        }
 
         return toDTO(passportRepository.save(passport));
     }
@@ -128,8 +141,8 @@ public class PassportDTOService {
         dto.id = passport.getId();
         dto.expirationDate = passport.getExpirationDate();
         dto.passportNumber = passport.getPassportNumber();
-        dto.holderId = passport.getHolderId();
         if (depth-- > 0) {
+            dto.holder = userDTOService.toDTO(passport.getHolder(), depth);
         }
 
         return dto;
@@ -157,8 +170,8 @@ public class PassportDTOService {
         passport.setId(dto.id);
         passport.setExpirationDate(dto.expirationDate);
         passport.setPassportNumber(dto.passportNumber);
-        passport.setHolderId(dto.holderId);
         if (depth-- > 0) {
+            passport.setHolder(userDTOService.toEntity(dto.holder, depth));
         }
 
         return passport;

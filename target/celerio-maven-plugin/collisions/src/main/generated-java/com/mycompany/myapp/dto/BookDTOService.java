@@ -21,10 +21,12 @@ import org.springframework.data.domain.Page;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import com.mycompany.myapp.domain.Author;
 import com.mycompany.myapp.domain.Book;
 import com.mycompany.myapp.domain.Book_;
 import com.mycompany.myapp.dto.support.PageRequestByExample;
 import com.mycompany.myapp.dto.support.PageResponse;
+import com.mycompany.myapp.repository.AuthorRepository;
 import com.mycompany.myapp.repository.BookRepository;
 
 /**
@@ -35,6 +37,10 @@ public class BookDTOService {
 
     @Inject
     private BookRepository bookRepository;
+    @Inject
+    private AuthorDTOService authorDTOService;
+    @Inject
+    private AuthorRepository authorRepository;
 
     @Transactional(readOnly = true)
     public BookDTO findOne(Integer id) {
@@ -114,9 +120,23 @@ public class BookDTOService {
 
         book.setTitle(dto.title);
 
-        book.setAuthorId(dto.authorId);
+        if (dto.coAuthor == null) {
+            book.setCoAuthor(null);
+        } else {
+            Author coAuthor = book.getCoAuthor();
+            if (coAuthor == null || (coAuthor.getId().compareTo(dto.coAuthor.id) != 0)) {
+                book.setCoAuthor(authorRepository.findOne(dto.coAuthor.id));
+            }
+        }
 
-        book.setCoAuthorId(dto.coAuthorId);
+        if (dto.author == null) {
+            book.setAuthor(null);
+        } else {
+            Author author = book.getAuthor();
+            if (author == null || (author.getId().compareTo(dto.author.id) != 0)) {
+                book.setAuthor(authorRepository.findOne(dto.author.id));
+            }
+        }
 
         return toDTO(bookRepository.save(book));
     }
@@ -154,9 +174,9 @@ public class BookDTOService {
         dto.publicationDate = book.getPublicationDate();
         dto.summary = book.getSummary();
         dto.title = book.getTitle();
-        dto.authorId = book.getAuthorId();
-        dto.coAuthorId = book.getCoAuthorId();
         if (depth-- > 0) {
+            dto.coAuthor = authorDTOService.toDTO(book.getCoAuthor(), depth);
+            dto.author = authorDTOService.toDTO(book.getAuthor(), depth);
         }
 
         return dto;
@@ -191,9 +211,9 @@ public class BookDTOService {
         book.setPublicationDate(dto.publicationDate);
         book.setSummary(dto.summary);
         book.setTitle(dto.title);
-        book.setAuthorId(dto.authorId);
-        book.setCoAuthorId(dto.coAuthorId);
         if (depth-- > 0) {
+            book.setCoAuthor(authorDTOService.toEntity(dto.coAuthor, depth));
+            book.setAuthor(authorDTOService.toEntity(dto.author, depth));
         }
 
         return book;

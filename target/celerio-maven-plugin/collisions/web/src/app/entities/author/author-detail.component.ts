@@ -27,6 +27,12 @@ export class AuthorDetailComponent implements OnInit, OnDestroy {
 
 
     @Input() sub : boolean = false;
+    @Input() // used to pass the parent when creating a new Author
+    set favoriteAuthor(favoriteAuthor : Author) {
+        this.author = new Author();
+        this.author.favoriteAuthor = favoriteAuthor;
+    }
+
     @Output() onSaveClicked = new EventEmitter<Author>();
     @Output() onCancelClicked = new EventEmitter();
 
@@ -59,6 +65,14 @@ export class AuthorDetailComponent implements OnInit, OnDestroy {
         if (!this.sub) {
             this.params_subscription.unsubscribe();
         }
+    }
+
+    gotoFavoriteAuthor() {
+        this.router.navigate(['/author', this.author.favoriteAuthor.id]);
+    }
+
+    clearFavoriteAuthor() {
+        this.author.favoriteAuthor = null;
     }
 
     onSave() {

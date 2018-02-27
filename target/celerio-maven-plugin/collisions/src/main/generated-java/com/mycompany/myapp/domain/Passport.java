@@ -10,6 +10,7 @@
  */
 package com.mycompany.myapp.domain;
 
+import static javax.persistence.FetchType.LAZY;
 import static javax.persistence.GenerationType.IDENTITY;
 
 import java.io.Serializable;
@@ -20,9 +21,10 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.OneToOne;
 import javax.persistence.Table;
 import javax.persistence.Transient;
-import javax.validation.constraints.Digits;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
@@ -41,7 +43,9 @@ public class Passport implements Identifiable<Integer>, Serializable {
     private Integer id;
     private LocalDate expirationDate;
     private String passportNumber;
-    private Integer holderId;
+
+    // One to one
+    private User holder;
 
     @Override
     public String entityClassName() {
@@ -105,21 +109,27 @@ public class Passport implements Identifiable<Integer>, Serializable {
         setPassportNumber(passportNumber);
         return this;
     }
-    // -- [holderId] ------------------------
 
-    @Digits(integer = 10, fraction = 0)
+    // -----------------------------------------------------------------
+    // One to one
+    // -----------------------------------------------------------------
+
+    // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+    // Owner side of one-to-one relation: Passport.holderId ==> User.id
+    // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
     @NotNull
-    @Column(name = "holder_id", nullable = false, precision = 10)
-    public Integer getHolderId() {
-        return holderId;
+    @JoinColumn(name = "holder_id", nullable = false, unique = true)
+    @OneToOne
+    public User getHolder() {
+        return holder;
     }
 
-    public void setHolderId(Integer holderId) {
-        this.holderId = holderId;
+    public void setHolder(User holder) {
+        this.holder = holder;
     }
 
-    public Passport holderId(Integer holderId) {
-        setHolderId(holderId);
+    public Passport holder(User holder) {
+        setHolder(holder);
         return this;
     }
 
@@ -155,7 +165,6 @@ public class Passport implements Identifiable<Integer>, Serializable {
                 .add("id", getId()) //
                 .add("expirationDate", getExpirationDate()) //
                 .add("passportNumber", getPassportNumber()) //
-                .add("holderId", getHolderId()) //
                 .toString();
     }
 }

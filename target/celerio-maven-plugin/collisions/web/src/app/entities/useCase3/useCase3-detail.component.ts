@@ -14,6 +14,7 @@ import { SelectItem } from 'primeng/primeng';
 import { MessageService} from '../../service/message.service';
 import {UseCase3} from './useCase3';
 import {UseCase3Service} from './useCase3.service';
+import {UseCase2} from '../useCase2/useCase2';
 
 @Component({
     moduleId: module.id,
@@ -27,6 +28,14 @@ export class UseCase3DetailComponent implements OnInit, OnDestroy {
 
 
     @Input() sub : boolean = false;
+    @Input() // used to pass the parent when creating a new UseCase3
+    set id2(id2 : UseCase2) {
+        this.useCase3 = new UseCase3();
+        this.useCase3.id2 = id2;
+        // special hack for composite key with x-to-one relation...
+        this.useCase3.id.id2 = id2.id;
+    }
+
     @Output() onSaveClicked = new EventEmitter<UseCase3>();
     @Output() onCancelClicked = new EventEmitter();
 
@@ -61,7 +70,20 @@ export class UseCase3DetailComponent implements OnInit, OnDestroy {
         }
     }
 
+    gotoId2() {
+        this.router.navigate(['/useCase2', this.useCase3.id2.id]);
+    }
+
+    clearId2() {
+        this.useCase3.id2 = null;
+        // special hack for composite key with x-to-one relation...
+        this.useCase3.id.id2 = null;
+    }
+
     onSave() {
+        // special hack for composite key with x-to-one relation...
+        this.useCase3.id.id2 = this.useCase3.id2.id;
+
         this.useCase3Service.update(this.useCase3).
             subscribe(
                 useCase3 => {
