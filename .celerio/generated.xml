@@ -16,7 +16,7 @@
       <template>web\src\app\entities\entity-detail.component.ts.e.vm</template>
       <size>2931</size>
       <path>web\src\app\entities\goods\goods-detail.component.ts</path>
-      <lastMod>1519187198956</lastMod>
+      <lastMod>1519975212425</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -36,7 +36,7 @@
       <template>web\src\app\entities\entity-list.component.html.e.vm</template>
       <size>6367</size>
       <path>web\src\app\entities\databasechangelog\databasechangelog-list.component.html</path>
-      <lastMod>1519494229943</lastMod>
+      <lastMod>1519975213080</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -56,7 +56,7 @@
       <template>web\src\app\entities\entity.service.ts.e.vm</template>
       <size>3473</size>
       <path>web\src\app\entities\warehouse\warehouse.service.ts</path>
-      <lastMod>1519187200189</lastMod>
+      <lastMod>1519975213966</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -66,7 +66,7 @@
       <template>web\src\app\entities\entity-line.component.ts.e.vm</template>
       <size>787</size>
       <path>web\src\app\entities\databasechangeloglock\databasechangeloglock-line.component.ts</path>
-      <lastMod>1519347223249</lastMod>
+      <lastMod>1519975212799</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -174,9 +174,9 @@
     <com.jaxio.celerio.output.FileMetaData>
       <pack>pack-angular</pack>
       <template>src\main\java\domain\Entity.java.e.vm</template>
-      <size>33887</size>
+      <size>34636</size>
       <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\domain\Warehouse.java</path>
-      <lastMod>1519932033798</lastMod>
+      <lastMod>1519975208578</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -286,7 +286,7 @@
       <template>bootstrap\celerio-template-packs.boot.vm.xml</template>
       <size>767</size>
       <path>target\celerio-maven-plugin\collisions\src\main\config\celerio-maven-plugin\celerio-template-packs.xml</path>
-      <lastMod>1519932031462</lastMod>
+      <lastMod>1519975205658</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -346,7 +346,7 @@
       <template>bootstrap\pom.boot.vm.xml</template>
       <size>22009</size>
       <path>target\celerio-maven-plugin\collisions\pom.xml</path>
-      <lastMod>1519932031496</lastMod>
+      <lastMod>1519975205714</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -366,7 +366,7 @@
       <template>web\src\app\entities\entity-detail.component.html.e.vm</template>
       <size>1195</size>
       <path>web\src\app\entities\role\role-detail.component.html</path>
-      <lastMod>1518350663175</lastMod>
+      <lastMod>1519975212104</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -386,7 +386,7 @@
       <template>web\src\app\entities\entity.service.ts.e.vm</template>
       <size>3623</size>
       <path>web\src\app\entities\warehousePhoto\warehousePhoto.service.ts</path>
-      <lastMod>1519187200221</lastMod>
+      <lastMod>1519975214005</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -396,7 +396,7 @@
       <template>web\src\app\entities\entity.ts.e.vm</template>
       <size>935</size>
       <path>web\src\app\entities\role\role.ts</path>
-      <lastMod>1518350664226</lastMod>
+      <lastMod>1519975214317</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -446,7 +446,7 @@
       <template>web\src\app\entities\entity-line.component.ts.e.vm</template>
       <size>693</size>
       <path>web\src\app\entities\useCase2\useCase2-line.component.ts</path>
-      <lastMod>1518350663520</lastMod>
+      <lastMod>1519975212941</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -456,7 +456,7 @@
       <template>web\src\app\entities\entity.ts.e.vm</template>
       <size>954</size>
       <path>web\src\app\entities\useCase2\useCase2.ts</path>
-      <lastMod>1518350664272</lastMod>
+      <lastMod>1519975214354</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -516,7 +516,7 @@
       <template>web\src\app\entities\entity-detail.component.ts.e.vm</template>
       <size>2931</size>
       <path>web\src\app\entities\order\order-detail.component.ts</path>
-      <lastMod>1519187199006</lastMod>
+      <lastMod>1519975212461</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -566,7 +566,7 @@
       <template>src\main\java\dto\EntityDTO.java.e.vm</template>
       <size>808</size>
       <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\dto\ProjectDTO.java</path>
-      <lastMod>1519932034546</lastMod>
+      <lastMod>1519975209737</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -636,7 +636,7 @@
       <template>web\src\app\entities\entity-detail.component.ts.e.vm</template>
       <size>3739</size>
       <path>web\src\app\entities\useCase3\useCase3-detail.component.ts</path>
-      <lastMod>1518350663310</lastMod>
+      <lastMod>1519975212616</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -656,7 +656,7 @@
       <template>web\src\app\entities\entity.service.ts.e.vm</template>
       <size>3833</size>
       <path>web\src\app\entities\databasechangeloglock\databasechangeloglock.service.ts</path>
-      <lastMod>1519347223962</lastMod>
+      <lastMod>1519975213803</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -666,7 +666,7 @@
       <template>web\src\app\entities\entity-detail.component.html.e.vm</template>
       <size>2383</size>
       <path>web\src\app\entities\databasechangeloglock\databasechangeloglock-detail.component.html</path>
-      <lastMod>1519494229057</lastMod>
+      <lastMod>1519975211933</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -706,7 +706,7 @@
       <template>web\src\app\entities\entity.ts.e.vm</template>
       <size>1266</size>
       <path>web\src\app\entities\databasechangeloglock\databasechangeloglock.ts</path>
-      <lastMod>1519494230892</lastMod>
+      <lastMod>1519975214135</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -726,7 +726,7 @@
       <template>web\src\app\entities\compositepk.ts.cpk.vm</template>
       <size>701</size>
       <path>web\src\app\entities\warehouseGoods\warehouseGoodsPk.ts</path>
-      <lastMod>1519187200805</lastMod>
+      <lastMod>1519975214830</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -764,9 +764,9 @@
     <com.jaxio.celerio.output.FileMetaData>
       <pack>pack-angular</pack>
       <template>src\main\java\dto\EntityDTO.java.e.vm</template>
-      <size>2701</size>
+      <size>2714</size>
       <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\dto\WarehouseDTO.java</path>
-      <lastMod>1519932034667</lastMod>
+      <lastMod>1519975209860</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -774,9 +774,9 @@
     <com.jaxio.celerio.output.FileMetaData>
       <pack>pack-angular</pack>
       <template>web\src\app\entities\entity-list.component.ts.e.vm</template>
-      <size>4928</size>
+      <size>4247</size>
       <path>web\src\app\entities\project\project-list.component.ts</path>
-      <lastMod>1518350663804</lastMod>
+      <lastMod>1519975213544</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -836,7 +836,7 @@
       <template>web\src\app\entities\entity-list.component.ts.e.vm</template>
       <size>4403</size>
       <path>web\src\app\entities\useCase1\useCase1-list.component.ts</path>
-      <lastMod>1518350663908</lastMod>
+      <lastMod>1519975213610</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -906,7 +906,7 @@
       <template>web\src\app\entities\entity-detail.component.ts.e.vm</template>
       <size>3790</size>
       <path>web\src\app\entities\enquiry\enquiry-detail.component.ts</path>
-      <lastMod>1519187198939</lastMod>
+      <lastMod>1519975212403</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -914,9 +914,9 @@
     <com.jaxio.celerio.output.FileMetaData>
       <pack>pack-angular</pack>
       <template>web\src\app\app.component.ts.p.vm</template>
-      <size>9512</size>
+      <size>10715</size>
       <path>web\src\app\app.component.ts</path>
-      <lastMod>1519186562230</lastMod>
+      <lastMod>1519975207370</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -986,7 +986,7 @@
       <template>web\src\app\entities\entity-auto-complete.component.ts.e.vm</template>
       <size>3741</size>
       <path>web\src\app\entities\warehouseServiceProvider\warehouseServiceProvider-auto-complete.component.ts</path>
-      <lastMod>1519187198270</lastMod>
+      <lastMod>1519975211814</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -1016,7 +1016,7 @@
       <template>web\src\app\entities\entity.service.ts.e.vm</template>
       <size>3418</size>
       <path>web\src\app\entities\enquiry\enquiry.service.ts</path>
-      <lastMod>1519187200082</lastMod>
+      <lastMod>1519975213821</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -1056,7 +1056,7 @@
       <template>web\src\app\support\paging.ts.p.vm</template>
       <size>1069</size>
       <path>web\src\app\support\paging.ts</path>
-      <lastMod>1518350659540</lastMod>
+      <lastMod>1519975207502</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -1066,7 +1066,7 @@
       <template>web\src\app\entities\entity-list.component.ts.e.vm</template>
       <size>4889</size>
       <path>web\src\app\entities\rate\rate-list.component.ts</path>
-      <lastMod>1519187199893</lastMod>
+      <lastMod>1519975213567</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -1086,7 +1086,7 @@
       <template>web\src\app\entities\entity-detail.component.ts.e.vm</template>
       <size>2931</size>
       <path>web\src\app\entities\guest\guest-detail.component.ts</path>
-      <lastMod>1519187198981</lastMod>
+      <lastMod>1519975212443</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -1124,9 +1124,9 @@
     <com.jaxio.celerio.output.FileMetaData>
       <pack>pack-angular</pack>
       <template>web\src\app\app.module.ts.p.vm</template>
-      <size>11290</size>
+      <size>15910</size>
       <path>web\src\app\app.module.ts</path>
-      <lastMod>1519186562290</lastMod>
+      <lastMod>1519975207386</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -1164,9 +1164,9 @@
     <com.jaxio.celerio.output.FileMetaData>
       <pack>pack-angular</pack>
       <template>web\src\app\entities\entity-list.component.html.e.vm</template>
-      <size>3019</size>
+      <size>2918</size>
       <path>web\src\app\entities\useCase1\useCase1-list.component.html</path>
-      <lastMod>1518350663680</lastMod>
+      <lastMod>1519975213236</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -1216,7 +1216,7 @@
       <template>web\src\app\entities\entity-line.component.ts.e.vm</template>
       <size>869</size>
       <path>web\src\app\entities\warehouseServiceProvider\warehouseServiceProvider-line.component.ts</path>
-      <lastMod>1519187199360</lastMod>
+      <lastMod>1519975213023</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -1236,7 +1236,7 @@
       <template>web\src\app\entities\entity-detail.component.ts.e.vm</template>
       <size>3009</size>
       <path>web\src\app\entities\useCase1\useCase1-detail.component.ts</path>
-      <lastMod>1518350663340</lastMod>
+      <lastMod>1519975212552</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -1266,7 +1266,7 @@
       <template>src\main\java\dto\EntityDTOService.java.e.vm</template>
       <size>5468</size>
       <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\dto\ProjectDTOService.java</path>
-      <lastMod>1519932035053</lastMod>
+      <lastMod>1519975210190</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -1296,7 +1296,7 @@
       <template>web\src\app\entities\entity.service.ts.e.vm</template>
       <size>3353</size>
       <path>web\src\app\entities\order\order.service.ts</path>
-      <lastMod>1519187200123</lastMod>
+      <lastMod>1519975213870</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -1306,7 +1306,7 @@
       <template>web\src\app\entities\entity.service.ts.e.vm</template>
       <size>3323</size>
       <path>web\src\app\entities\rate\rate.service.ts</path>
-      <lastMod>1519187200143</lastMod>
+      <lastMod>1519975213897</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -1376,7 +1376,7 @@
       <template>web\src\app\entities\entity-auto-complete.component.ts.e.vm</template>
       <size>3398</size>
       <path>web\src\app\entities\enquiry\enquiry-auto-complete.component.ts</path>
-      <lastMod>1519187198064</lastMod>
+      <lastMod>1519975211566</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -1396,7 +1396,7 @@
       <template>web\src\styles.css</template>
       <size>856</size>
       <path>web\src\styles.css</path>
-      <lastMod>1518350664857</lastMod>
+      <lastMod>1519975215151</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -1416,7 +1416,7 @@
       <template>web\src\app\entities\entity-line.component.ts.e.vm</template>
       <size>741</size>
       <path>web\src\app\entities\bookmark\bookmark-line.component.ts</path>
-      <lastMod>1519187199230</lastMod>
+      <lastMod>1519975212769</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -1426,7 +1426,7 @@
       <template>web\src\app\entities\entity.ts.e.vm</template>
       <size>1606</size>
       <path>web\src\app\entities\goods\goods.ts</path>
-      <lastMod>1519187200360</lastMod>
+      <lastMod>1519975214183</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -1546,7 +1546,7 @@
       <template>web\src\app\entities\entity-detail.component.ts.e.vm</template>
       <size>5293</size>
       <path>web\src\app\entities\warehouseServiceProvider\warehouseServiceProvider-detail.component.ts</path>
-      <lastMod>1519187199186</lastMod>
+      <lastMod>1519975212720</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -1566,7 +1566,7 @@
       <template>web\src\app\entities\entity.ts.e.vm</template>
       <size>1035</size>
       <path>web\src\app\entities\useCase1\useCase1.ts</path>
-      <lastMod>1518350664257</lastMod>
+      <lastMod>1519975214341</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -1586,7 +1586,7 @@
       <template>web\src\app\entities\entity-detail.component.html.e.vm</template>
       <size>1450</size>
       <path>web\src\app\entities\goods\goods-detail.component.html</path>
-      <lastMod>1519187198513</lastMod>
+      <lastMod>1519975211974</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -1606,7 +1606,7 @@
       <template>web\src\app\entities\entity-list.component.ts.e.vm</template>
       <size>4187</size>
       <path>web\src\app\entities\order\order-list.component.ts</path>
-      <lastMod>1519187199871</lastMod>
+      <lastMod>1519975213528</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -1616,7 +1616,7 @@
       <template>web\src\app\entities\entity-detail.component.ts.e.vm</template>
       <size>3323</size>
       <path>web\src\app\entities\rate\rate-detail.component.ts</path>
-      <lastMod>1519187199070</lastMod>
+      <lastMod>1519975212495</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -1624,9 +1624,9 @@
     <com.jaxio.celerio.output.FileMetaData>
       <pack>pack-angular</pack>
       <template>web\src\app\entities\entity-detail.component.ts.e.vm</template>
-      <size>3046</size>
+      <size>3009</size>
       <path>web\src\app\entities\useCase2\useCase2-detail.component.ts</path>
-      <lastMod>1518350663386</lastMod>
+      <lastMod>1519975212598</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -1644,9 +1644,9 @@
     <com.jaxio.celerio.output.FileMetaData>
       <pack>pack-angular</pack>
       <template>web\src\app\entities\entity-detail.component.html.e.vm</template>
-      <size>3044</size>
+      <size>2749</size>
       <path>web\src\app\entities\project\project-detail.component.html</path>
-      <lastMod>1518350663118</lastMod>
+      <lastMod>1519975212043</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -1666,7 +1666,7 @@
       <template>web\src\app\entities\entity-detail.component.html.e.vm</template>
       <size>5583</size>
       <path>web\src\app\entities\user\user-detail.component.html</path>
-      <lastMod>1519187198353</lastMod>
+      <lastMod>1519975211874</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -1686,7 +1686,7 @@
       <template>web\src\app\entities\entity-detail.component.html.e.vm</template>
       <size>3741</size>
       <path>web\src\app\entities\rate\rate-detail.component.html</path>
-      <lastMod>1519187198650</lastMod>
+      <lastMod>1519975212065</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -1696,7 +1696,7 @@
       <template>web\src\app\entities\entity-list.component.html.e.vm</template>
       <size>3387</size>
       <path>web\src\app\entities\warehousePhoto\warehousePhoto-list.component.html</path>
-      <lastMod>1519187199563</lastMod>
+      <lastMod>1519975213336</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -1736,7 +1736,7 @@
       <template>web\src\app\entities\entity-line.component.ts.e.vm</template>
       <size>671</size>
       <path>web\src\app\entities\goods\goods-line.component.ts</path>
-      <lastMod>1519187199256</lastMod>
+      <lastMod>1519975212832</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -1756,7 +1756,7 @@
       <template>web\src\app\entities\entity-list.component.ts.e.vm</template>
       <size>5384</size>
       <path>web\src\app\entities\enquiry\enquiry-list.component.ts</path>
-      <lastMod>1519187199787</lastMod>
+      <lastMod>1519975213475</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -1804,9 +1804,9 @@
     <com.jaxio.celerio.output.FileMetaData>
       <pack>pack-angular</pack>
       <template>web\src\app\entities\entity-detail.component.ts.e.vm</template>
-      <size>3380</size>
+      <size>2983</size>
       <path>web\src\app\entities\project\project-detail.component.ts</path>
-      <lastMod>1518350663295</lastMod>
+      <lastMod>1519975212477</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -1826,7 +1826,7 @@
       <template>web\src\app\entities\entity.service.ts.e.vm</template>
       <size>3323</size>
       <path>web\src\app\entities\role\role.service.ts</path>
-      <lastMod>1518350664067</lastMod>
+      <lastMod>1519975213920</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -1836,7 +1836,7 @@
       <template>web\src\app\entities\entity.service.ts.e.vm</template>
       <size>3443</size>
       <path>web\src\app\entities\useCase2\useCase2.service.ts</path>
-      <lastMod>1518350664094</lastMod>
+      <lastMod>1519975213941</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -1846,7 +1846,7 @@
       <template>web\src\app\entities\entity-auto-complete.component.ts.e.vm</template>
       <size>3391</size>
       <path>web\src\app\entities\project\project-auto-complete.component.ts</path>
-      <lastMod>1518350662872</lastMod>
+      <lastMod>1519975211633</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -1886,7 +1886,7 @@
       <template>web\src\app\entities\entity-line.component.ts.e.vm</template>
       <size>734</size>
       <path>web\src\app\entities\warehousePhoto\warehousePhoto-line.component.ts</path>
-      <lastMod>1519187199336</lastMod>
+      <lastMod>1519975212991</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -1896,7 +1896,7 @@
       <template>src\main\java\domain\EntityMeta_.java.e.vm</template>
       <size>1032</size>
       <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\domain\Project_.java</path>
-      <lastMod>1519932034169</lastMod>
+      <lastMod>1519975209272</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -1986,7 +1986,7 @@
       <template>web\src\app\app.component.spec.ts.p.vm</template>
       <size>1814</size>
       <path>web\src\app\app.component.spec.ts</path>
-      <lastMod>1518350659373</lastMod>
+      <lastMod>1519975207350</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -2006,7 +2006,7 @@
       <template>web\src\app\entities\entity-list.component.ts.e.vm</template>
       <size>6031</size>
       <path>web\src\app\entities\warehouseServiceProvider\warehouseServiceProvider-list.component.ts</path>
-      <lastMod>1519187200025</lastMod>
+      <lastMod>1519975213729</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -2016,7 +2016,7 @@
       <template>web\src\app\entities\entity-line.component.ts.e.vm</template>
       <size>693</size>
       <path>web\src\app\entities\useCase3\useCase3-line.component.ts</path>
-      <lastMod>1518350663476</lastMod>
+      <lastMod>1519975212954</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -2106,7 +2106,7 @@
       <template>web\src\app\entities\entity-auto-complete.component.ts.e.vm</template>
       <size>3371</size>
       <path>web\src\app\entities\record\record-auto-complete.component.ts</path>
-      <lastMod>1519347222397</lastMod>
+      <lastMod>1519975211665</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -2116,7 +2116,7 @@
       <template>web\src\app\entities\entity-list.component.html.e.vm</template>
       <size>1923</size>
       <path>web\src\app\entities\order\order-list.component.html</path>
-      <lastMod>1519187199467</lastMod>
+      <lastMod>1519975213148</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -2126,7 +2126,7 @@
       <template>web\src\app\entities\entity-list.component.html.e.vm</template>
       <size>2147</size>
       <path>web\src\app\entities\role\role-list.component.html</path>
-      <lastMod>1518350663656</lastMod>
+      <lastMod>1519975213204</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -2176,7 +2176,7 @@
       <template>src\main\java\config\SecurityConfiguration.java.p.vm</template>
       <size>4228</size>
       <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\config\SecurityConfiguration.java</path>
-      <lastMod>1519932032441</lastMod>
+      <lastMod>1519975206893</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -2266,7 +2266,7 @@
       <template>web\src\app\entities\compositepk.ts.cpk.vm</template>
       <size>690</size>
       <path>web\src\app\entities\warehouseServiceProvider\warehouseServiceProviderPk.ts</path>
-      <lastMod>1519187200835</lastMod>
+      <lastMod>1519975214844</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -2346,7 +2346,7 @@
       <template>web\src\app\entities\entity-auto-complete.component.ts.e.vm</template>
       <size>3412</size>
       <path>web\src\app\entities\useCase2\useCase2-auto-complete.component.ts</path>
-      <lastMod>1518350662959</lastMod>
+      <lastMod>1519975211712</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -2376,7 +2376,7 @@
       <template>web\src\app\entities\entity-line.component.ts.e.vm</template>
       <size>760</size>
       <path>web\src\app\entities\enquiry\enquiry-line.component.ts</path>
-      <lastMod>1519187199242</lastMod>
+      <lastMod>1519975212814</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -2436,7 +2436,7 @@
       <template>web\src\app\entities\entity-line.component.ts.e.vm</template>
       <size>821</size>
       <path>web\src\app\entities\warehouseReview\warehouseReview-line.component.ts</path>
-      <lastMod>1519187199347</lastMod>
+      <lastMod>1519975213001</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -2454,9 +2454,9 @@
     <com.jaxio.celerio.output.FileMetaData>
       <pack>pack-angular</pack>
       <template>web\src\app\entities\entity-list.component.html.e.vm</template>
-      <size>2235</size>
+      <size>2137</size>
       <path>web\src\app\entities\useCase2\useCase2-list.component.html</path>
-      <lastMod>1518350663695</lastMod>
+      <lastMod>1519975213256</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -2496,7 +2496,7 @@
       <template>src\main\java\domain\Entity.java.e.vm</template>
       <size>3643</size>
       <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\domain\UseCase1.java</path>
-      <lastMod>1519932033652</lastMod>
+      <lastMod>1519975208231</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -2536,7 +2536,7 @@
       <template>web\src\app\entities\entity-detail.component.html.e.vm</template>
       <size>3456</size>
       <path>web\src\app\entities\warehouseReview\warehouseReview-detail.component.html</path>
-      <lastMod>1519187198837</lastMod>
+      <lastMod>1519975212275</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -2576,7 +2576,7 @@
       <template>web\src\app\entities\entity-detail.component.ts.e.vm</template>
       <size>3347</size>
       <path>web\src\app\entities\databasechangeloglock\databasechangeloglock-detail.component.ts</path>
-      <lastMod>1519347222960</lastMod>
+      <lastMod>1519975212383</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -2596,7 +2596,7 @@
       <template>web\src\app\entities\entity-list.component.ts.e.vm</template>
       <size>4187</size>
       <path>web\src\app\entities\goods\goods-list.component.ts</path>
-      <lastMod>1519187199820</lastMod>
+      <lastMod>1519975213492</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -2624,9 +2624,9 @@
     <com.jaxio.celerio.output.FileMetaData>
       <pack>pack-angular</pack>
       <template>web\src\app\entities\entity-list.component.html.e.vm</template>
-      <size>14270</size>
+      <size>18401</size>
       <path>web\src\app\entities\warehouse\warehouse-list.component.html</path>
-      <lastMod>1519187199523</lastMod>
+      <lastMod>1519975213288</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -2636,7 +2636,7 @@
       <template>web\src\app\entities\entity-auto-complete.component.ts.e.vm</template>
       <size>3351</size>
       <path>web\src\app\entities\goods\goods-auto-complete.component.ts</path>
-      <lastMod>1519187198084</lastMod>
+      <lastMod>1519975211583</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -2666,7 +2666,7 @@
       <template>web\src\app\entities\entity.ts.e.vm</template>
       <size>2042</size>
       <path>web\src\app\entities\warehouseReview\warehouseReview.ts</path>
-      <lastMod>1519187200540</lastMod>
+      <lastMod>1519975214466</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -2696,7 +2696,7 @@
       <template>web\src\app\entities\entity-detail.component.ts.e.vm</template>
       <size>3643</size>
       <path>web\src\app\entities\warehousePhoto\warehousePhoto-detail.component.ts</path>
-      <lastMod>1519187199143</lastMod>
+      <lastMod>1519975212671</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -2736,7 +2736,7 @@
       <template>web\src\app\entities\entity-list.component.ts.e.vm</template>
       <size>5415</size>
       <path>web\src\app\entities\bookmark\bookmark-list.component.ts</path>
-      <lastMod>1519187199735</lastMod>
+      <lastMod>1519975213420</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -2766,7 +2766,7 @@
       <template>web\src\app\entities\entity.service.ts.e.vm</template>
       <size>3443</size>
       <path>web\src\app\entities\useCase1\useCase1.service.ts</path>
-      <lastMod>1518350664080</lastMod>
+      <lastMod>1519975213929</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -2806,7 +2806,7 @@
       <template>web\src\app\entities\entity-list.component.html.e.vm</template>
       <size>3960</size>
       <path>web\src\app\entities\rate\rate-list.component.html</path>
-      <lastMod>1519187199480</lastMod>
+      <lastMod>1519975213176</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -2826,7 +2826,7 @@
       <template>src\main\java\domain\CompositePk.java.cpk.vm</template>
       <size>4049</size>
       <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\domain\UseCase3Pk.java</path>
-      <lastMod>1519932038583</lastMod>
+      <lastMod>1519975214622</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -2926,7 +2926,7 @@
       <template>web\src\app\entities\entity.ts.e.vm</template>
       <size>1946</size>
       <path>web\src\app\entities\warehousePhoto\warehousePhoto.ts</path>
-      <lastMod>1519187200523</lastMod>
+      <lastMod>1519975214451</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -2946,7 +2946,7 @@
       <template>src\main\java\domain\Entity.java.e.vm</template>
       <size>13375</size>
       <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\domain\User.java</path>
-      <lastMod>1519932033058</lastMod>
+      <lastMod>1519975207641</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -2986,7 +2986,7 @@
       <template>web\src\app\entities\entity-list.component.html.e.vm</template>
       <size>1678</size>
       <path>web\src\app\entities\guest\guest-list.component.html</path>
-      <lastMod>1519187199451</lastMod>
+      <lastMod>1519975213132</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -3006,7 +3006,7 @@
       <template>WELCOME.txt.p.vm</template>
       <size>5406</size>
       <path>target\celerio-maven-plugin\collisions\WELCOME.TXT</path>
-      <lastMod>1519932031537</lastMod>
+      <lastMod>1519975205795</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -3066,7 +3066,7 @@
       <template>web\src\app\entities\entity.ts.e.vm</template>
       <size>1874</size>
       <path>web\src\app\entities\bookmark\bookmark.ts</path>
-      <lastMod>1519187200320</lastMod>
+      <lastMod>1519975214097</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -3086,7 +3086,7 @@
       <template>web\src\app\entities\entity-line.component.ts.e.vm</template>
       <size>668</size>
       <path>web\src\app\entities\role\role-line.component.ts</path>
-      <lastMod>1518350663494</lastMod>
+      <lastMod>1519975212915</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -3104,9 +3104,9 @@
     <com.jaxio.celerio.output.FileMetaData>
       <pack>pack-angular</pack>
       <template>web\src\app\entities\entity.ts.e.vm</template>
-      <size>1266</size>
+      <size>1140</size>
       <path>web\src\app\entities\project\project.ts</path>
-      <lastMod>1518350664178</lastMod>
+      <lastMod>1519975214254</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -3184,9 +3184,9 @@
     <com.jaxio.celerio.output.FileMetaData>
       <pack>pack-angular</pack>
       <template>web\src\app\app.routes.ts.p.vm</template>
-      <size>4974</size>
+      <size>7369</size>
       <path>web\src\app\app.routes.ts</path>
-      <lastMod>1519186562322</lastMod>
+      <lastMod>1519975207406</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -3236,7 +3236,7 @@
       <template>web\src\app\entities\entity-auto-complete.component.ts.e.vm</template>
       <size>3541</size>
       <path>web\src\app\entities\warehouseGoods\warehouseGoods-auto-complete.component.ts</path>
-      <lastMod>1519187198205</lastMod>
+      <lastMod>1519975211771</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -3246,7 +3246,7 @@
       <template>web\src\app\entities\entity-detail.component.html.e.vm</template>
       <size>2638</size>
       <path>web\src\app\entities\warehouseServiceProvider\warehouseServiceProvider-detail.component.html</path>
-      <lastMod>1519187198855</lastMod>
+      <lastMod>1519975212293</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -3276,7 +3276,7 @@
       <template>web\src\app\entities\entity-list.component.ts.e.vm</template>
       <size>4187</size>
       <path>web\src\app\entities\guest\guest-list.component.ts</path>
-      <lastMod>1519187199843</lastMod>
+      <lastMod>1519975213513</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -3316,7 +3316,7 @@
       <template>web\src\app\entities\entity-detail.component.ts.e.vm</template>
       <size>3035</size>
       <path>web\src\app\entities\warehouse\warehouse-detail.component.ts</path>
-      <lastMod>1519187199104</lastMod>
+      <lastMod>1519975212634</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -3366,7 +3366,7 @@
       <template>web\src\app\entities\entity-detail.component.html.e.vm</template>
       <size>2907</size>
       <path>web\src\app\entities\enquiry\enquiry-detail.component.html</path>
-      <lastMod>1519187198487</lastMod>
+      <lastMod>1519975211958</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -3386,7 +3386,7 @@
       <template>web\src\app\entities\entity-auto-complete.component.ts.e.vm</template>
       <size>3412</size>
       <path>web\src\app\entities\useCase3\useCase3-auto-complete.component.ts</path>
-      <lastMod>1518350662893</lastMod>
+      <lastMod>1519975211740</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -3396,7 +3396,7 @@
       <template>web\src\app\entities\compositepk.ts.cpk.vm</template>
       <size>705</size>
       <path>web\src\app\entities\useCase3\useCase3Pk.ts</path>
-      <lastMod>1518350664470</lastMod>
+      <lastMod>1519975214801</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -3406,7 +3406,7 @@
       <template>web\src\app\entities\entity-list.component.html.e.vm</template>
       <size>2479</size>
       <path>web\src\app\entities\databasechangeloglock\databasechangeloglock-list.component.html</path>
-      <lastMod>1519494229957</lastMod>
+      <lastMod>1519975213091</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -3456,7 +3456,7 @@
       <template>web\src\app\service\auth.service.ts.p.vm</template>
       <size>2209</size>
       <path>web\src\app\service\auth.service.ts</path>
-      <lastMod>1518350659489</lastMod>
+      <lastMod>1519975207450</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -3486,7 +3486,7 @@
       <template>src\main\java\domain\Entity.java.e.vm</template>
       <size>3294</size>
       <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\domain\UseCase2.java</path>
-      <lastMod>1519932033683</lastMod>
+      <lastMod>1519975208288</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -3606,7 +3606,7 @@
       <template>src\main\java\domain\EntityMeta_.java.e.vm</template>
       <size>818</size>
       <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\domain\UseCase2_.java</path>
-      <lastMod>1519932034264</lastMod>
+      <lastMod>1519975209378</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -3636,7 +3636,7 @@
       <template>web\src\app\entities\entity-auto-complete.component.ts.e.vm</template>
       <size>3335</size>
       <path>web\src\app\entities\role\role-auto-complete.component.ts</path>
-      <lastMod>1518350662915</lastMod>
+      <lastMod>1519975211677</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -3676,7 +3676,7 @@
       <template>web\src\app\entities\entity-auto-complete.component.ts.e.vm</template>
       <size>3421</size>
       <path>web\src\app\entities\bookmark\bookmark-auto-complete.component.ts</path>
-      <lastMod>1519187198047</lastMod>
+      <lastMod>1519975211515</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -3686,7 +3686,7 @@
       <template>web\src\app\entities\entity.ts.e.vm</template>
       <size>2060</size>
       <path>web\src\app\entities\warehouseGoods\warehouseGoods.ts</path>
-      <lastMod>1519187200503</lastMod>
+      <lastMod>1519975214436</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -3706,7 +3706,7 @@
       <template>web\src\app\entities\entity.ts.e.vm</template>
       <size>2147</size>
       <path>web\src\app\entities\warehouseServiceProvider\warehouseServiceProvider.ts</path>
-      <lastMod>1519187200563</lastMod>
+      <lastMod>1519975214479</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -3716,7 +3716,7 @@
       <template>web\src\app\entities\entity-detail.component.html.e.vm</template>
       <size>2445</size>
       <path>web\src\app\entities\bookmark\bookmark-detail.component.html</path>
-      <lastMod>1519187198440</lastMod>
+      <lastMod>1519975211890</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -3766,7 +3766,7 @@
       <template>web\src\app\entities\entity-detail.component.ts.e.vm</template>
       <size>4929</size>
       <path>web\src\app\entities\warehouseGoods\warehouseGoods-detail.component.ts</path>
-      <lastMod>1519187199124</lastMod>
+      <lastMod>1519975212649</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -3776,7 +3776,7 @@
       <template>web\src\app\entities\entity-detail.component.ts.e.vm</template>
       <size>3912</size>
       <path>web\src\app\entities\user\user-detail.component.ts</path>
-      <lastMod>1519187198902</lastMod>
+      <lastMod>1519975212333</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -3796,7 +3796,7 @@
       <template>web\src\app\entities\entity-line.component.ts.e.vm</template>
       <size>685</size>
       <path>web\src\app\entities\project\project-line.component.ts</path>
-      <lastMod>1518350663461</lastMod>
+      <lastMod>1519975212868</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -3806,7 +3806,7 @@
       <template>web\src\app\entities\entity.service.ts.e.vm</template>
       <size>3353</size>
       <path>web\src\app\entities\guest\guest.service.ts</path>
-      <lastMod>1519187200110</lastMod>
+      <lastMod>1519975213853</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -3834,9 +3834,9 @@
     <com.jaxio.celerio.output.FileMetaData>
       <pack>pack-angular</pack>
       <template>web\src\app\entities\entity-list.component.html.e.vm</template>
-      <size>3172</size>
+      <size>2746</size>
       <path>web\src\app\entities\project\project-list.component.html</path>
-      <lastMod>1518350663626</lastMod>
+      <lastMod>1519975213160</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -3846,7 +3846,7 @@
       <template>web\src\app\entities\entity-detail.component.ts.e.vm</template>
       <size>2905</size>
       <path>web\src\app\entities\role\role-detail.component.ts</path>
-      <lastMod>1518350663326</lastMod>
+      <lastMod>1519975212532</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -3856,7 +3856,7 @@
       <template>web\src\app\entities\entity-list.component.ts.e.vm</template>
       <size>5787</size>
       <path>web\src\app\entities\warehouseGoods\warehouseGoods-list.component.ts</path>
-      <lastMod>1519187199969</lastMod>
+      <lastMod>1519975213679</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -3916,7 +3916,7 @@
       <template>web\src\app\entities\entity-list.component.ts.e.vm</template>
       <size>4667</size>
       <path>web\src\app\entities\databasechangeloglock\databasechangeloglock-list.component.ts</path>
-      <lastMod>1519347223730</lastMod>
+      <lastMod>1519975213458</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -4036,7 +4036,7 @@
       <template>web\src\app\entities\entity-auto-complete.component.ts.e.vm</template>
       <size>3561</size>
       <path>web\src\app\entities\warehouseReview\warehouseReview-auto-complete.component.ts</path>
-      <lastMod>1519187198239</lastMod>
+      <lastMod>1519975211800</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -4056,7 +4056,7 @@
       <template>web\src\app\entities\entity.ts.e.vm</template>
       <size>1947</size>
       <path>web\src\app\entities\enquiry\enquiry.ts</path>
-      <lastMod>1519187200338</lastMod>
+      <lastMod>1519975214151</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -4086,7 +4086,7 @@
       <template>web\src\app\entities\entity.ts.e.vm</template>
       <size>1614</size>
       <path>web\src\app\entities\order\order.ts</path>
-      <lastMod>1519187200401</lastMod>
+      <lastMod>1519975214216</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -4096,7 +4096,7 @@
       <template>web\src\app\entities\entity.service.ts.e.vm</template>
       <size>3623</size>
       <path>web\src\app\entities\warehouseGoods\warehouseGoods.service.ts</path>
-      <lastMod>1519187200203</lastMod>
+      <lastMod>1519975213981</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -4106,7 +4106,7 @@
       <template>web\src\app\entities\entity.service.ts.e.vm</template>
       <size>3653</size>
       <path>web\src\app\entities\warehouseReview\warehouseReview.service.ts</path>
-      <lastMod>1519187200241</lastMod>
+      <lastMod>1519975214020</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -4116,7 +4116,7 @@
       <template>web\src\app\entities\entity-auto-complete.component.ts.e.vm</template>
       <size>3593</size>
       <path>web\src\app\entities\databasechangelog\databasechangelog-auto-complete.component.ts</path>
-      <lastMod>1519347222303</lastMod>
+      <lastMod>1519975211532</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -4136,7 +4136,7 @@
       <template>web\src\app\entities\entity-line.component.ts.e.vm</template>
       <size>711</size>
       <path>web\src\app\entities\rate\rate-line.component.ts</path>
-      <lastMod>1519187199290</lastMod>
+      <lastMod>1519975212885</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -4256,7 +4256,7 @@
       <template>web\src\app\entities\entity-line.component.ts.e.vm</template>
       <size>717</size>
       <path>web\src\app\entities\guest\guest-line.component.ts</path>
-      <lastMod>1519187199271</lastMod>
+      <lastMod>1519975212844</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -4286,7 +4286,7 @@
       <template>web\src\app\entities\compositepk.ts.cpk.vm</template>
       <size>705</size>
       <path>web\src\app\entities\useCase1\useCase1Pk.ts</path>
-      <lastMod>1518350664455</lastMod>
+      <lastMod>1519975214788</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -4396,7 +4396,7 @@
       <template>web\src\app\entities\entity-auto-complete.component.ts.e.vm</template>
       <size>3332</size>
       <path>web\src\app\entities\user\user-auto-complete.component.ts</path>
-      <lastMod>1518350662774</lastMod>
+      <lastMod>1519975211502</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -4406,7 +4406,7 @@
       <template>web\src\app\entities\entity-list.component.ts.e.vm</template>
       <size>4157</size>
       <path>web\src\app\entities\role\role-list.component.ts</path>
-      <lastMod>1518350663876</lastMod>
+      <lastMod>1519975213596</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -4426,7 +4426,7 @@
       <template>web\src\app\entities\entity-auto-complete.component.ts.e.vm</template>
       <size>3338</size>
       <path>web\src\app\entities\rate\rate-auto-complete.component.ts</path>
-      <lastMod>1519187198142</lastMod>
+      <lastMod>1519975211648</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -4466,7 +4466,7 @@
       <template>web\src\app\entities\entity.service.ts.e.vm</template>
       <size>3443</size>
       <path>web\src\app\entities\bookmark\bookmark.service.ts</path>
-      <lastMod>1519187200073</lastMod>
+      <lastMod>1519975213766</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -4476,7 +4476,7 @@
       <template>web\src\app\entities\entity.service.ts.e.vm</template>
       <size>3713</size>
       <path>web\src\app\entities\databasechangelog\databasechangelog.service.ts</path>
-      <lastMod>1519347223946</lastMod>
+      <lastMod>1519975213779</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -4506,7 +4506,7 @@
       <template>web\src\app\entities\entity-list.component.ts.e.vm</template>
       <size>5199</size>
       <path>web\src\app\entities\warehousePhoto\warehousePhoto-list.component.ts</path>
-      <lastMod>1519187199986</lastMod>
+      <lastMod>1519975213698</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -4526,7 +4526,7 @@
       <template>web\src\app\service\message.service.ts.p.vm</template>
       <size>1134</size>
       <path>web\src\app\service\message.service.ts</path>
-      <lastMod>1518350659507</lastMod>
+      <lastMod>1519975207466</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -4534,9 +4534,9 @@
     <com.jaxio.celerio.output.FileMetaData>
       <pack>pack-angular</pack>
       <template>web\src\app\entities\entity.ts.e.vm</template>
-      <size>5638</size>
+      <size>5727</size>
       <path>web\src\app\entities\warehouse\warehouse.ts</path>
-      <lastMod>1519187200487</lastMod>
+      <lastMod>1519975214400</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -4664,9 +4664,9 @@
     <com.jaxio.celerio.output.FileMetaData>
       <pack>pack-angular</pack>
       <template>web\src\app\entities\entity-detail.component.html.e.vm</template>
-      <size>24457</size>
+      <size>25273</size>
       <path>web\src\app\entities\warehouse\warehouse-detail.component.html</path>
-      <lastMod>1519187198727</lastMod>
+      <lastMod>1519975212214</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -4676,7 +4676,7 @@
       <template>web\src\app\entities\entity.service.ts.e.vm</template>
       <size>3353</size>
       <path>web\src\app\entities\goods\goods.service.ts</path>
-      <lastMod>1519187200095</lastMod>
+      <lastMod>1519975213838</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -4706,7 +4706,7 @@
       <template>web\src\app\entities\entity.service.ts.e.vm</template>
       <size>3323</size>
       <path>web\src\app\entities\user\user.service.ts</path>
-      <lastMod>1518350663934</lastMod>
+      <lastMod>1519975213752</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -4766,7 +4766,7 @@
       <template>web\src\app\entities\entity-detail.component.html.e.vm</template>
       <size>2122</size>
       <path>web\src\app\entities\useCase1\useCase1-detail.component.html</path>
-      <lastMod>1518350663191</lastMod>
+      <lastMod>1519975212130</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -4846,7 +4846,7 @@
       <template>web\src\app\entities\entity-auto-complete.component.ts.e.vm</template>
       <size>3361</size>
       <path>web\src\app\entities\guest\guest-auto-complete.component.ts</path>
-      <lastMod>1519187198103</lastMod>
+      <lastMod>1519975211599</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -4866,7 +4866,7 @@
       <template>src\main\resources\application.yml.p.vm</template>
       <size>1350</size>
       <path>target\celerio-maven-plugin\collisions\src\main\resources\application.yml</path>
-      <lastMod>1519932032791</lastMod>
+      <lastMod>1519975207322</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -4936,7 +4936,7 @@
       <template>web\src\app\entities\entity-list.component.ts.e.vm</template>
       <size>4307</size>
       <path>web\src\app\entities\warehouse\warehouse-list.component.ts</path>
-      <lastMod>1519187199945</lastMod>
+      <lastMod>1519975213666</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -4966,7 +4966,7 @@
       <template>web\src\app\entities\entity-auto-complete.component.ts.e.vm</template>
       <size>3531</size>
       <path>web\src\app\entities\warehousePhoto\warehousePhoto-auto-complete.component.ts</path>
-      <lastMod>1519187198224</lastMod>
+      <lastMod>1519975211787</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -4976,7 +4976,7 @@
       <template>src\main\java\domain\Entity.java.e.vm</template>
       <size>4747</size>
       <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\domain\Project.java</path>
-      <lastMod>1519932033508</lastMod>
+      <lastMod>1519975208046</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -4994,9 +4994,9 @@
     <com.jaxio.celerio.output.FileMetaData>
       <pack>pack-angular</pack>
       <template>src\main\java\domain\EntityMeta_.java.e.vm</template>
-      <size>5203</size>
+      <size>5386</size>
       <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\domain\Warehouse_.java</path>
-      <lastMod>1519704822508</lastMod>
+      <lastMod>1519975209426</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -5006,7 +5006,7 @@
       <template>web\src\app\entities\entity-detail.component.html.e.vm</template>
       <size>552</size>
       <path>web\src\app\entities\guest\guest-detail.component.html</path>
-      <lastMod>1519187198580</lastMod>
+      <lastMod>1519975211994</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -5014,9 +5014,9 @@
     <com.jaxio.celerio.output.FileMetaData>
       <pack>pack-angular</pack>
       <template>src\main\java\dto\EntityDTOService.java.e.vm</template>
-      <size>17611</size>
+      <size>19075</size>
       <path>src\main\generated-java\com\mycompany\myapp\dto\WarehouseDTOService.java</path>
-      <lastMod>1519931626583</lastMod>
+      <lastMod>1519975210408</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -5026,7 +5026,7 @@
       <template>web\src\app\entities\entity-list.component.html.e.vm</template>
       <size>2612</size>
       <path>web\src\app\entities\goods\goods-list.component.html</path>
-      <lastMod>1519187199441</lastMod>
+      <lastMod>1519975213116</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -5036,7 +5036,7 @@
       <template>src\main\java\domain\Entity.java.e.vm</template>
       <size>4614</size>
       <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\domain\UseCase3.java</path>
-      <lastMod>1519932033717</lastMod>
+      <lastMod>1519975208377</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -5046,7 +5046,7 @@
       <template>web\src\app\entities\entity-detail.component.ts.e.vm</template>
       <size>3243</size>
       <path>web\src\app\entities\databasechangelog\databasechangelog-detail.component.ts</path>
-      <lastMod>1519347222944</lastMod>
+      <lastMod>1519975212366</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -5066,7 +5066,7 @@
       <template>web\src\app\entities\entity-line.component.ts.e.vm</template>
       <size>825</size>
       <path>web\src\app\entities\databasechangelog\databasechangelog-line.component.ts</path>
-      <lastMod>1519494229679</lastMod>
+      <lastMod>1519975212785</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -5116,7 +5116,7 @@
       <template>web\src\app\entities\entity-list.component.ts.e.vm</template>
       <size>4217</size>
       <path>web\src\app\entities\record\record-list.component.ts</path>
-      <lastMod>1519347223822</lastMod>
+      <lastMod>1519975213582</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -5156,7 +5156,7 @@
       <template>src\main\java\Application.java.p.vm</template>
       <size>1670</size>
       <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\Application.java</path>
-      <lastMod>1519932032172</lastMod>
+      <lastMod>1519975206665</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -5166,7 +5166,7 @@
       <template>web\src\app\entities\entity-list.component.html.e.vm</template>
       <size>2255</size>
       <path>web\src\app\entities\bookmark\bookmark-list.component.html</path>
-      <lastMod>1519187199411</lastMod>
+      <lastMod>1519975213064</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -5176,7 +5176,7 @@
       <template>web\src\app\entities\entity-list.component.html.e.vm</template>
       <size>2318</size>
       <path>web\src\app\entities\warehouseGoods\warehouseGoods-list.component.html</path>
-      <lastMod>1519187199539</lastMod>
+      <lastMod>1519975213302</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -5196,7 +5196,7 @@
       <template>web\src\app\entities\entity-line.component.ts.e.vm</template>
       <size>708</size>
       <path>web\src\app\entities\user\user-line.component.ts</path>
-      <lastMod>1518350663401</lastMod>
+      <lastMod>1519975212747</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -5206,7 +5206,7 @@
       <template>web\src\app\entities\entity-list.component.html.e.vm</template>
       <size>4061</size>
       <path>web\src\app\entities\user\user-list.component.html</path>
-      <lastMod>1519187199402</lastMod>
+      <lastMod>1519975213047</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -5216,7 +5216,7 @@
       <template>web\src\app\support\confirm-delete-dialog.component.ts</template>
       <size>752</size>
       <path>web\src\app\support\confirm-delete-dialog.component.ts</path>
-      <lastMod>1518350664833</lastMod>
+      <lastMod>1519975215138</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -5246,7 +5246,7 @@
       <template>web\src\app\entities\entity-auto-complete.component.ts.e.vm</template>
       <size>3412</size>
       <path>web\src\app\entities\useCase1\useCase1-auto-complete.component.ts</path>
-      <lastMod>1518350662930</lastMod>
+      <lastMod>1519975211693</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -5256,7 +5256,7 @@
       <template>web\src\app\entities\entity-list.component.ts.e.vm</template>
       <size>5076</size>
       <path>web\src\app\entities\useCase3\useCase3-list.component.ts</path>
-      <lastMod>1518350663857</lastMod>
+      <lastMod>1519975213648</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -5346,7 +5346,7 @@
       <template>web\src\app\entities\entity-detail.component.html.e.vm</template>
       <size>2619</size>
       <path>web\src\app\entities\warehouseGoods\warehouseGoods-detail.component.html</path>
-      <lastMod>1519187198747</lastMod>
+      <lastMod>1519975212232</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -5406,7 +5406,7 @@
       <template>web\src\app\entities\entity-list.component.ts.e.vm</template>
       <size>5140</size>
       <path>web\src\app\entities\warehouseReview\warehouseReview-list.component.ts</path>
-      <lastMod>1519187200004</lastMod>
+      <lastMod>1519975213715</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -5466,7 +5466,7 @@
       <template>web\src\app\entities\entity-list.component.html.e.vm</template>
       <size>3181</size>
       <path>web\src\app\entities\warehouseReview\warehouseReview-list.component.html</path>
-      <lastMod>1519187199579</lastMod>
+      <lastMod>1519975213352</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -5506,7 +5506,7 @@
       <template>web\src\app\entities\entity-list.component.html.e.vm</template>
       <size>2319</size>
       <path>web\src\app\entities\warehouseServiceProvider\warehouseServiceProvider-list.component.html</path>
-      <lastMod>1519187199606</lastMod>
+      <lastMod>1519975213380</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -5526,7 +5526,7 @@
       <template>web\proxy.conf.json</template>
       <size>605</size>
       <path>web\proxy.conf.json</path>
-      <lastMod>1518350664810</lastMod>
+      <lastMod>1519975215123</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -5556,7 +5556,7 @@
       <template>src\main\java\domain\Entity.java.e.vm</template>
       <size>9543</size>
       <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\domain\WarehouseReview.java</path>
-      <lastMod>1519932033952</lastMod>
+      <lastMod>1519975208808</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -5576,7 +5576,7 @@
       <template>web\src\app\entities\entity-auto-complete.component.ts.e.vm</template>
       <size>3675</size>
       <path>web\src\app\entities\databasechangeloglock\databasechangeloglock-auto-complete.component.ts</path>
-      <lastMod>1519347222316</lastMod>
+      <lastMod>1519975211551</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -5596,7 +5596,7 @@
       <template>web\src\app\home.component.ts.p.vm</template>
       <size>784</size>
       <path>web\src\app\home.component.ts</path>
-      <lastMod>1518350659476</lastMod>
+      <lastMod>1519975207435</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -5606,7 +5606,7 @@
       <template>web\src\app\entities\entity.ts.e.vm</template>
       <size>1853</size>
       <path>web\src\app\entities\databasechangelog\databasechangelog.ts</path>
-      <lastMod>1519494230879</lastMod>
+      <lastMod>1519975214112</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -5636,7 +5636,7 @@
       <template>web\src\app\entities\entity-list.component.ts.e.vm</template>
       <size>4547</size>
       <path>web\src\app\entities\databasechangelog\databasechangelog-list.component.ts</path>
-      <lastMod>1519347223730</lastMod>
+      <lastMod>1519975213435</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -5674,9 +5674,9 @@
     <com.jaxio.celerio.output.FileMetaData>
       <pack>pack-angular</pack>
       <template>web\src\app\entities\entity-detail.component.html.e.vm</template>
-      <size>1831</size>
+      <size>1183</size>
       <path>web\src\app\entities\useCase2\useCase2-detail.component.html</path>
-      <lastMod>1518350663207</lastMod>
+      <lastMod>1519975212150</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -5726,7 +5726,7 @@
       <template>web\src\app\entities\entity.service.ts.e.vm</template>
       <size>3383</size>
       <path>web\src\app\entities\record\record.service.ts</path>
-      <lastMod>1519347224046</lastMod>
+      <lastMod>1519975213908</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -5816,7 +5816,7 @@
       <template>web\src\app\entities\entity-detail.component.html.e.vm</template>
       <size>1138</size>
       <path>web\src\app\entities\order\order-detail.component.html</path>
-      <lastMod>1519187198614</lastMod>
+      <lastMod>1519975212018</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -5836,7 +5836,7 @@
       <template>web\src\app\entities\entity-line.component.ts.e.vm</template>
       <size>789</size>
       <path>web\src\app\entities\warehouseGoods\warehouseGoods-line.component.ts</path>
-      <lastMod>1519187199326</lastMod>
+      <lastMod>1519975212974</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -5846,7 +5846,7 @@
       <template>web\src\app\entities\entity.ts.e.vm</template>
       <size>937</size>
       <path>web\src\app\entities\record\record.ts</path>
-      <lastMod>1519347224278</lastMod>
+      <lastMod>1519975214288</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -5856,7 +5856,7 @@
       <template>web\src\app\entities\entity.ts.e.vm</template>
       <size>1227</size>
       <path>web\src\app\entities\useCase3\useCase3.ts</path>
-      <lastMod>1518350664210</lastMod>
+      <lastMod>1519975214383</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -5876,7 +5876,7 @@
       <template>src\main\java\domain\CompositePk.java.cpk.vm</template>
       <size>4199</size>
       <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\domain\UseCase1Pk.java</path>
-      <lastMod>1519932038564</lastMod>
+      <lastMod>1519975214564</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -5886,7 +5886,7 @@
       <template>web\src\app\entities\entity-auto-complete.component.ts.e.vm</template>
       <size>3361</size>
       <path>web\src\app\entities\order\order-auto-complete.component.ts</path>
-      <lastMod>1519187198121</lastMod>
+      <lastMod>1519975211613</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -5906,7 +5906,7 @@
       <template>web\src\app\entities\entity-list.component.ts.e.vm</template>
       <size>4277</size>
       <path>web\src\app\entities\useCase2\useCase2-list.component.ts</path>
-      <lastMod>1518350663921</lastMod>
+      <lastMod>1519975213631</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -5926,7 +5926,7 @@
       <template>src\main\java\dto\EntityDTO.java.e.vm</template>
       <size>1122</size>
       <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\dto\WarehouseReviewDTO.java</path>
-      <lastMod>1519932034731</lastMod>
+      <lastMod>1519975209907</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -5936,7 +5936,7 @@
       <template>src\main\java\rest\EntityResource.java.e.vm</template>
       <size>5278</size>
       <path>target\celerio-maven-plugin\collisions\src\main\generated-java\com\mycompany\myapp\rest\WarehouseResource.java</path>
-      <lastMod>1519932036257</lastMod>
+      <lastMod>1519975211383</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -5966,7 +5966,7 @@
       <template>web\src\app\entities\entity-list.component.html.e.vm</template>
       <size>2121</size>
       <path>web\src\app\entities\record\record-list.component.html</path>
-      <lastMod>1519347223576</lastMod>
+      <lastMod>1519975213187</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -5986,7 +5986,7 @@
       <template>web\src\app\entities\entity-detail.component.html.e.vm</template>
       <size>2949</size>
       <path>web\src\app\entities\warehousePhoto\warehousePhoto-detail.component.html</path>
-      <lastMod>1519187198775</lastMod>
+      <lastMod>1519975212257</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -6026,7 +6026,7 @@
       <template>web\src\app\entities\entity-detail.component.ts.e.vm</template>
       <size>2957</size>
       <path>web\src\app\entities\record\record-detail.component.ts</path>
-      <lastMod>1519347223076</lastMod>
+      <lastMod>1519975212513</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -6036,7 +6036,7 @@
       <template>web\src\app\entities\entity-line.component.ts.e.vm</template>
       <size>693</size>
       <path>web\src\app\entities\useCase1\useCase1-line.component.ts</path>
-      <lastMod>1518350663508</lastMod>
+      <lastMod>1519975212928</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -6056,7 +6056,7 @@
       <template>web\src\app\entities\entity.ts.e.vm</template>
       <size>2257</size>
       <path>web\src\app\entities\user\user.ts</path>
-      <lastMod>1519187200299</lastMod>
+      <lastMod>1519975214074</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -6066,7 +6066,7 @@
       <template>web\src\app\entities\entity.service.ts.e.vm</template>
       <size>3923</size>
       <path>web\src\app\entities\warehouseServiceProvider\warehouseServiceProvider.service.ts</path>
-      <lastMod>1519187200268</lastMod>
+      <lastMod>1519975214048</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -6096,7 +6096,7 @@
       <template>web\src\app\home.component.html.p.vm</template>
       <size>2493</size>
       <path>web\src\app\home.component.html</path>
-      <lastMod>1518350659456</lastMod>
+      <lastMod>1519975207422</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -6126,7 +6126,7 @@
       <template>web\src\app\entities\entity-list.component.ts.e.vm</template>
       <size>4157</size>
       <path>web\src\app\entities\user\user-list.component.ts</path>
-      <lastMod>1519187199709</lastMod>
+      <lastMod>1519975213403</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -6136,7 +6136,7 @@
       <template>web\src\app\support\email.validator.ts.p.vm</template>
       <size>1237</size>
       <path>web\src\app\support\email.validator.ts</path>
-      <lastMod>1518350659524</lastMod>
+      <lastMod>1519975207486</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -6156,7 +6156,7 @@
       <template>web\src\app\entities\entity.ts.e.vm</template>
       <size>2024</size>
       <path>web\src\app\entities\rate\rate.ts</path>
-      <lastMod>1519187200429</lastMod>
+      <lastMod>1519975214274</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -6166,7 +6166,7 @@
       <template>web\src\app\entities\entity.service.ts.e.vm</template>
       <size>3413</size>
       <path>web\src\app\entities\project\project.service.ts</path>
-      <lastMod>1518350664020</lastMod>
+      <lastMod>1519975213886</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -6196,7 +6196,7 @@
       <template>web\src\app\entities\entity-line.component.ts.e.vm</template>
       <size>678</size>
       <path>web\src\app\entities\record\record-line.component.ts</path>
-      <lastMod>1519347223341</lastMod>
+      <lastMod>1519975212899</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -6226,7 +6226,7 @@
       <template>web\src\app\entities\entity.service.ts.e.vm</template>
       <size>3443</size>
       <path>web\src\app\entities\useCase3\useCase3.service.ts</path>
-      <lastMod>1518350664047</lastMod>
+      <lastMod>1519975213953</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -6276,7 +6276,7 @@
       <template>web\src\app\entities\entity.ts.e.vm</template>
       <size>1473</size>
       <path>web\src\app\entities\guest\guest.ts</path>
-      <lastMod>1519187200377</lastMod>
+      <lastMod>1519975214198</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -6324,9 +6324,9 @@
     <com.jaxio.celerio.output.FileMetaData>
       <pack>pack-angular</pack>
       <template>web\src\app\entities\entity-list.component.html.e.vm</template>
-      <size>2989</size>
+      <size>2621</size>
       <path>web\src\app\entities\useCase3\useCase3-list.component.html</path>
-      <lastMod>1518350663640</lastMod>
+      <lastMod>1519975213272</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -6336,7 +6336,7 @@
       <template>web\src\app\entities\entity-detail.component.ts.e.vm</template>
       <size>3610</size>
       <path>web\src\app\entities\warehouseReview\warehouseReview-detail.component.ts</path>
-      <lastMod>1519187199160</lastMod>
+      <lastMod>1519975212702</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -6346,7 +6346,7 @@
       <template>web\src\app\entities\entity-detail.component.html.e.vm</template>
       <size>1182</size>
       <path>web\src\app\entities\record\record-detail.component.html</path>
-      <lastMod>1519347222744</lastMod>
+      <lastMod>1519975212083</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -6416,7 +6416,7 @@
       <template>web\src\app\entities\entity-line.component.ts.e.vm</template>
       <size>717</size>
       <path>web\src\app\entities\order\order-line.component.ts</path>
-      <lastMod>1519187199280</lastMod>
+      <lastMod>1519975212854</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -6426,7 +6426,7 @@
       <template>web\src\app\entities\entity-detail.component.html.e.vm</template>
       <size>7472</size>
       <path>web\src\app\entities\databasechangelog\databasechangelog-detail.component.html</path>
-      <lastMod>1519494229039</lastMod>
+      <lastMod>1519975211919</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -6476,7 +6476,7 @@
       <template>web\src\app\entities\entity-line.component.ts.e.vm</template>
       <size>699</size>
       <path>web\src\app\entities\warehouse\warehouse-line.component.ts</path>
-      <lastMod>1519187199319</lastMod>
+      <lastMod>1519975212966</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -6536,7 +6536,7 @@
       <template>web\src\app\entities\entity-detail.component.html.e.vm</template>
       <size>2441</size>
       <path>web\src\app\entities\useCase3\useCase3-detail.component.html</path>
-      <lastMod>1518350663142</lastMod>
+      <lastMod>1519975212177</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -6546,7 +6546,7 @@
       <template>web\src\app\entities\entity-detail.component.ts.e.vm</template>
       <size>3828</size>
       <path>web\src\app\entities\bookmark\bookmark-detail.component.ts</path>
-      <lastMod>1519187198919</lastMod>
+      <lastMod>1519975212349</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -6616,7 +6616,7 @@
       <template>web\src\app\entities\entity-auto-complete.component.ts.e.vm</template>
       <size>3431</size>
       <path>web\src\app\entities\warehouse\warehouse-auto-complete.component.ts</path>
-      <lastMod>1519187198190</lastMod>
+      <lastMod>1519975211759</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
   <entry>
@@ -6666,7 +6666,7 @@
       <template>web\src\app\entities\entity-list.component.html.e.vm</template>
       <size>2746</size>
       <path>web\src\app\entities\enquiry\enquiry-list.component.html</path>
-      <lastMod>1519187199428</lastMod>
+      <lastMod>1519975213100</lastMod>
     </com.jaxio.celerio.output.FileMetaData>
   </entry>
 </map>

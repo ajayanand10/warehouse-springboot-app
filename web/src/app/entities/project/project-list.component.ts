@@ -18,8 +18,6 @@ import { ConfirmDeleteDialogComponent } from "../../support/confirm-delete-dialo
 import { Project } from './project';
 import { ProjectDetailComponent } from './project-detail.component';
 import { ProjectService } from './project.service';
-import { Author } from '../author/author';
-import { AuthorLineComponent } from '../author/author-line.component';
 
 @Component({
     moduleId: module.id,
@@ -46,9 +44,6 @@ export class ProjectListComponent {
     // list is paginated
     currentPage : PageResponse<Project> = new PageResponse<Project>(0,0,[]);
 
-    // X to one: input param is used to filter the list when displayed
-    // as a one-to-many list by the other side.
-    private _author : Author;
 
     constructor(private router : Router,
         private projectService : ProjectService,
@@ -84,21 +79,6 @@ export class ProjectListComponent {
                 error => this.messageService.error('Could not get the results', error)
             );
     }
-
-    // X to one: input param is used to filter the list when displayed
-    // as a one-to-many list by the other side.
-    @Input()
-    set author(author : Author) {
-        if (author == null) {
-            return;
-        }
-        this._author = author;
-
-        this.example = new Project();
-        this.example.author = new Author();
-        this.example.author.id = this._author.id;
-    }
-
 
     onRowSelect(event : any) {
         let id =  event.data.id;

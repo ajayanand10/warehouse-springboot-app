@@ -68,18 +68,31 @@
                     
                 </mat-input-container>
                 </div>
+                 <div class="ui-g-12 ui-md-2 ui-lg-1"><label for="storagePriceUom" >Storage Price Uom</label></div>
+                <div class="ui-g-12 ui-md-10 ui-lg-5">
+                <mat-input-container style="width: 90%">
+                    <input matInput id="storagePriceUom" type="text" [(ngModel)]="warehouse.storagePriceUom"   name="storagePriceUom" #storagePriceUom="ngModel"/>
+                    
+                </mat-input-container>
+                </div>
                  <div class="ui-g-12 ui-md-2 ui-lg-1"><label for="minHirePeriod" >Min Hire Period</label></div>
                 <div class="ui-g-12 ui-md-10 ui-lg-5">
-                <mat-input-container>
-                  <input matInput id="minHirePeriod" [matDatepicker]="minHirePeriodPicker" [(ngModel)]="warehouse.minHirePeriod"  name="minHirePeriod" #minHirePeriod="ngModel">
-                  <mat-datepicker-toggle matSuffix [for]="minHirePeriodPicker"></mat-datepicker-toggle>
+                <mat-input-container style="width: 90%">
+                    <input matInput id="minHirePeriod" type="text" [(ngModel)]="warehouse.minHirePeriod"   name="minHirePeriod" #minHirePeriod="ngModel"/>
+                    
                 </mat-input-container>
-                <mat-datepicker #minHirePeriodPicker></mat-datepicker>
                 </div>
                  <div class="ui-g-12 ui-md-2 ui-lg-1"><label for="deposit" >Deposit</label></div>
                 <div class="ui-g-12 ui-md-10 ui-lg-5">
                 <mat-input-container style="width: 90%">
                     <input matInput id="deposit" type="number" [(ngModel)]="warehouse.deposit"  name="deposit" #deposit="ngModel" />
+                    
+                </mat-input-container>
+                </div>
+                 <div class="ui-g-12 ui-md-2 ui-lg-1"><label for="depositUom" >Deposit Uom</label></div>
+                <div class="ui-g-12 ui-md-10 ui-lg-5">
+                <mat-input-container style="width: 90%">
+                    <input matInput id="depositUom" type="text" [(ngModel)]="warehouse.depositUom"   name="depositUom" #depositUom="ngModel"/>
                     
                 </mat-input-container>
                 </div>
@@ -93,7 +106,7 @@
                  <div class="ui-g-12 ui-md-2 ui-lg-1"><label for="facilitySizeUom" >Facility Size Uom</label></div>
                 <div class="ui-g-12 ui-md-10 ui-lg-5">
                 <mat-input-container style="width: 90%">
-                    <input matInput id="facilitySizeUom" type="number" [(ngModel)]="warehouse.facilitySizeUom"  name="facilitySizeUom" #facilitySizeUom="ngModel" />
+                    <input matInput id="facilitySizeUom" type="text" [(ngModel)]="warehouse.facilitySizeUom"   name="facilitySizeUom" #facilitySizeUom="ngModel"/>
                     
                 </mat-input-container>
                 </div>
@@ -107,7 +120,7 @@
                  <div class="ui-g-12 ui-md-2 ui-lg-1"><label for="storageSizeUom" >Storage Size Uom</label></div>
                 <div class="ui-g-12 ui-md-10 ui-lg-5">
                 <mat-input-container style="width: 90%">
-                    <input matInput id="storageSizeUom" type="number" [(ngModel)]="warehouse.storageSizeUom"  name="storageSizeUom" #storageSizeUom="ngModel" />
+                    <input matInput id="storageSizeUom" type="text" [(ngModel)]="warehouse.storageSizeUom"   name="storageSizeUom" #storageSizeUom="ngModel"/>
                     
                 </mat-input-container>
                 </div>
@@ -163,7 +176,7 @@
                  <div class="ui-g-12 ui-md-2 ui-lg-1"><label for="maxStorageHeightUom" >Max Storage Height Uom</label></div>
                 <div class="ui-g-12 ui-md-10 ui-lg-5">
                 <mat-input-container style="width: 90%">
-                    <input matInput id="maxStorageHeightUom" type="number" [(ngModel)]="warehouse.maxStorageHeightUom"  name="maxStorageHeightUom" #maxStorageHeightUom="ngModel" />
+                    <input matInput id="maxStorageHeightUom" type="text" [(ngModel)]="warehouse.maxStorageHeightUom"   name="maxStorageHeightUom" #maxStorageHeightUom="ngModel"/>
                     
                 </mat-input-container>
                 </div>
@@ -177,7 +190,7 @@
                  <div class="ui-g-12 ui-md-2 ui-lg-1"><label for="maxStorageWeightUom" >Max Storage Weight Uom</label></div>
                 <div class="ui-g-12 ui-md-10 ui-lg-5">
                 <mat-input-container style="width: 90%">
-                    <input matInput id="maxStorageWeightUom" type="number" [(ngModel)]="warehouse.maxStorageWeightUom"  name="maxStorageWeightUom" #maxStorageWeightUom="ngModel" />
+                    <input matInput id="maxStorageWeightUom" type="text" [(ngModel)]="warehouse.maxStorageWeightUom"   name="maxStorageWeightUom" #maxStorageWeightUom="ngModel"/>
                     
                 </mat-input-container>
                 </div>
@@ -289,7 +302,7 @@
                  <div class="ui-g-12 ui-md-2 ui-lg-1"><label for="yard" >Yard</label></div>
                 <div class="ui-g-12 ui-md-10 ui-lg-5">
                 <mat-input-container style="width: 90%">
-                    <input matInput id="yard" type="number" [(ngModel)]="warehouse.yard"  name="yard" #yard="ngModel" />
+                    <textarea matInput id="yard" [(ngModel)]="warehouse.yard"   autoResize="true" name="yard" #yard="ngModel"></textarea>
                     
                 </mat-input-container>
                 </div>
@@ -310,7 +323,7 @@
                  <div class="ui-g-12 ui-md-2 ui-lg-1"><label for="importExport" >Import Export</label></div>
                 <div class="ui-g-12 ui-md-10 ui-lg-5">
                 <mat-input-container style="width: 90%">
-                    <input matInput id="importExport" type="number" [(ngModel)]="warehouse.importExport"  name="importExport" #importExport="ngModel" />
+                    <textarea matInput id="importExport" [(ngModel)]="warehouse.importExport"   autoResize="true" name="importExport" #importExport="ngModel"></textarea>
                     
                 </mat-input-container>
                 </div>
@@ -338,7 +351,7 @@
                  <div class="ui-g-12 ui-md-2 ui-lg-1"><label for="laborServices" >Labor Services</label></div>
                 <div class="ui-g-12 ui-md-10 ui-lg-5">
                 <mat-input-container style="width: 90%">
-                    <input matInput id="laborServices" type="number" [(ngModel)]="warehouse.laborServices"  name="laborServices" #laborServices="ngModel" />
+                    <textarea matInput id="laborServices" [(ngModel)]="warehouse.laborServices"   autoResize="true" name="laborServices" #laborServices="ngModel"></textarea>
                     
                 </mat-input-container>
                 </div>

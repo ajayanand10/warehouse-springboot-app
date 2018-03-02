@@ -12,7 +12,6 @@ package com.mycompany.myapp.dto;
 
 import java.math.BigInteger;
 import java.time.Instant;
-import java.time.LocalDate;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
@@ -30,12 +29,14 @@ public class WarehouseDTO {
     public String phone2;
     public String fulfilmentType;
     public BigInteger storagePrice;
-    public LocalDate minHirePeriod;
+    public String storagePriceUom;
+    public String minHirePeriod;
     public BigInteger deposit;
+    public String depositUom;
     public Integer facilitySize;
-    public Integer facilitySizeUom;
+    public String facilitySizeUom;
     public Integer storageSize;
-    public Integer storageSizeUom;
+    public String storageSizeUom;
     public String operatingDays;
     public String operatingHours;
     public Integer noOfReceivingDoors;
@@ -43,9 +44,9 @@ public class WarehouseDTO {
     public String wmsVendor;
     public String racking;
     public BigInteger maxStorageHeight;
-    public BigInteger maxStorageHeightUom;
+    public String maxStorageHeightUom;
     public BigInteger maxStorageWeight;
-    public BigInteger maxStorageWeightUom;
+    public String maxStorageWeightUom;
     public String handlingEquipment;
     public String temperatureRange;
     public String structureType;
@@ -61,14 +62,14 @@ public class WarehouseDTO {
     public String toilet;
     public String parking;
     public BigInteger distanceFromMainRoad;
-    public BigInteger yard;
+    public String yard;
     public String facilityCertification;
     public String faciltiyInsurance;
-    public BigInteger importExport;
+    public String importExport;
     public String inboundServices;
     public String outboundServices;
     public String valueAddedServices;
-    public BigInteger laborServices;
+    public String laborServices;
     public BigInteger totalLabor;
     public String distributionServices;
     public Instant creationDate;

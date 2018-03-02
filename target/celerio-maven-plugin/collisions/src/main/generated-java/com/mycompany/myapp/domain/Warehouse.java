@@ -15,7 +15,6 @@ import static javax.persistence.GenerationType.IDENTITY;
 import java.io.Serializable;
 import java.math.BigInteger;
 import java.time.Instant;
-import java.time.LocalDate;
 import java.util.logging.Logger;
 
 import javax.persistence.Column;
@@ -54,12 +53,14 @@ public class Warehouse implements Identifiable<Integer>, Serializable {
     private String phone2;
     private String fulfilmentType;
     private BigInteger storagePrice;
-    private LocalDate minHirePeriod;
+    private String storagePriceUom;
+    private String minHirePeriod;
     private BigInteger deposit;
+    private String depositUom;
     private Integer facilitySize;
-    private Integer facilitySizeUom;
+    private String facilitySizeUom;
     private Integer storageSize;
-    private Integer storageSizeUom;
+    private String storageSizeUom;
     private String operatingDays;
     private String operatingHours;
     private Integer noOfReceivingDoors;
@@ -67,9 +68,9 @@ public class Warehouse implements Identifiable<Integer>, Serializable {
     private String wmsVendor;
     private String racking;
     private BigInteger maxStorageHeight;
-    private BigInteger maxStorageHeightUom;
+    private String maxStorageHeightUom;
     private BigInteger maxStorageWeight;
-    private BigInteger maxStorageWeightUom;
+    private String maxStorageWeightUom;
     private String handlingEquipment;
     private String temperatureRange;
     private String structureType;
@@ -85,14 +86,14 @@ public class Warehouse implements Identifiable<Integer>, Serializable {
     private String toilet;
     private String parking;
     private BigInteger distanceFromMainRoad;
-    private BigInteger yard;
+    private String yard;
     private String facilityCertification;
     private String faciltiyInsurance;
-    private BigInteger importExport;
+    private String importExport;
     private String inboundServices;
     private String outboundServices;
     private String valueAddedServices;
-    private BigInteger laborServices;
+    private String laborServices;
     private BigInteger totalLabor;
     private String distributionServices;
     private Instant creationDate;
@@ -166,8 +167,8 @@ public class Warehouse implements Identifiable<Integer>, Serializable {
     }
     // -- [type] ------------------------
 
-    @Size(max = 10)
-    @Column(name = "\"type\"", length = 10)
+    @Size(max = 50)
+    @Column(name = "\"type\"", length = 50)
     public String getType() {
         return type;
     }
@@ -182,8 +183,8 @@ public class Warehouse implements Identifiable<Integer>, Serializable {
     }
     // -- [description] ------------------------
 
-    @Size(max = 255)
-    @Column(name = "description")
+    @Size(max = 1000)
+    @Column(name = "description", length = 1000)
     public String getDescription() {
         return description;
     }
@@ -276,18 +277,35 @@ public class Warehouse implements Identifiable<Integer>, Serializable {
         setStoragePrice(storagePrice);
         return this;
     }
+    // -- [storagePriceUom] ------------------------
+
+    @Size(max = 50)
+    @Column(name = "storage_price_uom", length = 50)
+    public String getStoragePriceUom() {
+        return storagePriceUom;
+    }
+
+    public void setStoragePriceUom(String storagePriceUom) {
+        this.storagePriceUom = storagePriceUom;
+    }
+
+    public Warehouse storagePriceUom(String storagePriceUom) {
+        setStoragePriceUom(storagePriceUom);
+        return this;
+    }
     // -- [minHirePeriod] ------------------------
 
-    @Column(name = "min_hire_period", length = 13)
-    public LocalDate getMinHirePeriod() {
+    @Size(max = 20)
+    @Column(name = "min_hire_period", length = 20)
+    public String getMinHirePeriod() {
         return minHirePeriod;
     }
 
-    public void setMinHirePeriod(LocalDate minHirePeriod) {
+    public void setMinHirePeriod(String minHirePeriod) {
         this.minHirePeriod = minHirePeriod;
     }
 
-    public Warehouse minHirePeriod(LocalDate minHirePeriod) {
+    public Warehouse minHirePeriod(String minHirePeriod) {
         setMinHirePeriod(minHirePeriod);
         return this;
     }
@@ -305,6 +323,22 @@ public class Warehouse implements Identifiable<Integer>, Serializable {
 
     public Warehouse deposit(BigInteger deposit) {
         setDeposit(deposit);
+        return this;
+    }
+    // -- [depositUom] ------------------------
+
+    @Size(max = 50)
+    @Column(name = "deposit_uom", length = 50)
+    public String getDepositUom() {
+        return depositUom;
+    }
+
+    public void setDepositUom(String depositUom) {
+        this.depositUom = depositUom;
+    }
+
+    public Warehouse depositUom(String depositUom) {
+        setDepositUom(depositUom);
         return this;
     }
     // -- [facilitySize] ------------------------
@@ -325,17 +359,17 @@ public class Warehouse implements Identifiable<Integer>, Serializable {
     }
     // -- [facilitySizeUom] ------------------------
 
-    @Digits(integer = 10, fraction = 0)
-    @Column(name = "facility_size_uom", precision = 10)
-    public Integer getFacilitySizeUom() {
+    @Size(max = 50)
+    @Column(name = "facility_size_uom", length = 50)
+    public String getFacilitySizeUom() {
         return facilitySizeUom;
     }
 
-    public void setFacilitySizeUom(Integer facilitySizeUom) {
+    public void setFacilitySizeUom(String facilitySizeUom) {
         this.facilitySizeUom = facilitySizeUom;
     }
 
-    public Warehouse facilitySizeUom(Integer facilitySizeUom) {
+    public Warehouse facilitySizeUom(String facilitySizeUom) {
         setFacilitySizeUom(facilitySizeUom);
         return this;
     }
@@ -357,17 +391,17 @@ public class Warehouse implements Identifiable<Integer>, Serializable {
     }
     // -- [storageSizeUom] ------------------------
 
-    @Digits(integer = 10, fraction = 0)
-    @Column(name = "storage_size_uom", precision = 10)
-    public Integer getStorageSizeUom() {
+    @Size(max = 50)
+    @Column(name = "storage_size_uom", length = 50)
+    public String getStorageSizeUom() {
         return storageSizeUom;
     }
 
-    public void setStorageSizeUom(Integer storageSizeUom) {
+    public void setStorageSizeUom(String storageSizeUom) {
         this.storageSizeUom = storageSizeUom;
     }
 
-    public Warehouse storageSizeUom(Integer storageSizeUom) {
+    public Warehouse storageSizeUom(String storageSizeUom) {
         setStorageSizeUom(storageSizeUom);
         return this;
     }
@@ -485,17 +519,17 @@ public class Warehouse implements Identifiable<Integer>, Serializable {
     }
     // -- [maxStorageHeightUom] ------------------------
 
-    @Digits(integer = 131089, fraction = 0)
-    @Column(name = "max_storage_height_uom", precision = 131089)
-    public BigInteger getMaxStorageHeightUom() {
+    @Size(max = 50)
+    @Column(name = "max_storage_height_uom", length = 50)
+    public String getMaxStorageHeightUom() {
         return maxStorageHeightUom;
     }
 
-    public void setMaxStorageHeightUom(BigInteger maxStorageHeightUom) {
+    public void setMaxStorageHeightUom(String maxStorageHeightUom) {
         this.maxStorageHeightUom = maxStorageHeightUom;
     }
 
-    public Warehouse maxStorageHeightUom(BigInteger maxStorageHeightUom) {
+    public Warehouse maxStorageHeightUom(String maxStorageHeightUom) {
         setMaxStorageHeightUom(maxStorageHeightUom);
         return this;
     }
@@ -517,17 +551,17 @@ public class Warehouse implements Identifiable<Integer>, Serializable {
     }
     // -- [maxStorageWeightUom] ------------------------
 
-    @Digits(integer = 131089, fraction = 0)
-    @Column(name = "max_storage_weight_uom", precision = 131089)
-    public BigInteger getMaxStorageWeightUom() {
+    @Size(max = 50)
+    @Column(name = "max_storage_weight_uom", length = 50)
+    public String getMaxStorageWeightUom() {
         return maxStorageWeightUom;
     }
 
-    public void setMaxStorageWeightUom(BigInteger maxStorageWeightUom) {
+    public void setMaxStorageWeightUom(String maxStorageWeightUom) {
         this.maxStorageWeightUom = maxStorageWeightUom;
     }
 
-    public Warehouse maxStorageWeightUom(BigInteger maxStorageWeightUom) {
+    public Warehouse maxStorageWeightUom(String maxStorageWeightUom) {
         setMaxStorageWeightUom(maxStorageWeightUom);
         return this;
     }
@@ -773,17 +807,17 @@ public class Warehouse implements Identifiable<Integer>, Serializable {
     }
     // -- [yard] ------------------------
 
-    @Digits(integer = 131089, fraction = 0)
-    @Column(name = "yard", precision = 131089)
-    public BigInteger getYard() {
+    @Size(max = 255)
+    @Column(name = "yard")
+    public String getYard() {
         return yard;
     }
 
-    public void setYard(BigInteger yard) {
+    public void setYard(String yard) {
         this.yard = yard;
     }
 
-    public Warehouse yard(BigInteger yard) {
+    public Warehouse yard(String yard) {
         setYard(yard);
         return this;
     }
@@ -821,17 +855,17 @@ public class Warehouse implements Identifiable<Integer>, Serializable {
     }
     // -- [importExport] ------------------------
 
-    @Digits(integer = 131089, fraction = 0)
-    @Column(name = "import_export", precision = 131089)
-    public BigInteger getImportExport() {
+    @Size(max = 255)
+    @Column(name = "import_export")
+    public String getImportExport() {
         return importExport;
     }
 
-    public void setImportExport(BigInteger importExport) {
+    public void setImportExport(String importExport) {
         this.importExport = importExport;
     }
 
-    public Warehouse importExport(BigInteger importExport) {
+    public Warehouse importExport(String importExport) {
         setImportExport(importExport);
         return this;
     }
@@ -885,17 +919,17 @@ public class Warehouse implements Identifiable<Integer>, Serializable {
     }
     // -- [laborServices] ------------------------
 
-    @Digits(integer = 131089, fraction = 0)
-    @Column(name = "labor_services", precision = 131089)
-    public BigInteger getLaborServices() {
+    @Size(max = 255)
+    @Column(name = "labor_services")
+    public String getLaborServices() {
         return laborServices;
     }
 
-    public void setLaborServices(BigInteger laborServices) {
+    public void setLaborServices(String laborServices) {
         this.laborServices = laborServices;
     }
 
-    public Warehouse laborServices(BigInteger laborServices) {
+    public Warehouse laborServices(String laborServices) {
         setLaborServices(laborServices);
         return this;
     }
@@ -1047,8 +1081,10 @@ public class Warehouse implements Identifiable<Integer>, Serializable {
                 .add("phone2", getPhone2()) //
                 .add("fulfilmentType", getFulfilmentType()) //
                 .add("storagePrice", getStoragePrice()) //
+                .add("storagePriceUom", getStoragePriceUom()) //
                 .add("minHirePeriod", getMinHirePeriod()) //
                 .add("deposit", getDeposit()) //
+                .add("depositUom", getDepositUom()) //
                 .add("facilitySize", getFacilitySize()) //
                 .add("facilitySizeUom", getFacilitySizeUom()) //
                 .add("storageSize", getStorageSize()) //

@@ -29,7 +29,6 @@
 
     <br/>
     <mat-card>
-    <mat-card-subtitle>DB comment: USE_CASE_3 has a composite pk with one member being also an FK, just for demo</mat-card-subtitle>
     <mat-card-content>
     <p>The list of results below is server-side paginated...</p>
 
@@ -47,11 +46,6 @@
         <p-column field="id1" header="Id1" sortable="true">
             <ng-template let-useCase3="rowData" pTemplate="body">
                 {{ useCase3.id.id1 }}
-            </ng-template>
-        </p-column>
-        <p-column header="Id2" sortable="false">
-            <ng-template let-id2="rowData['id2']" pTemplate="body">
-                <useCase2-line [useCase2]="id2"></useCase2-line>
             </ng-template>
         </p-column>
         <p-column field="dummy" header="Dummy" sortable="true">

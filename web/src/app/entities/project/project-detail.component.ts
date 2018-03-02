@@ -14,7 +14,6 @@ import { SelectItem } from 'primeng/primeng';
 import { MessageService} from '../../service/message.service';
 import {Project} from './project';
 import {ProjectService} from './project.service';
-import {Author} from '../author/author';
 
 @Component({
     moduleId: module.id,
@@ -28,12 +27,6 @@ export class ProjectDetailComponent implements OnInit, OnDestroy {
 
 
     @Input() sub : boolean = false;
-    @Input() // used to pass the parent when creating a new Project
-    set author(author : Author) {
-        this.project = new Project();
-        this.project.author = author;
-    }
-
     @Output() onSaveClicked = new EventEmitter<Project>();
     @Output() onCancelClicked = new EventEmitter();
 
@@ -66,14 +59,6 @@ export class ProjectDetailComponent implements OnInit, OnDestroy {
         if (!this.sub) {
             this.params_subscription.unsubscribe();
         }
-    }
-
-    gotoAuthor() {
-        this.router.navigate(['/author', this.project.author.id]);
-    }
-
-    clearAuthor() {
-        this.project.author = null;
     }
 
     onSave() {

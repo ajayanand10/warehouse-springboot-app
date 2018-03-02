@@ -61,10 +61,17 @@ public class WarehouseDTOService {
                     .withMatcher(Warehouse_.phone1.getName(), match -> match.ignoreCase().startsWith())
                     .withMatcher(Warehouse_.phone2.getName(), match -> match.ignoreCase().startsWith())
                     .withMatcher(Warehouse_.fulfilmentType.getName(), match -> match.ignoreCase().startsWith())
+                    .withMatcher(Warehouse_.storagePriceUom.getName(), match -> match.ignoreCase().startsWith())
+                    .withMatcher(Warehouse_.minHirePeriod.getName(), match -> match.ignoreCase().startsWith())
+                    .withMatcher(Warehouse_.depositUom.getName(), match -> match.ignoreCase().startsWith())
+                    .withMatcher(Warehouse_.facilitySizeUom.getName(), match -> match.ignoreCase().startsWith())
+                    .withMatcher(Warehouse_.storageSizeUom.getName(), match -> match.ignoreCase().startsWith())
                     .withMatcher(Warehouse_.operatingDays.getName(), match -> match.ignoreCase().startsWith())
                     .withMatcher(Warehouse_.operatingHours.getName(), match -> match.ignoreCase().startsWith())
                     .withMatcher(Warehouse_.wmsVendor.getName(), match -> match.ignoreCase().startsWith())
                     .withMatcher(Warehouse_.racking.getName(), match -> match.ignoreCase().startsWith())
+                    .withMatcher(Warehouse_.maxStorageHeightUom.getName(), match -> match.ignoreCase().startsWith())
+                    .withMatcher(Warehouse_.maxStorageWeightUom.getName(), match -> match.ignoreCase().startsWith())
                     .withMatcher(Warehouse_.handlingEquipment.getName(), match -> match.ignoreCase().startsWith())
                     .withMatcher(Warehouse_.temperatureRange.getName(), match -> match.ignoreCase().startsWith())
                     .withMatcher(Warehouse_.structureType.getName(), match -> match.ignoreCase().startsWith())
@@ -78,11 +85,14 @@ public class WarehouseDTOService {
                     .withMatcher(Warehouse_.lift.getName(), match -> match.ignoreCase().startsWith())
                     .withMatcher(Warehouse_.toilet.getName(), match -> match.ignoreCase().startsWith())
                     .withMatcher(Warehouse_.parking.getName(), match -> match.ignoreCase().startsWith())
+                    .withMatcher(Warehouse_.yard.getName(), match -> match.ignoreCase().startsWith())
                     .withMatcher(Warehouse_.facilityCertification.getName(), match -> match.ignoreCase().startsWith())
                     .withMatcher(Warehouse_.faciltiyInsurance.getName(), match -> match.ignoreCase().startsWith())
+                    .withMatcher(Warehouse_.importExport.getName(), match -> match.ignoreCase().startsWith())
                     .withMatcher(Warehouse_.inboundServices.getName(), match -> match.ignoreCase().startsWith())
                     .withMatcher(Warehouse_.outboundServices.getName(), match -> match.ignoreCase().startsWith())
                     .withMatcher(Warehouse_.valueAddedServices.getName(), match -> match.ignoreCase().startsWith())
+                    .withMatcher(Warehouse_.laborServices.getName(), match -> match.ignoreCase().startsWith())
                     .withMatcher(Warehouse_.distributionServices.getName(), match -> match.ignoreCase().startsWith());
 
             example = Example.of(warehouse, matcher);
@@ -140,9 +150,13 @@ public class WarehouseDTOService {
 
         warehouse.setStoragePrice(dto.storagePrice);
 
+        warehouse.setStoragePriceUom(dto.storagePriceUom);
+
         warehouse.setMinHirePeriod(dto.minHirePeriod);
 
         warehouse.setDeposit(dto.deposit);
+
+        warehouse.setDepositUom(dto.depositUom);
 
         warehouse.setFacilitySize(dto.facilitySize);
 
@@ -268,8 +282,10 @@ public class WarehouseDTOService {
         dto.phone2 = warehouse.getPhone2();
         dto.fulfilmentType = warehouse.getFulfilmentType();
         dto.storagePrice = warehouse.getStoragePrice();
+        dto.storagePriceUom = warehouse.getStoragePriceUom();
         dto.minHirePeriod = warehouse.getMinHirePeriod();
         dto.deposit = warehouse.getDeposit();
+        dto.depositUom = warehouse.getDepositUom();
         dto.facilitySize = warehouse.getFacilitySize();
         dto.facilitySizeUom = warehouse.getFacilitySizeUom();
         dto.storageSize = warehouse.getStorageSize();
@@ -349,8 +365,10 @@ public class WarehouseDTOService {
         warehouse.setPhone2(dto.phone2);
         warehouse.setFulfilmentType(dto.fulfilmentType);
         warehouse.setStoragePrice(dto.storagePrice);
+        warehouse.setStoragePriceUom(dto.storagePriceUom);
         warehouse.setMinHirePeriod(dto.minHirePeriod);
         warehouse.setDeposit(dto.deposit);
+        warehouse.setDepositUom(dto.depositUom);
         warehouse.setFacilitySize(dto.facilitySize);
         warehouse.setFacilitySizeUom(dto.facilitySizeUom);
         warehouse.setStorageSize(dto.storageSize);

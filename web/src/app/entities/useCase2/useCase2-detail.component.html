@@ -19,16 +19,4 @@
             <button mat-raised-button (click)="onSave()" [disabled]="!useCase2Form.form.valid"><mat-icon>save</mat-icon>Save</button>
         </mat-card-actions>
     </mat-card>
-    <br/>
-    <mat-card *ngIf="useCase2 && useCase2.id">
-    <mat-card-subtitle>UseCase2 db relations</mat-card-subtitle>
-    <mat-card-content>
-    <mat-tab-group>
-        <mat-tab label="UseCase3s">
-            <useCase3-list *ngIf="showUseCase3s" [id2]="useCase2" sub="true" [header]="'UseCase3s of this useCase2'" (onAddNewClicked)="showUseCase3s = false"></useCase3-list>
-            <useCase3-detail *ngIf="!showUseCase3s" [id2]="useCase2" sub="true" (onSaveClicked)="showUseCase3s = true" (onCancelClicked)="showUseCase3s = true"></useCase3-detail>
-        </mat-tab>
 
-    </mat-tab-group>
-    </mat-card-content>
-    </mat-card>

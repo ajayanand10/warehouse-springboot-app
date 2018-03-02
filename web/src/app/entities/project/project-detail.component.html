@@ -12,6 +12,10 @@
                     </mat-error>
                 </mat-input-container>
                 </div>
+                 <div class="ui-g-12 ui-md-2 ui-lg-1"><label for="openSource" >Open Source</label></div>
+                <div class="ui-g-12 ui-md-10 ui-lg-5">
+                <p-triStateCheckbox [(ngModel)]="project.openSource" name="openSource"></p-triStateCheckbox>{{project.openSource}}
+                </div>
                  <div class="ui-g-12 ui-md-2 ui-lg-1"><label for="url" >Url</label></div>
                 <div class="ui-g-12 ui-md-10 ui-lg-5">
                 <mat-input-container style="width: 90%">
@@ -22,23 +26,15 @@
                     </mat-error>
                 </mat-input-container>
                 </div>
-             <div class="ui-g-12 ui-md-2 ui-lg-1"><label for="author" class="required">Author</label></div>
-            <div class="ui-g-12 ui-md-10 ui-lg-5">
-                <div class="ui-g">
-                <div class="ui-g-12 ui-md-5 ui-lg-5">
-                    <author-auto-complete [(ngModel)]="project.author" id="author" name="author" [disabled]="sub"></author-auto-complete>
-                </div>
-                <div class="ui-g-12 ui-md-2 ui-lg-2">
-                    <button pButton id="gotoAuthor" type="button" (click)="gotoAuthor()" *ngIf="!sub && project.author" icon="fa-pencil" label="Edit"></button>
-                </div>
-                <div class="ui-g-12 ui-md-2 ui-lg-2">
-                    <button pButton id="clearAuthor" type="button" (click)="clearAuthor()" *ngIf="!sub && project.author" icon="fa-chain-broken" label="Clear"></button>
-                </div>
-                </div>
-            </div>
-                 <div class="ui-g-12 ui-md-2 ui-lg-1"><label for="openSource" >Open Source</label></div>
+                 <div class="ui-g-12 ui-md-2 ui-lg-1"><label for="authorId"  class="required">Author Id</label></div>
                 <div class="ui-g-12 ui-md-10 ui-lg-5">
-                <p-triStateCheckbox [(ngModel)]="project.openSource" name="openSource"></p-triStateCheckbox>{{project.openSource}}
+                <mat-input-container style="width: 90%">
+                    <input matInput id="authorId" type="number" [(ngModel)]="project.authorId"  required  name="authorId" #authorId="ngModel" />
+                    
+                    <mat-error *ngIf="!authorId.valid && authorId.dirty && authorId.errors['required']">
+                        Author Id is required.
+                    </mat-error>
+                </mat-input-container>
                 </div>
           </div>
         </mat-card-content>

@@ -25,7 +25,6 @@ export class UseCase2DetailComponent implements OnInit, OnDestroy {
 
     private params_subscription: any;
 
-    showUseCase3s : boolean = true;
 
     @Input() sub : boolean = false;
     @Output() onSaveClicked = new EventEmitter<UseCase2>();

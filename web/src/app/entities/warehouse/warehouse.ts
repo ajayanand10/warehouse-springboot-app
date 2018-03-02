@@ -21,12 +21,14 @@ export class Warehouse {
     phone2 : string;
     fulfilmentType : string;
     storagePrice : number;
-    minHirePeriod : Date;
+    storagePriceUom : string;
+    minHirePeriod : string;
     deposit : number;
+    depositUom : string;
     facilitySize : number;
-    facilitySizeUom : number;
+    facilitySizeUom : string;
     storageSize : number;
-    storageSizeUom : number;
+    storageSizeUom : string;
     operatingDays : string;
     operatingHours : string;
     noOfReceivingDoors : number;
@@ -34,9 +36,9 @@ export class Warehouse {
     wmsVendor : string;
     racking : string;
     maxStorageHeight : number;
-    maxStorageHeightUom : number;
+    maxStorageHeightUom : string;
     maxStorageWeight : number;
-    maxStorageWeightUom : number;
+    maxStorageWeightUom : string;
     handlingEquipment : string;
     temperatureRange : string;
     structureType : string;
@@ -52,14 +54,14 @@ export class Warehouse {
     toilet : string;
     parking : string;
     distanceFromMainRoad : number;
-    yard : number;
+    yard : string;
     facilityCertification : string;
     faciltiyInsurance : string;
-    importExport : number;
+    importExport : string;
     inboundServices : string;
     outboundServices : string;
     valueAddedServices : string;
-    laborServices : number;
+    laborServices : string;
     totalLabor : number;
     distributionServices : string;
     creationDate : Date;
@@ -81,10 +83,10 @@ export class Warehouse {
             this.phone2 = json.phone2;
             this.fulfilmentType = json.fulfilmentType;
             this.storagePrice = json.storagePrice;
-            if (json.minHirePeriod != null) {
-                this.minHirePeriod = new Date(json.minHirePeriod);
-            }
+            this.storagePriceUom = json.storagePriceUom;
+            this.minHirePeriod = json.minHirePeriod;
             this.deposit = json.deposit;
+            this.depositUom = json.depositUom;
             this.facilitySize = json.facilitySize;
             this.facilitySizeUom = json.facilitySizeUom;
             this.storageSize = json.storageSize;

@@ -8,28 +8,23 @@
 // This header can be customized in Celerio conf...
 // Template pack-angular:web/src/app/entities/entity.ts.e.vm
 //
-import {Author} from '../author/author';
 
 export class Project {
     // Raw attributes
     id : number;
     name : string;
-    url : string;
     openSource : boolean;
-    // x-to-one
-    author : Author;
+    url : string;
+    authorId : number;
 
 
     constructor(json? : any) {
         if (json != null) {
             this.id = json.id;
             this.name = json.name;
-            this.url = json.url;
             this.openSource = json.openSource;
-
-            if (json.author != null) {
-                this.author = new Author(json.author);
-            }
+            this.url = json.url;
+            this.authorId = json.authorId;
         }
     }
 
